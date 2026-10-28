@@ -34,3 +34,16 @@ python3 tools/build_rpm.py \
 ```
 
 Även RPM-byggaren kräver samma exakta filkarta, SHA-256-värden och WAV-format.
+
+## Tarball
+
+För manuella Asterisk-installationer kan samma verifierade filuppsättning
+packas utan systempaket:
+
+```sh
+python3 tools/build_tar_gz.py \
+  --voice anton \
+  --source /sökväg/till/anton \
+  --manifest manifests/anton-release.json \
+  --output packages/asterisk-prompt-sv-anton.tar.gz
+```

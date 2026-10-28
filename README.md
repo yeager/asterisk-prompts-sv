@@ -31,6 +31,8 @@ För Debian och Ubuntu blir releasen ett paket per röst:
 - `asterisk-prompt-sv-louise.deb`
 - `asterisk-prompt-sv-anton.rpm`
 - `asterisk-prompt-sv-louise.rpm`
+- `asterisk-prompt-sv-anton.tar.gz`
+- `asterisk-prompt-sv-louise.tar.gz`
 
 Se [docs/DEBIAN.md](docs/DEBIAN.md) för paketering och kontroll.
 
