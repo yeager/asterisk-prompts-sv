@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Create a verified release tree and manifest from a fully approved batch."""
+"""Create a verified release tree from one or more approved candidate batches."""
 from __future__ import annotations
 
 import argparse
@@ -24,41 +24,83 @@ def write(path: Path, value: object) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--voice", choices=("anton", "louise"), required=True)
-    parser.add_argument("--candidate-root", type=Path, required=True)
-    parser.add_argument("--approval", type=Path, required=True)
+    parser.add_argument("--approved-manus", type=Path, required=True)
+    parser.add_argument("--candidate-root", type=Path, action="append", required=True)
+    parser.add_argument("--approval", type=Path, action="append", required=True)
     parser.add_argument("--release-root", type=Path, required=True)
     parser.add_argument("--manifest", type=Path, required=True)
     args = parser.parse_args()
 
-    ledger = json.loads((args.candidate_root / "generation-ledger.json").read_text(encoding="utf-8"))
-    approval_blob = args.approval.read_bytes()
-    approval = json.loads(approval_blob)
-    if approval.get("voice") != args.voice or approval.get("approval_method") != "explicit_direct_human_statement":
-        raise SystemExit("Approval record does not match the requested voice")
-    approved = {(item.get("filename"), item.get("wav_sha256")): item for item in approval.get("items", [])}
-    active = [entry for entry in ledger.get("entries", []) if entry.get("status") == "HUMAN_AUDIO_APPROVED_HASH_BOUND"]
-    if len(active) != len(ledger.get("entries", [])) or len(approved) != len(active):
-        raise SystemExit("Candidate batch is not completely and uniquely approved")
+    manuscript = json.loads(args.approved_manus.read_text(encoding="utf-8"))
+    rows = manuscript.get("items")
+    if manuscript.get("approved_count") != len(rows or []) or not isinstance(rows, list):
+        raise SystemExit("Approved manuscript record is malformed")
+    expected = {row.get("filename"): row for row in rows}
+    if None in expected or len(expected) != len(rows):
+        raise SystemExit("Approved manuscript filenames are malformed or duplicate")
+
+    approvals: dict[tuple[str, str], dict] = {}
+    approval_proof = []
+    for approval_path in args.approval:
+        blob = approval_path.read_bytes()
+        record = json.loads(blob)
+        if record.get("format") not in {"asterisk-prompt-se-anton-audio-approval-v1", "asterisk-prompt-se-audio-approval-v1"}:
+            raise SystemExit(f"Unsupported approval record: {approval_path}")
+        if record.get("voice") not in (None, args.voice):
+            raise SystemExit(f"Approval record voice mismatch: {approval_path}")
+        for item in record.get("items", []):
+            key = (item.get("filename"), item.get("wav_sha256"))
+            if not all(key) or key in approvals:
+                raise SystemExit(f"Malformed or duplicate approval: {approval_path}")
+            approvals[key] = item
+        approval_proof.append({"path": str(approval_path), "sha256": hashlib.sha256(blob).hexdigest()})
+
+    candidates: dict[tuple[str, str], tuple[dict, Path]] = {}
+    for root in args.candidate_root:
+        ledger = json.loads((root / "generation-ledger.json").read_text(encoding="utf-8"))
+        workspace_root = next(
+            parent for parent in (root.resolve(), *root.resolve().parents)
+            if (parent / "outputs").is_dir()
+        )
+        for entry in ledger.get("entries", []):
+            if entry.get("status") != "HUMAN_AUDIO_APPROVED_HASH_BOUND":
+                continue
+            key = (entry.get("filename"), entry.get("wav_sha256"))
+            if not all(key) or key in candidates:
+                raise SystemExit(f"Malformed or duplicate approved candidate: {root}")
+            candidates[key] = (entry, workspace_root)
+
+    approved_names = {name for name, _ in approvals}
+    if approved_names != set(expected):
+        missing = sorted(set(expected) - approved_names)
+        extra = sorted(approved_names - set(expected))
+        raise SystemExit(f"Approval coverage mismatch: missing={missing[:3]}, extra={extra[:3]}")
+
     items = []
-    for entry in sorted(active, key=lambda item: item["filename"]):
-        key = (entry["filename"], entry["wav_sha256"])
-        if key not in approved:
-            raise SystemExit(f"Missing hash-bound approval: {entry['filename']}")
-        source = args.candidate_root.parents[1] / entry["candidate_audio_path"]
-        if not source.is_file() or sha256(source) != entry["wav_sha256"]:
-            raise SystemExit(f"Candidate hash changed: {entry['filename']}")
+    for filename, manuscript_row in sorted(expected.items()):
+        approved = next(item for (name, _), item in approvals.items() if name == filename)
+        key = (filename, approved["wav_sha256"])
+        candidate = candidates.get(key)
+        if candidate is None:
+            raise SystemExit(f"No matching approved candidate: {filename}")
+        entry, workspace_root = candidate
+        if approved.get("script") != manuscript_row.get("script") or entry.get("script") != manuscript_row.get("script"):
+            raise SystemExit(f"Script mismatch: {filename}")
+        source = workspace_root / entry["candidate_audio_path"]
+        if not source.is_file() or sha256(source) != approved["wav_sha256"]:
+            raise SystemExit(f"Candidate hash changed: {filename}")
         with wave.open(str(source)) as audio:
             if (audio.getnchannels(), audio.getsampwidth(), audio.getframerate(), audio.getcomptype()) != (1, 2, 48000, "NONE") or not audio.getnframes():
-                raise SystemExit(f"Invalid WAV: {entry['filename']}")
-        destination = args.release_root / entry["filename"]
+                raise SystemExit(f"Invalid WAV: {filename}")
+        destination = args.release_root / filename
         destination.parent.mkdir(parents=True, exist_ok=True)
         shutil.copyfile(source, destination)
-        items.append({"filename": entry["filename"], "wav_sha256": entry["wav_sha256"], "script": entry["script"]})
+        items.append({"filename": filename, "wav_sha256": approved["wav_sha256"], "script": manuscript_row["script"]})
     write(args.manifest, {
         "format": "asterisk-prompts-sv-release-v1",
         "voice": args.voice,
-        "source_approval": args.approval.name,
-        "source_approval_sha256": hashlib.sha256(approval_blob).hexdigest(),
+        "approved_manus_sha256": sha256(args.approved_manus),
+        "source_approvals": approval_proof,
         "items": items,
     })
     print(f"Prepared {len(items)} verified files in {args.release_root}")

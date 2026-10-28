@@ -28,7 +28,7 @@ Endast filer som har passerat hela kedjan ska läggas i en release.
 | Röst | Status |
 | --- | --- |
 | Louise | 855 ljud är lyssningsgodkända och paketerade i version 0.1.0. |
-| Anton | Manus och ljud granskas vidare innan en fullständig release. |
+| Anton | 855 ljud är lyssningsgodkända och paketerade i version 0.1.0. |
 
 För Debian och Ubuntu blir releasen ett paket per röst:
 
