@@ -25,6 +25,15 @@ Arbetet sker i tydliga steg:
 
 Endast filer som har passerat hela kedjan ska läggas i en release.
 
+För Debian och Ubuntu blir releasen ett paket per röst:
+
+- `asterisk-prompt-sv-anton.deb`
+- `asterisk-prompt-sv-louise.deb`
+- `asterisk-prompt-sv-anton.rpm`
+- `asterisk-prompt-sv-louise.rpm`
+
+Se [docs/DEBIAN.md](docs/DEBIAN.md) för paketering och kontroll.
+
 ## Planerad struktur
 
 ```text
