@@ -1,0 +1,4283 @@
+{
+  "format": "asterisk-prompts-sv-release-v1",
+  "voice": "louise",
+  "source_approval": "audio-approvals-direct-20261028.json",
+  "source_approval_sha256": "efe8b34106abd656b6bf62b5aa8a5d4abf55059b6e31117f4bb3f044054bf294",
+  "items": [
+    {
+      "filename": "1-for-am-2-for-pm.wav",
+      "wav_sha256": "143e6c7c904e96f8c95d261a526651535f436e41763664d8f1e5dfa44646fbfc",
+      "script": "Tryck 1 för AM eller 2 för PM"
+    },
+    {
+      "filename": "1-yes-2-no.wav",
+      "wav_sha256": "24acf6e0f3ee1761c908a2141b61cea7b9c2eebb84228b3d5b2f16c2c79d7f5d",
+      "script": "Tryck 1 för ja eller 2 för nej"
+    },
+    {
+      "filename": "T-changed-to.wav",
+      "wav_sha256": "d8f867abbd8e45186dcdb7507d0c5d485126035963ef432fcdf0cc264fc45564",
+      "script": "har blivit ändrat till"
+    },
+    {
+      "filename": "T-is-not-available.wav",
+      "wav_sha256": "d2c747ebcc3dfb5b29127d0482759040d920b80381801c34751523f20abf3540",
+      "script": "Är inte tillgänglig"
+    },
+    {
+      "filename": "T-to-disable-ancmnt.wav",
+      "wav_sha256": "fbcd551aec8c91884ae364535161a696ea166a44e1291595de2718d4fa339c37",
+      "script": "för att deaktivera detta medelandet"
+    },
+    {
+      "filename": "T-to-enable-ancmnt.wav",
+      "wav_sha256": "3a7a3746764bd889fd7f7f5c7c07fffaa423b0c0e50fa38ab2ef732b15303701",
+      "script": "för att aktivera detta medelande"
+    },
+    {
+      "filename": "T-to-hear-cur-ancmnt.wav",
+      "wav_sha256": "6fa975c73cda646d5493737427663e544d9843e31f8c42099cced78b6c4a5b42",
+      "script": "för att lyssna på detta meddelande"
+    },
+    {
+      "filename": "T-to-leave-msg.wav",
+      "wav_sha256": "8cf94a865d89d348e3b4384fe92f460b2448c9a68a1c2651103a0463fc0b1ecc",
+      "script": "För att lämna ett medelande"
+    },
+    {
+      "filename": "T-to-reach-main-office.wav",
+      "wav_sha256": "b789c13c26d82a803737aa506a531db52009d5534a1c1fd868d0288a55929577",
+      "script": "för att komma till huvudkontoret"
+    },
+    {
+      "filename": "T-to-rec-ancmnt.wav",
+      "wav_sha256": "5f6d1617229b093ba21d0f3bd6d7b324c1902325cec2048aa5850c29ced62a87",
+      "script": "för att spela in detta meddelandet"
+    },
+    {
+      "filename": "T-to-rtrn-to-main-menu.wav",
+      "wav_sha256": "01af334f14266360094119bd61775c2a182c2f0fbe853480c1338453eac5416d",
+      "script": "För att återgå till huvudmenyn"
+    },
+    {
+      "filename": "a-charge-for-this-svc.wav",
+      "wav_sha256": "06e7dc07fb30145c2833faa19c20f1912fc2777ccfb6443e794d6bddc4746309",
+      "script": "En kostnad för denna tjänst"
+    },
+    {
+      "filename": "a-collect-charge-of.wav",
+      "wav_sha256": "0162d5f56c726576b12dbda28b886236b5efe54ad01aa934bd1fcaca441080b3",
+      "script": "Det är talsamtal som kostar"
+    },
+    {
+      "filename": "abandons.wav",
+      "wav_sha256": "3a850199016bfeb52c0440aa7bdab3b2ba59739e2995caf8fed66f687b45918e",
+      "script": "Lämnar"
+    },
+    {
+      "filename": "academic-support.wav",
+      "wav_sha256": "ccaeee8d8de3514dd982252e53606f91bac4293efd99721c90357e5b467ab89e",
+      "script": "Akademisk support"
+    },
+    {
+      "filename": "access-code.wav",
+      "wav_sha256": "42fb84c8e4fe43d14c98cebfce704fb7fabbd850e7c64c10e89ce9440a8b91bd",
+      "script": "Access-kod"
+    },
+    {
+      "filename": "accessible-through-system.wav",
+      "wav_sha256": "92f60e5c8b689b59433a8151d7808f69dfc14b07b4758422839e345cd8f8a14b",
+      "script": "Nåbara genom detta system"
+    },
+    {
+      "filename": "account-balance-is.wav",
+      "wav_sha256": "e233ca6cd5606e629ea450696ad865929d50f28cf991e9b004fd58d2364cec17",
+      "script": "kontosaldo är"
+    },
+    {
+      "filename": "accounting.wav",
+      "wav_sha256": "3af0acef7018552f983ab9d026ca3867b3368480fc0d29940bfe085b11c493d6",
+      "script": "Redovisning"
+    },
+    {
+      "filename": "added-to.wav",
+      "wav_sha256": "d4e8d27218b279686be915e5a1f4db95d35c730c93b0ca75a772eb6e9be0a2a0",
+      "script": "Adderad till"
+    },
+    {
+      "filename": "address.wav",
+      "wav_sha256": "b21604d644f1113d79944b4f764c7c8247a2eacf957f0c009e592304a4f3c71f",
+      "script": "Adress"
+    },
+    {
+      "filename": "administration.wav",
+      "wav_sha256": "886b498717c50c4b76b5d106ff0e875b2d7dea4c23f23c269fdc385fc955a065",
+      "script": "Administration"
+    },
+    {
+      "filename": "after-the-tone.wav",
+      "wav_sha256": "b7d050e376ddb953fb8489608d905f2d01de830e9c1480ac6e3ea6151a497352",
+      "script": "Efter signalen"
+    },
+    {
+      "filename": "afternoon.wav",
+      "wav_sha256": "408607f325c627e99253e1c08ddea4e4bd6870f6d4ccbb5cefe5e211a4bf09b6",
+      "script": "eftermiddag"
+    },
+    {
+      "filename": "agent.wav",
+      "wav_sha256": "f3d4e1c29309fa6f701b3b61fdeb59ae1952869218e44b91f9e3d2adc759deee",
+      "script": "Agent"
+    },
+    {
+      "filename": "airport.wav",
+      "wav_sha256": "8e5424221828e5d8ed55cd433ca8ebfd14346a2e9f54c915098cb92994f1f4f4",
+      "script": "Flygplats"
+    },
+    {
+      "filename": "all-outgoing-lines-unavailable.wav",
+      "wav_sha256": "93977a03ef02a3c102fd9b5f62213197694e96b7103c046227f60bbaa72047bc",
+      "script": "Alla utgående linjer är för närvarande upptagna"
+    },
+    {
+      "filename": "all-reps-busy.wav",
+      "wav_sha256": "d7e6211113783e9efb952dff6a7f2bfd53d18ac6bb147a532fe58a82fb3266db",
+      "script": "Alla representanter är för tillfälligt upptagna"
+    },
+    {
+      "filename": "all-your-base.wav",
+      "wav_sha256": "f903f881687c0c73a4d211713b5c2cd7a992ddfbb3d5ae6e8046c25cc865f52d",
+      "script": "All your base are belong to us"
+    },
+    {
+      "filename": "allison7/all-circuits-busy-now.wav",
+      "wav_sha256": "0befec8bc8ef7c696593ebe9aa59d760a0befaa26f3ef061069c7dcb00b706e4",
+      "script": "Alla linjer är upptagna för tillfället"
+    },
+    {
+      "filename": "allison7/do-not-disturb.wav",
+      "wav_sha256": "7e405725d094019c70291b3f935617cc137c52587e9219103e2a82dd72460629",
+      "script": "Stör ej"
+    },
+    {
+      "filename": "allison7/info-about-last-call.wav",
+      "wav_sha256": "25c79632b01bc4f7594751e95745b1a1498b2a24d4085df810501e07da01faf0",
+      "script": "Information om ditt senaste samtal"
+    },
+    {
+      "filename": "allison7/please-enter-your.wav",
+      "wav_sha256": "967603b66d69c5d1d44f04485a17b78d914a0245d8bc889d78449484c73dabcf",
+      "script": "Var god, tryck in din"
+    },
+    {
+      "filename": "allison7/pls-try-call-later.wav",
+      "wav_sha256": "6bb7a5071ea23d87d49f0a36607f6ac5b7ddbff07567037c9361660daf02174c",
+      "script": "Var god, försök igen senare"
+    },
+    {
+      "filename": "allison7/press-1.wav",
+      "wav_sha256": "eb189aaa9b45fb4bd7aa4fb7e7744fee817404031e7086fe39981494ab797143",
+      "script": "Tryck 1"
+    },
+    {
+      "filename": "allison7/telephone-number.wav",
+      "wav_sha256": "5a3cb40c89b1cee30dad5f0ff1ca3f8dc30d95a6dd26c4226664ad99b88dc1e5",
+      "script": "Telefonnummer"
+    },
+    {
+      "filename": "altitude.wav",
+      "wav_sha256": "e35992146be711f567d260bb01ea04d0aff1a9d191e36b0b8568f989ca1a1280",
+      "script": "höjd"
+    },
+    {
+      "filename": "an-error-has-occured.wav",
+      "wav_sha256": "c3ff8b1f56c272e4ecd857aabac56fc0002200c744172ba66871782279ce718f",
+      "script": "Ett fel har inträffat"
+    },
+    {
+      "filename": "and-area-code.wav",
+      "wav_sha256": "37d0909d1da678793e9d0e944515706963c7cd4cf7e5b434c36fb29dcad1ceb4",
+      "script": "och riktnumret"
+    },
+    {
+      "filename": "and-or.wav",
+      "wav_sha256": "4369297791362780678487f5709c7dc77e22848ca6e82ec34b1af5ddd5715149",
+      "script": "Och eller"
+    },
+    {
+      "filename": "and-prs-pound-whn-finished.wav",
+      "wav_sha256": "f7111e4dd2a1bfcdca95eafc4650baa973ca633278d20afe7a444f8b109bf354",
+      "script": "och tryck fyrkant när du är klar"
+    },
+    {
+      "filename": "and.wav",
+      "wav_sha256": "ad4828121ff17cda35fb27d3da30383d563850c3b98c36517ce4b1b2b288ffd0",
+      "script": "Och"
+    },
+    {
+      "filename": "another-time.wav",
+      "wav_sha256": "b061c17932c78556b390b87f9c1b15af7af0fe815889bc153d6a8c73e7a05ebd",
+      "script": "En annan gång"
+    },
+    {
+      "filename": "approaching.wav",
+      "wav_sha256": "cf0a62c7330882209d8419678ce404992c82c74daecda245f64c20aba7f3f2c6",
+      "script": "närmar sig"
+    },
+    {
+      "filename": "approximately.wav",
+      "wav_sha256": "34aff2323aca3a2b2578fa7bceb92ce0c11333adf228cd5637cc479d861c2386",
+      "script": "ungefär"
+    },
+    {
+      "filename": "are-you-still-there.wav",
+      "wav_sha256": "23cd3409008b39504b08e2e2dbe1e5d164691d4e47cea5a954629af4cbe50679",
+      "script": "Är du fortfarande kvar?"
+    },
+    {
+      "filename": "are-you-still-there2.wav",
+      "wav_sha256": "e657a6a78887144d4399083e857eb32416c2bddedda944c703115de4caad7e6d",
+      "script": "Är du fortfarande kvar?"
+    },
+    {
+      "filename": "areacodes/011.wav",
+      "wav_sha256": "bbdb8da80984c5fa5675fad2a323614ef404508f72732580de6843948ce22385",
+      "script": "Norrköping"
+    },
+    {
+      "filename": "areacodes/0120.wav",
+      "wav_sha256": "44b553f2e779353fa5d9ce64338aaa25131e1cffd9018e25a6d68830ff8731c8",
+      "script": "Åtvidaberg"
+    },
+    {
+      "filename": "areacodes/0121.wav",
+      "wav_sha256": "1ddbdfc96b9ce0031baa2afa63de608dae72df531105f3e7474b76be4f643f8d",
+      "script": "Söderköping"
+    },
+    {
+      "filename": "areacodes/0122.wav",
+      "wav_sha256": "6a7eda1759b9fafc6f4b44166a91945d2d95fc96a53b9736ed717b2d8b05b8ad",
+      "script": "Finspång"
+    },
+    {
+      "filename": "areacodes/0123.wav",
+      "wav_sha256": "e5de6bbbbe8495ce2e9592b67846db2a2ebd24d7a26871f0aeb7949a79730b8e",
+      "script": "Valdemarsvik"
+    },
+    {
+      "filename": "areacodes/0125.wav",
+      "wav_sha256": "cd8af01d485f73f993f78a0d77a4ffd005b487c252ec1ce3fe1650bbc1a7ee80",
+      "script": "Vikbolandet"
+    },
+    {
+      "filename": "areacodes/013.wav",
+      "wav_sha256": "c9ff63f07b9609c03fed61c79f7fc3adf7e62694d0fe2c1e824afc25f1d67d96",
+      "script": "Linköping"
+    },
+    {
+      "filename": "areacodes/0140.wav",
+      "wav_sha256": "d87d6fb01561c271a221362e340d042f1ea096e87d3140223ece09d665a8d3bc",
+      "script": "Tranås"
+    },
+    {
+      "filename": "areacodes/0141.wav",
+      "wav_sha256": "30f3907d6427067d6b5229cf832ef0748c636b1c99c34e821231f4e1701be6d1",
+      "script": "Motala"
+    },
+    {
+      "filename": "areacodes/0142.wav",
+      "wav_sha256": "7c52cddc1b243987dbe6faff5104f59694ec919ba8931474ee62efb016b43931",
+      "script": "Mjölby-Skänninge-Boxholm"
+    },
+    {
+      "filename": "areacodes/0143.wav",
+      "wav_sha256": "c105e96571c779c892c7d9ef54c74d3a39b4d3aef08499167c5d8b79a6dfa62a",
+      "script": "Vadstena"
+    },
+    {
+      "filename": "areacodes/0144.wav",
+      "wav_sha256": "31d223d6474a2070719884c0e15f55b200e5704f82a5e6d255198d3f910f3a20",
+      "script": "Ödeshög"
+    },
+    {
+      "filename": "areacodes/0150.wav",
+      "wav_sha256": "683a91b905ab900a8c72cbf5618e008b8c4991dcddca52b5a54d9dbee7736b14",
+      "script": "Katrineholm"
+    },
+    {
+      "filename": "areacodes/0151.wav",
+      "wav_sha256": "274adcc0891f780965794e0ba69e040cd1789359368566d267175bdca8a068b7",
+      "script": "Vingåker"
+    },
+    {
+      "filename": "areacodes/0152.wav",
+      "wav_sha256": "38c910c0e0bb220847f6feeaef110afcf0113e7fa7198571c36bea3aaaf07659",
+      "script": "Strängnäs"
+    },
+    {
+      "filename": "areacodes/0155.wav",
+      "wav_sha256": "7967f9430518b29dc0f92e339f204179aa2a843c688162d31a92fd86224efbfb",
+      "script": "Nyköping-Oxelösund"
+    },
+    {
+      "filename": "areacodes/0156.wav",
+      "wav_sha256": "02c76970339813f45a815381aac6744f0b0c98d3a2be7b8fa522a2901d07a454",
+      "script": "Trosa-Vagnhärad"
+    },
+    {
+      "filename": "areacodes/0157.wav",
+      "wav_sha256": "abbc586f368569095f51422fd50f5ddcf1403e0ffac2a96c0f58d9b59aee278a",
+      "script": "Flen-Malmköping"
+    },
+    {
+      "filename": "areacodes/0158.wav",
+      "wav_sha256": "9935e6aa5aebe9696e560414189ab840f8b8c03448491dd1f9027117ed8d173f",
+      "script": "Gnesta"
+    },
+    {
+      "filename": "areacodes/0159.wav",
+      "wav_sha256": "119dbae9b6902aadaac3f54d630057a088e24bc10dfc7a4d3bbba9126ab318bd",
+      "script": "Mariefred"
+    },
+    {
+      "filename": "areacodes/016.wav",
+      "wav_sha256": "9cad331da218d7a53951326da340c6359fa8070574911f119ab465f9927aca7a",
+      "script": "Eskilstuna-Torshälla"
+    },
+    {
+      "filename": "areacodes/0171.wav",
+      "wav_sha256": "eb323f64ae2f5ee63513940f2aec42b913af1bf601052e54bed0b008ce3c725d",
+      "script": "Enköping"
+    },
+    {
+      "filename": "areacodes/0173.wav",
+      "wav_sha256": "bc099acb6882c3296f13e3a7c71ade2f9afc4657b9b5e2368d37fb3a1d6ed7ac",
+      "script": "Öregrund-Östhammar"
+    },
+    {
+      "filename": "areacodes/0174.wav",
+      "wav_sha256": "548fb8abdc471f9c81539a2ef0d9de5f2f001bb07d6f1ee1524f93e7ed20ae19",
+      "script": "Alunda"
+    },
+    {
+      "filename": "areacodes/0175.wav",
+      "wav_sha256": "8bf0da2ad20e9554a0150a344a48bc09adb68dedbcec1adbc9f64a2871451656",
+      "script": "Hallstavik-Rimbo"
+    },
+    {
+      "filename": "areacodes/0176.wav",
+      "wav_sha256": "0e6f6802b0d7894b2783f3611830a3a3e8589c70c4789118fa184dcd3aac7a08",
+      "script": "Norrtälje"
+    },
+    {
+      "filename": "areacodes/018.wav",
+      "wav_sha256": "7ba00b225540e683c3eb153265ada635a1f68fb152b02370b06dbab4b182b6ba",
+      "script": "Uppsala"
+    },
+    {
+      "filename": "areacodes/019.wav",
+      "wav_sha256": "2f3277358ef0eec13e8b587e9dbc9dbe596f87628d3b6a9adf8e4103a5fcb301",
+      "script": "Örebro-Kumla"
+    },
+    {
+      "filename": "areacodes/020.wav",
+      "wav_sha256": "3b21f799c9eb597dc5731869c3e18efe256d31dafc8feb99ad0ade2c602015c0",
+      "script": "020 nummer, frisamtal"
+    },
+    {
+      "filename": "areacodes/021.wav",
+      "wav_sha256": "9198560630fe2746f1c7f9a0e2a8a86a33cb6944add65cbd90ede6d0fc0fdedb",
+      "script": "Västerås"
+    },
+    {
+      "filename": "areacodes/0220.wav",
+      "wav_sha256": "9e3c8366bd5ee2e726365d99c1607f8c63db48f0f877704866d22e1448194c71",
+      "script": "Hallstahammar-Surahammar"
+    },
+    {
+      "filename": "areacodes/0221.wav",
+      "wav_sha256": "9e845a49cc19a6ee3b1e908b2bd5c058258d2a4eacf10ba0ecdcc99116d74ca4",
+      "script": "Köping"
+    },
+    {
+      "filename": "areacodes/0222.wav",
+      "wav_sha256": "cc66aedcda59c4964c20248a9b981caecf099d58bd9887302ddb378424541fa6",
+      "script": "Skinnskatteberg"
+    },
+    {
+      "filename": "areacodes/0223.wav",
+      "wav_sha256": "ddcde392067b19ef43213347a14908d26607cdaec1173a7d81ec1aaa08642d04",
+      "script": "Fagersta-Norberg"
+    },
+    {
+      "filename": "areacodes/0224.wav",
+      "wav_sha256": "66a21c2a01546ea3ffc5d53c8410d88a80f645b4795307a565bf9d05f5152411",
+      "script": "Sala-Heby"
+    },
+    {
+      "filename": "areacodes/0225.wav",
+      "wav_sha256": "fb006b9016e56007ce9630f48824713b6f7f5f0728f617c4d13da2457f41b9c7",
+      "script": "Hedemora-Säter"
+    },
+    {
+      "filename": "areacodes/0226.wav",
+      "wav_sha256": "83b4a008c4f8e8811a3c91b371766c7bc2bcdaa7be7f38d81c16c25f1c2e59d6",
+      "script": "Avesta-Krylbo"
+    },
+    {
+      "filename": "areacodes/0227.wav",
+      "wav_sha256": "9ba9ed6688b2c6400a1e18913ef6501073bd83526869f3c5b3dc64c9e3115faa",
+      "script": "Kungsör"
+    },
+    {
+      "filename": "areacodes/023.wav",
+      "wav_sha256": "2ed25e8219d564816b663324c2d2af0a7dd880e08ddfc5f0d56e48af612c6bf1",
+      "script": "Falun"
+    },
+    {
+      "filename": "areacodes/0240.wav",
+      "wav_sha256": "f41409eca6975a05b774b88d4590323979d7d27073d95b7ca90eeadd82682c3b",
+      "script": "Ludvika-Smedjebacken"
+    },
+    {
+      "filename": "areacodes/0241.wav",
+      "wav_sha256": "949143aaa883ae7fcc1794411435d22c1799e21f3e869fa75bda85092b3d8e1c",
+      "script": "Gagnef-Floda"
+    },
+    {
+      "filename": "areacodes/0243.wav",
+      "wav_sha256": "fd22416713f384ae33731a1cd29a1d24a0b2243357517cb7adfa702fdee35972",
+      "script": "Borlänge"
+    },
+    {
+      "filename": "areacodes/0246.wav",
+      "wav_sha256": "a3589c092c8225447cacfd55ad5c52085a1407916c6ac2fc5dc0ca718f0919d0",
+      "script": "Svärdsjö-Enviken"
+    },
+    {
+      "filename": "areacodes/0247.wav",
+      "wav_sha256": "45a498bfe835176fedf84e2a13074ee1e62e84982323047a384944a3a9979c03",
+      "script": "Leksand-Insjön"
+    },
+    {
+      "filename": "areacodes/0248.wav",
+      "wav_sha256": "6c62036391f9081d1de8016a474ed0f3c9eac1a1b24e9af786a80b808fa09e6a",
+      "script": "Rättvik"
+    },
+    {
+      "filename": "areacodes/0250.wav",
+      "wav_sha256": "b91237604f1a8820fc7c611bbde19cd1b3d53002c45f36ada9a091ab24357d6f",
+      "script": "Mora-Orsa"
+    },
+    {
+      "filename": "areacodes/0251.wav",
+      "wav_sha256": "0cc57e1c7e72d4ecd41c92ac9f7037d344d7080db7ad18f09192ee5f9e25bf6f",
+      "script": "Älvdalen"
+    },
+    {
+      "filename": "areacodes/0253.wav",
+      "wav_sha256": "cef65924301c50de839c391755f8a5ab05f03b5667afabec444ff52468584d2b",
+      "script": "Idre-Särna"
+    },
+    {
+      "filename": "areacodes/0258.wav",
+      "wav_sha256": "a3852b1e0a6a0530559f2985150c0ae81260ff8f532d0d72ee20a78824a1865d",
+      "script": "Furudal"
+    },
+    {
+      "filename": "areacodes/026.wav",
+      "wav_sha256": "b01d111a89a078da0f6c2193a7ec77921f5505e577c45bec91d015fac84e4d4b",
+      "script": "Gävle-Sandviken"
+    },
+    {
+      "filename": "areacodes/0270.wav",
+      "wav_sha256": "ea90667726be8d489cf6c60202614cf4ad7c67dfcfa913facbc24a002cc1a37f",
+      "script": "Söderhamn"
+    },
+    {
+      "filename": "areacodes/0271.wav",
+      "wav_sha256": "cf05651b68ab283926dab8c6078bb722bc9d214781bd89db618edd48b5e1067d",
+      "script": "Alfta-Edsbyn"
+    },
+    {
+      "filename": "areacodes/0278.wav",
+      "wav_sha256": "4af3758ad9e696557565fc04bef19ad8393acede0b2cefa6dc0b04bd496b58a7",
+      "script": "Bollnäs"
+    },
+    {
+      "filename": "areacodes/0280.wav",
+      "wav_sha256": "b83e82e713cf89b81305712154df854a8d573efabae0977ffc9527285b59c136",
+      "script": "Malung"
+    },
+    {
+      "filename": "areacodes/0281.wav",
+      "wav_sha256": "d3d6c7799a805232a66b6206bec0b0f59beedfb34d0d241aa6dfd79584bff251",
+      "script": "Vansbro"
+    },
+    {
+      "filename": "areacodes/0290.wav",
+      "wav_sha256": "7e789a6e3c0b98f2a6bdb7072f22dd9477c7661fb8799ed77e879e2ac97e6878",
+      "script": "Hofors-Storvik"
+    },
+    {
+      "filename": "areacodes/0291.wav",
+      "wav_sha256": "22af946deea7e60219ef0e97b179b95029ea5311dc2ad4b263e9db37f9f88468",
+      "script": "Hedesunda-Österfärnebo"
+    },
+    {
+      "filename": "areacodes/0292.wav",
+      "wav_sha256": "418a5336f221183e0a98a068d21ad4f5b21be8e433bc8e12596107c77da3c0cb",
+      "script": "Tärnsjö-Östervåla"
+    },
+    {
+      "filename": "areacodes/0293.wav",
+      "wav_sha256": "27a0f611959324416fafbb7522360da7e14adaceb20a46b233054858bd60d5e0",
+      "script": "Tierp-Söderfors"
+    },
+    {
+      "filename": "areacodes/0294.wav",
+      "wav_sha256": "9f56f32ff014a0257ebbebad9a577ed169565f7ac316add7ec138d9406c31d20",
+      "script": "Karlsholmsbruk-Skärplinge"
+    },
+    {
+      "filename": "areacodes/0295.wav",
+      "wav_sha256": "fd3b09a01191a8ab77dd23bf045855a43e78994a7cc44ce002ca798ad0eb20e4",
+      "script": "Örbyhus-Dannemora"
+    },
+    {
+      "filename": "areacodes/0297.wav",
+      "wav_sha256": "e8c53cba7ce92048be6ae9645a9cfb5aeb00e9cc27b8bfe9e7fd5da39636b08e",
+      "script": "Ockelbo-Hamrånge"
+    },
+    {
+      "filename": "areacodes/0300.wav",
+      "wav_sha256": "d2b9fcc530f04d59be6b9e672575bf5121b59192f5920b0fa7a159c9eae15b6d",
+      "script": "Kungsbacka"
+    },
+    {
+      "filename": "areacodes/0301.wav",
+      "wav_sha256": "283e6bc3cbaa6edb65b0091f9fe93a84d5d8fc9a0448c7f824033e2669deec12",
+      "script": "Hindås"
+    },
+    {
+      "filename": "areacodes/0302.wav",
+      "wav_sha256": "7a0f189196848d161fe392c7fc3b4bf11c4866028ee78b4a9793becb74ac5d4f",
+      "script": "Lerum"
+    },
+    {
+      "filename": "areacodes/0303.wav",
+      "wav_sha256": "486a2978d7cae46e68e069ee9fe82d593d22c0d0fdaeca1fd5caad1f3da8d34d",
+      "script": "Kungälv"
+    },
+    {
+      "filename": "areacodes/0304.wav",
+      "wav_sha256": "fe2fb4344233932a0de408501c35ac6011588023b8b59504918b99aad020d1bb",
+      "script": "Orust-Tjörn"
+    },
+    {
+      "filename": "areacodes/031.wav",
+      "wav_sha256": "dec45c5bdb298719eee6465950665252d3e4fabe5ead87703b2f199dce4ed6d8",
+      "script": "Göteborg"
+    },
+    {
+      "filename": "areacodes/0320.wav",
+      "wav_sha256": "213b943b8b9c85662e7c75c04b75ccecbfcb69cff4ac9cc66448aa47e0441060",
+      "script": "Kinna"
+    },
+    {
+      "filename": "areacodes/0321.wav",
+      "wav_sha256": "d087e14aed74f9687304ef4a77a7f8250d11934b38a29e0909f183719591ca8f",
+      "script": "Ulricehamn"
+    },
+    {
+      "filename": "areacodes/0322.wav",
+      "wav_sha256": "8fdc9f97fcc8cd805f305f104e883e2e205dfd9bcd6910e6feec4296dd6be975",
+      "script": "Alingsås-Vårgårda"
+    },
+    {
+      "filename": "areacodes/0325.wav",
+      "wav_sha256": "a3a6fab042b432e216ccb1416e99db29999e89fb00116bd3bd71ab67d548d39e",
+      "script": "Svenljunga-Tranemo"
+    },
+    {
+      "filename": "areacodes/033.wav",
+      "wav_sha256": "3adb31087b145e3aa31c072a52c41f4571d170741695132a81460a30c67a0f3e",
+      "script": "Borås"
+    },
+    {
+      "filename": "areacodes/0340.wav",
+      "wav_sha256": "8d2a6fabb96ea943276db5ef08e6dafccfa2ec3b42ccbf06aca99e4d03cf6386",
+      "script": "Varberg"
+    },
+    {
+      "filename": "areacodes/0345.wav",
+      "wav_sha256": "0f68603ea449ee88e411103d43088108fe86c291a6fa6e32c6a0693653b18acd",
+      "script": "Hyltebruk-Torup"
+    },
+    {
+      "filename": "areacodes/0346.wav",
+      "wav_sha256": "0a7f753aa1984cb69c02bdf84e1eaa20fe78f29d4e88e4b3e29e12da687395fd",
+      "script": "Falkenberg"
+    },
+    {
+      "filename": "areacodes/035.wav",
+      "wav_sha256": "2b76f9ff900642443227200f6b65194b8d1151a0e353a3be4e793afae48c7b9b",
+      "script": "Halmstad"
+    },
+    {
+      "filename": "areacodes/036.wav",
+      "wav_sha256": "2a3d5baccb0ed1e2a9741e1e282ef902c9706770e4a1427b71a0ce91e77cf15c",
+      "script": "Jönköping-Huskvarna"
+    },
+    {
+      "filename": "areacodes/0370.wav",
+      "wav_sha256": "9f4a09df14de91bb00d1868f8169827ac8726a71ae8455e4a9da717cb67af27e",
+      "script": "Värnamo"
+    },
+    {
+      "filename": "areacodes/0371.wav",
+      "wav_sha256": "f79a663367248bb1058e873a3555c8782dac0060cd19bae0f1415748cbeaaf4e",
+      "script": "Gislaved-Anderstorp"
+    },
+    {
+      "filename": "areacodes/0372.wav",
+      "wav_sha256": "b27d822a250a6a551fdef864c11603d2066943a09f3b0eaf496d54b1a27948ef",
+      "script": "Ljungby"
+    },
+    {
+      "filename": "areacodes/0380.wav",
+      "wav_sha256": "b4fe62524d83b7320c8d9bcefbb823fbdad5d855f3af4a2d7df865587b088f5b",
+      "script": "Nässjö"
+    },
+    {
+      "filename": "areacodes/0381.wav",
+      "wav_sha256": "662d71ab62ba50f1df876d616b77072f66c350413912fc5f298d713f1e45f8ae",
+      "script": "Eksjö"
+    },
+    {
+      "filename": "areacodes/0382.wav",
+      "wav_sha256": "4913cd3a2517457911fae21704ad083677c2c9121052d99df31a027de59ad120",
+      "script": "Sävsjö"
+    },
+    {
+      "filename": "areacodes/0383.wav",
+      "wav_sha256": "14983433d3660016cd8911f126982051bafbb0ba5d78a5869471ecc803726da4",
+      "script": "Vetlanda"
+    },
+    {
+      "filename": "areacodes/0390.wav",
+      "wav_sha256": "320ae35b988782b4252cd888cd6c8c1e9ae4b52807415af8bbe6bfefb662af81",
+      "script": "Gränna"
+    },
+    {
+      "filename": "areacodes/0392.wav",
+      "wav_sha256": "e2fe3b25a5e552a1c0354bd1f9ca83f129b068b817ab5226e5f45f6c48f8ba4f",
+      "script": "Mullsjö"
+    },
+    {
+      "filename": "areacodes/0393.wav",
+      "wav_sha256": "e911ede20fc4554a1759d3221be62980d6aba21ca3bfd917b7cfd697c017454b",
+      "script": "Vaggeryd"
+    },
+    {
+      "filename": "areacodes/040.wav",
+      "wav_sha256": "e723c414395b97db715f5ae902dadc10730616dc5ac04c264cd404e6e8d8a834",
+      "script": "Malmö"
+    },
+    {
+      "filename": "areacodes/0410.wav",
+      "wav_sha256": "92895fdc6c34a07d7cdcb546d904db7373f93de588557eb34311e04f873a2f52",
+      "script": "Trelleborg"
+    },
+    {
+      "filename": "areacodes/0411.wav",
+      "wav_sha256": "7fa26625d6b6ab71d6c40b6084ba052a98a0ae431a5f8a1bd3e5208acb09c1c8",
+      "script": "Ystad"
+    },
+    {
+      "filename": "areacodes/0413.wav",
+      "wav_sha256": "ea73df9da891c39e48262c2712153a1b960526c0b91c04fa029f790dc4c7a058",
+      "script": "Eslöv-Höör"
+    },
+    {
+      "filename": "areacodes/0414.wav",
+      "wav_sha256": "222f2fbcadd229eeb6af6477762d9f3bd5517d370cd2b869ca9615d1ee4426ec",
+      "script": "Simrishamn"
+    },
+    {
+      "filename": "areacodes/0415.wav",
+      "wav_sha256": "f003610a76bc1a7f575042c2dcdd8c02b29d85fe64251583cff6aba3cc58d3e2",
+      "script": "Hörby"
+    },
+    {
+      "filename": "areacodes/0416.wav",
+      "wav_sha256": "b639616511cd182fc177aefd9349ea0b763b18ae5f7cc3ea0a8ea8d6b762039e",
+      "script": "Sjöbo"
+    },
+    {
+      "filename": "areacodes/0417.wav",
+      "wav_sha256": "7a6a769ad3be4e74f67824686a4ff8334282d6398438b710db1863d22ac12f6c",
+      "script": "Tomelilla"
+    },
+    {
+      "filename": "areacodes/0418.wav",
+      "wav_sha256": "416cd5c161e1341b1d32950c0a0263a6d1c38aaf53a1a3e874574022951b40ab",
+      "script": "Landskrona-Svalöv"
+    },
+    {
+      "filename": "areacodes/042.wav",
+      "wav_sha256": "5856fce839766b57f4a9452a8cd78bbfb0249da917b87fc18f11ac0c1e0b6ae4",
+      "script": "Helsingborg-Höganäs"
+    },
+    {
+      "filename": "areacodes/0430.wav",
+      "wav_sha256": "ccd15f61a7edc2b405c779e4273b748d02f0ca5e3a48db75a9c9d427ebe49248",
+      "script": "Laholm"
+    },
+    {
+      "filename": "areacodes/0431.wav",
+      "wav_sha256": "a24a37dcf21f6d6591245c0519eda50d728612f146be18df7a20710bf740aae2",
+      "script": "Ängelholm-Båstad"
+    },
+    {
+      "filename": "areacodes/0433.wav",
+      "wav_sha256": "96e61ca0d1618ac131f4e5ad62cfeb570d190d827a77abd84ec2157a01879967",
+      "script": "Markaryd-Strömnäsbruk"
+    },
+    {
+      "filename": "areacodes/0435.wav",
+      "wav_sha256": "cf0d64b6d7a14fe3d622b03332bccae156451a675deec25e3f034b1e25644dbc",
+      "script": "Klippan-Perstorp"
+    },
+    {
+      "filename": "areacodes/044.wav",
+      "wav_sha256": "e1d6595cf2ad1e0474bab96b88891235440d3da9981e75d25e96e14be77e7992",
+      "script": "Kristianstad"
+    },
+    {
+      "filename": "areacodes/0451.wav",
+      "wav_sha256": "8c91670462b4ca0995c11ac61a5b1b2bd8d5fd2e3ead0c47b2b9338d6bb947c7",
+      "script": "Hässleholm"
+    },
+    {
+      "filename": "areacodes/0454.wav",
+      "wav_sha256": "594c849ac8f25d4dab6c8e5aee152c47dbc6d9b49542157801e829f1490ee82d",
+      "script": "Karlshamn-Olofström"
+    },
+    {
+      "filename": "areacodes/0455.wav",
+      "wav_sha256": "1426d1650358958a141d06e632b0c8e4b75b0e31b377c241d81241320f75e5a7",
+      "script": "Karlskrona"
+    },
+    {
+      "filename": "areacodes/0456.wav",
+      "wav_sha256": "441bffa63487b794a633b5093c3cc5415bf47834a6ba058b38153a9b6d0bac7f",
+      "script": "Sölvesborg-Bromölla"
+    },
+    {
+      "filename": "areacodes/0457.wav",
+      "wav_sha256": "ca4083e5a452a2fcf47c29e7f53a30f8309fcd844f9ec440c7a04f48f0a4540e",
+      "script": "Ronneby"
+    },
+    {
+      "filename": "areacodes/0459.wav",
+      "wav_sha256": "5a0d34366b76eb0486547d37e27551c8bb7faff4c6568f4c45d35fd3d3b8a1d2",
+      "script": "Ryd"
+    },
+    {
+      "filename": "areacodes/046.wav",
+      "wav_sha256": "b47e57f26aab5a42bc201faab668ae4e7d97cc08eef75e193eb9c89bb293c0a7",
+      "script": "Lund"
+    },
+    {
+      "filename": "areacodes/0470.wav",
+      "wav_sha256": "51f7c92bfb5ae4980e47d317115b9df5f08e78d073fc41f093150867de2a95f1",
+      "script": "Växjö"
+    },
+    {
+      "filename": "areacodes/0471.wav",
+      "wav_sha256": "5161813c1370f834b9122f2e3bdec61377c79a3bf982ee5085bfce9a2e346c43",
+      "script": "Emmaboda"
+    },
+    {
+      "filename": "areacodes/0472.wav",
+      "wav_sha256": "10d7ea99793d26b0f5c8654689cfadfe94eda3f78ba0531e8c3234ba54dd6bc0",
+      "script": "Alvesta-Rydaholm"
+    },
+    {
+      "filename": "areacodes/0474.wav",
+      "wav_sha256": "9e9668728db3a6d5fc84702822e9d858c9c0f7114ddf36d2583601cc8f0b52c0",
+      "script": "Åseda-Lenhovda"
+    },
+    {
+      "filename": "areacodes/0476.wav",
+      "wav_sha256": "5eb6e190c313392328671db60aeb6cbfdd2b6861d20c922a845d77d77b1c2311",
+      "script": "Älmhult"
+    },
+    {
+      "filename": "areacodes/0477.wav",
+      "wav_sha256": "0ea7473a431d77d539a70e206e094072a18ec5b8791e1f9fa4defbb93530f88b",
+      "script": "Tingsryd"
+    },
+    {
+      "filename": "areacodes/0478.wav",
+      "wav_sha256": "fb08dfc9770a55f430bdfd70520d4cad07a426bd50f360d5d61bb1c88d911cf2",
+      "script": "Lessebo"
+    },
+    {
+      "filename": "areacodes/0479.wav",
+      "wav_sha256": "e9b6158f9a27da63576c8d89fdc20de37f0123ac230708d3af1578754e4e11d5",
+      "script": "Osby"
+    },
+    {
+      "filename": "areacodes/0480.wav",
+      "wav_sha256": "4d9c78910f011b54ca5d7ee37e652a9d35a5658ca9a20048225dff0a8e88f1ce",
+      "script": "Kalmar"
+    },
+    {
+      "filename": "areacodes/0481.wav",
+      "wav_sha256": "6b688b45284a33791d0bcb74528dbe7e982f62a8fbb77edc473dbb623ac1eeaf",
+      "script": "Nybro"
+    },
+    {
+      "filename": "areacodes/0485.wav",
+      "wav_sha256": "9d924c0f288ba9b0b20db927ec234e55799733fd4d114792827974918a8a8a0b",
+      "script": "Öland"
+    },
+    {
+      "filename": "areacodes/0486.wav",
+      "wav_sha256": "fe898e3266adb7298d619a8cef8623f5ab477f7d2ea2ad913caac845f8f8805c",
+      "script": "Torsås"
+    },
+    {
+      "filename": "areacodes/0490.wav",
+      "wav_sha256": "e8f11445e838c6a9a887de413f57aea2e35afc4daee730c6200e968cc7efbd0a",
+      "script": "Västervik"
+    },
+    {
+      "filename": "areacodes/0491.wav",
+      "wav_sha256": "bca726630992e06406800c7be6b650de81ce0c54ee637a1bd5f7c98daf7ec006",
+      "script": "Oskarshamn-Högsby"
+    },
+    {
+      "filename": "areacodes/0492.wav",
+      "wav_sha256": "ffe88fd689297c9932b95cacde6ae242bd2bb9462fa979c225956c65df99a297",
+      "script": "Vimmerby"
+    },
+    {
+      "filename": "areacodes/0493.wav",
+      "wav_sha256": "4f8ede58adeb2f26d60b3b3e4e1c464ce00c521c9cf5100073339f4910bb701a",
+      "script": "Gamleby"
+    },
+    {
+      "filename": "areacodes/0494.wav",
+      "wav_sha256": "e96425e41b7c1156e5cede8850e46d885dca24cbc9240c30940772a2b73046fd",
+      "script": "Kisa"
+    },
+    {
+      "filename": "areacodes/0495.wav",
+      "wav_sha256": "0c1d95e48b4c93bc7c81b35777f20942fd7dbc57eabd4669289dcfa0ee8e6925",
+      "script": "Hultsfred-Virserum"
+    },
+    {
+      "filename": "areacodes/0496.wav",
+      "wav_sha256": "464b9c596aa2fe32dcfd96aa0e683ec95a4834024c45cbcb5f0a12158edb23cc",
+      "script": "Mariannelund"
+    },
+    {
+      "filename": "areacodes/0498.wav",
+      "wav_sha256": "a04434098e5c10fe8750d2af2f550aa9225b02af4901079a502f6fdff2a493e5",
+      "script": "Gotland"
+    },
+    {
+      "filename": "areacodes/0499.wav",
+      "wav_sha256": "50c2c47d864cd4b73a78b7b6064cfcd235487e3bd1ca7f0fbd20b87e4b029e03",
+      "script": "Mönsterås"
+    },
+    {
+      "filename": "areacodes/0500.wav",
+      "wav_sha256": "56f0e9dc1b18750a03c01efbe58d7ee2d3417746ccc7fb9ca93c07b48dc07ba2",
+      "script": "Skövde"
+    },
+    {
+      "filename": "areacodes/0501.wav",
+      "wav_sha256": "f184f9a8c2354056b711580373eb72bb4264fee8b181dc82d1c798a9b1becbf7",
+      "script": "Mariestad"
+    },
+    {
+      "filename": "areacodes/0502.wav",
+      "wav_sha256": "c7f1b9e0c54bc5982d3b67c08c47ab965e188478bc5fcc30207ea62adcde222d",
+      "script": "Tidaholm"
+    },
+    {
+      "filename": "areacodes/0503.wav",
+      "wav_sha256": "4879a745ea83caa14b08e0c91c0a187950da249493e3171b20a66c90e4596b44",
+      "script": "Hjo"
+    },
+    {
+      "filename": "areacodes/0504.wav",
+      "wav_sha256": "286d9da2e749cd2e1af38b9e04bbe07a95ca475b1af1fc1e1f3db4ecaf778c3c",
+      "script": "Tibro"
+    },
+    {
+      "filename": "areacodes/0505.wav",
+      "wav_sha256": "67855d8ff1fd6b3147a2177c234f5331d71af7e423a801b320dd02b8f9091a86",
+      "script": "Karlsborg"
+    },
+    {
+      "filename": "areacodes/0506.wav",
+      "wav_sha256": "89d6c78fe9fdd2cf7e0117f95de61aa086f63400b9150c9b939671b90914702b",
+      "script": "Töreboda-Hova"
+    },
+    {
+      "filename": "areacodes/0510.wav",
+      "wav_sha256": "a9786616a760da04ede130f2a082bb372a3deda6d36e0cc6fa6fa5d02fd9ac9f",
+      "script": "Lidköping"
+    },
+    {
+      "filename": "areacodes/0511.wav",
+      "wav_sha256": "da37548f8d718c7c2cc179f3343947d59d6a3dd7f21bffa63d9419b708607c51",
+      "script": "Skara-Götene"
+    },
+    {
+      "filename": "areacodes/0512.wav",
+      "wav_sha256": "9ca6dd01d8e67ebe0de0dfee33cc184caf0729c1f8d47d1a86c03cf27e266ad9",
+      "script": "Vara-Nossebro"
+    },
+    {
+      "filename": "areacodes/0513.wav",
+      "wav_sha256": "26f8185255a132251be0ee9563eb6e94ba771da0b5bd4caad3c5ccf010c09196",
+      "script": "Herrljunga"
+    },
+    {
+      "filename": "areacodes/0514.wav",
+      "wav_sha256": "62879d62ad67f04e0b2c43d00709ea7e0786f2dea5515e8a753110f6d21a3f6b",
+      "script": "Grästorp"
+    },
+    {
+      "filename": "areacodes/0515.wav",
+      "wav_sha256": "074aaa1aae4671d10c673cc3ac84d6f97f9b332800483e9b25d063542d924fc0",
+      "script": "Falköping"
+    },
+    {
+      "filename": "areacodes/0520.wav",
+      "wav_sha256": "c0263cf545350838ae177abc27a28e84b35a14423efe02fe6cc31c05936b233a",
+      "script": "Trollhättan"
+    },
+    {
+      "filename": "areacodes/0521.wav",
+      "wav_sha256": "0ffa29dd995b522b7aa576632563cf20bdcc85ba2e1eee9da3f52531f9e63f89",
+      "script": "Vänersborg"
+    },
+    {
+      "filename": "areacodes/0522.wav",
+      "wav_sha256": "dd0cc68aef4e49ff83e234a69d515401119b290882e71d7507ec6849a96617c1",
+      "script": "Uddevalla"
+    },
+    {
+      "filename": "areacodes/0523.wav",
+      "wav_sha256": "2aa16f1458eba53843736900a04690d731302cc869b4e3e0f5f2f468aa6da22d",
+      "script": "Lysekil"
+    },
+    {
+      "filename": "areacodes/0524.wav",
+      "wav_sha256": "7da7612b6c92540ad688a2118b5df2b9a7026e5a3c1d5c6d7ac8dc7d852940c9",
+      "script": "Munkedal"
+    },
+    {
+      "filename": "areacodes/0525.wav",
+      "wav_sha256": "10c2023a1b511d7d405db687fc63e04f347fa5ebc2a6334350fdd3244d0f9986",
+      "script": "Grebbestad"
+    },
+    {
+      "filename": "areacodes/0526.wav",
+      "wav_sha256": "47381b873e0f5796d0c8e277bfaa4ccc601895af0e587a6c81802462184dfd19",
+      "script": "Strömstad"
+    },
+    {
+      "filename": "areacodes/0528.wav",
+      "wav_sha256": "272a99a5b13fa44d82ce5ff4292b6d8a80a796170368770838fe7f4176540db4",
+      "script": "Färgelanda"
+    },
+    {
+      "filename": "areacodes/0530.wav",
+      "wav_sha256": "c421ea82c7f7554e9c8ac91cfd945e745d1406609ff4474d2196180ba2897998",
+      "script": "Mellerud"
+    },
+    {
+      "filename": "areacodes/0531.wav",
+      "wav_sha256": "cd8fb08d3c2646c22a92e583882cd476c87ac64e39d3064713652d0d2841430c",
+      "script": "Bengtsfors"
+    },
+    {
+      "filename": "areacodes/0532.wav",
+      "wav_sha256": "ddabb49bedafb4f870d41f3cd0e1a40936fcdb737889e727f702662fbe1dcbae",
+      "script": "Åmål"
+    },
+    {
+      "filename": "areacodes/0533.wav",
+      "wav_sha256": "f8cf24ad1f8146587778b0cf67bcff7adc90e1b10cb238e4ab20bc85543b2273",
+      "script": "Säffle"
+    },
+    {
+      "filename": "areacodes/0534.wav",
+      "wav_sha256": "7a85c321c8beaae02f389cb56484e0f74021b81c00f159f9b45a81165542b0fe",
+      "script": "Ed"
+    },
+    {
+      "filename": "areacodes/054.wav",
+      "wav_sha256": "003902f9001a8b96d9ae30c234c7edbf6a954eb95e994e46ca25aa59af9537b0",
+      "script": "Karlstad"
+    },
+    {
+      "filename": "areacodes/0550.wav",
+      "wav_sha256": "6b7b08aad07c98159abff355533548da3203f7f1dcadf708c52f58bd7c00faab",
+      "script": "Kristinehamn"
+    },
+    {
+      "filename": "areacodes/0551.wav",
+      "wav_sha256": "246ee28096dc9a1a4885197e1d58e9b2289aba221a5523acc572f3135dcf3149",
+      "script": "Gullspång"
+    },
+    {
+      "filename": "areacodes/0552.wav",
+      "wav_sha256": "859e3aa6b0377fa3b021047155a6bce70c543bf1a62c64b932b6342cb9a35e75",
+      "script": "Deje"
+    },
+    {
+      "filename": "areacodes/0553.wav",
+      "wav_sha256": "9a46865fb24ab7f9b1538f0dc036786bcc882fffff012253b10ff82fba1f13ff",
+      "script": "Molkolm"
+    },
+    {
+      "filename": "areacodes/0554.wav",
+      "wav_sha256": "2ead46fdad41ff7340576cdfb1e9bea7b6186caba6e18be5889bff3ca9aa9921",
+      "script": "Kil"
+    },
+    {
+      "filename": "areacodes/0555.wav",
+      "wav_sha256": "6c9dee7d78ca2dfa84b7bae292c60d9527a22f5b83346fc4a07e16bd4806e4c1",
+      "script": "Grums"
+    },
+    {
+      "filename": "areacodes/0560.wav",
+      "wav_sha256": "be235e121fb81c321580812e9aac66b5fa0473d0945d633f156dced6e95748d4",
+      "script": "Torsby"
+    },
+    {
+      "filename": "areacodes/0563.wav",
+      "wav_sha256": "3f726e5d9852bb946ebf684d27eadbd71be9db3b480701ab7976b54aa6b652df",
+      "script": "Hagfors-Munkfors"
+    },
+    {
+      "filename": "areacodes/0564.wav",
+      "wav_sha256": "0b2eaa1d8deea1e44521e090bfb3555457bd89c3bc6306d03eeae784558ea7e4",
+      "script": "Sysslebäck"
+    },
+    {
+      "filename": "areacodes/0565.wav",
+      "wav_sha256": "b890e70d5c30e0d48e1d8244a762d33a86616c7e5e44b189fddb8caa8e3e60fc",
+      "script": "Sunne"
+    },
+    {
+      "filename": "areacodes/0570.wav",
+      "wav_sha256": "f68d186c49a6490733152fb8dc78b9ba3c5aa5550878600073825c2925d82999",
+      "script": "Arvika"
+    },
+    {
+      "filename": "areacodes/0571.wav",
+      "wav_sha256": "b943819b4f396b8b2afc934a5dac93100fdb99e58ccbe388a2ee96064f7fe7b6",
+      "script": "Charlottenberg-Åmotfors"
+    },
+    {
+      "filename": "areacodes/0573.wav",
+      "wav_sha256": "eb749ec7c568edef3755959432edd687cc66743dae525453d7846ee2fc477c88",
+      "script": "Årjäng"
+    },
+    {
+      "filename": "areacodes/0580.wav",
+      "wav_sha256": "7781c140721dc28426023808f5cd24d8b6ae445dc58311c7abe82d7cbdc2785b",
+      "script": "Kopparberg"
+    },
+    {
+      "filename": "areacodes/0581.wav",
+      "wav_sha256": "daff4583c794c816e38bac8300da884810c4702fa1012362572d1acb1d10bfc9",
+      "script": "Lindesberg"
+    },
+    {
+      "filename": "areacodes/0582.wav",
+      "wav_sha256": "344043726c7fa24691720f31159dab8db31122ebae1c28fca5fa13002d166129",
+      "script": "Hallsberg"
+    },
+    {
+      "filename": "areacodes/0583.wav",
+      "wav_sha256": "73df89a8c476133251ecdf8d47f7b33913f08dc5c1e9c6ffed280bbaf9b4b922",
+      "script": "Askersund"
+    },
+    {
+      "filename": "areacodes/0584.wav",
+      "wav_sha256": "e6a26f45d3d1c58307a0fcefeabbfc7d7e08dea436879b436e74a9e5812dedeb",
+      "script": "Laxå"
+    },
+    {
+      "filename": "areacodes/0585.wav",
+      "wav_sha256": "0a846ef583a153006dae81c24718e5ff07f81f07cc81f18a6190df012635993e",
+      "script": "Fjugesta-Svartå"
+    },
+    {
+      "filename": "areacodes/0586.wav",
+      "wav_sha256": "dbe6d5093d99a910b92ae304e0743dc09fd515c0d366b9448b93b4bbd72b7532",
+      "script": "Karlskoga"
+    },
+    {
+      "filename": "areacodes/0587.wav",
+      "wav_sha256": "d12764e8268fd36659b7d4fa2006ef8b252a47f010b3639d8e38593b1ebb239c",
+      "script": "Nora"
+    },
+    {
+      "filename": "areacodes/0589.wav",
+      "wav_sha256": "8db5f70d8da5e93de595bdb36c4e2953c77f764d6224ea0705c6f41fd7db3ba5",
+      "script": "Arboga"
+    },
+    {
+      "filename": "areacodes/0590.wav",
+      "wav_sha256": "dac9444be561ce73eb0251b696ea83d3b2dd2a69d685b154668ec49e3ea0bda6",
+      "script": "Filipstad"
+    },
+    {
+      "filename": "areacodes/0591.wav",
+      "wav_sha256": "bbf19700510938d77e7ad014d7468df8170c49a5a84956700c03bfc42a0ea5af",
+      "script": "Hällefors-Grythyttan"
+    },
+    {
+      "filename": "areacodes/060.wav",
+      "wav_sha256": "46bbad61067f9a01ecdd7d2cbd2d64c91b78ca01f24b4adb1d99bd42a1e1cb18",
+      "script": "Sundsvall-Timrå"
+    },
+    {
+      "filename": "areacodes/0611.wav",
+      "wav_sha256": "0a32bc7ccaa1e810558308fcd921618f3809eab91c8a32e830fa144d6bc9c350",
+      "script": "Härnösand"
+    },
+    {
+      "filename": "areacodes/0612.wav",
+      "wav_sha256": "af4c0937e3a3d712f8ce29616b34accbac5a9e76cff34f47fd69698c1aebfcfd",
+      "script": "Kramfors"
+    },
+    {
+      "filename": "areacodes/0613.wav",
+      "wav_sha256": "83feb1a4c0e4754da1bc8292110f5f4c72b5acb141ed4b1f178e847eb2fba8a1",
+      "script": "Ullånger"
+    },
+    {
+      "filename": "areacodes/0620.wav",
+      "wav_sha256": "b4120d60f6d1fda2c2fadfc38bc95ac92aae57bb11f540c8bd4d6b6ba1d5f045",
+      "script": "Sollefteå"
+    },
+    {
+      "filename": "areacodes/0621.wav",
+      "wav_sha256": "d4fb4e2b8fd2cf8f5dc80167598625f7537552ffbf959a5d957dc7848a3cfc2c",
+      "script": "Junsele"
+    },
+    {
+      "filename": "areacodes/0622.wav",
+      "wav_sha256": "e64070b641ad7b78ee3b30fb5582e4b712339fdec2114f23967294bdeadbfccf",
+      "script": "Näsåker"
+    },
+    {
+      "filename": "areacodes/0623.wav",
+      "wav_sha256": "f05ebcf79ee2643184db1979dfd22373a4e8536d5b61e63464cebf031eeed1b7",
+      "script": "Ramsele"
+    },
+    {
+      "filename": "areacodes/0624.wav",
+      "wav_sha256": "390767b43fcb4fb786dd8ff817d84df261fd7d069203a8ffdaa2ff6a0d5f7af8",
+      "script": "Backe"
+    },
+    {
+      "filename": "areacodes/063.wav",
+      "wav_sha256": "a7fd1b75d4393914a38aa657cad39ff341ae9caab672dcb63349960a8ac38eba",
+      "script": "Östersund"
+    },
+    {
+      "filename": "areacodes/0640.wav",
+      "wav_sha256": "f6e26ca16085d465c032f6af101d6cfdff1b5ee0fc088033e295741906b3d1cd",
+      "script": "Krokom"
+    },
+    {
+      "filename": "areacodes/0642.wav",
+      "wav_sha256": "1fcba08b335f4debd09ce9fa822415a19a2917cc255c0a0f34a5d7522c870cac",
+      "script": "Lit"
+    },
+    {
+      "filename": "areacodes/0643.wav",
+      "wav_sha256": "db834d72f028eb24ba61b8b8d46abe243aa56db41e6943deecad223a15037aa1",
+      "script": "Hallen-Oviken"
+    },
+    {
+      "filename": "areacodes/0644.wav",
+      "wav_sha256": "0df9b84d407a2ba42fd1dada06ea2fb459e96462d2e99a94ef1acdfc78d0f74a",
+      "script": "Hammerdal"
+    },
+    {
+      "filename": "areacodes/0645.wav",
+      "wav_sha256": "0f28b70bbecd63569a88e824132eea4371d6d0b8a63a0f3cd59d296264b5d4db",
+      "script": "Föllinge"
+    },
+    {
+      "filename": "areacodes/0647.wav",
+      "wav_sha256": "a1c1496b51f37e02d89749748072e8467c55b3492d4fa77868292f98fca6cb3f",
+      "script": "Åre-Järpen"
+    },
+    {
+      "filename": "areacodes/0650.wav",
+      "wav_sha256": "b1181afca5a93f83d45bd132b1047acdf44b1555f0bf904687e04e8de6b6e0a0",
+      "script": "Hudiksvall"
+    },
+    {
+      "filename": "areacodes/0651.wav",
+      "wav_sha256": "e6e7b52fd6c3a537e6440ce1fc7c692b5ffdd4799f6c69f10d6620d6495e92d1",
+      "script": "Ljusdal"
+    },
+    {
+      "filename": "areacodes/0652.wav",
+      "wav_sha256": "0b27441978eebf00ba63be98b706cb4afa61d200cf2b04f0de10fe57d282bd56",
+      "script": "Bergsjö"
+    },
+    {
+      "filename": "areacodes/0653.wav",
+      "wav_sha256": "6aec0aebf18272863cff8aacafe17bdab5e7c8f1e1f3bb10c7bcdbc2b438246c",
+      "script": "Delsbo"
+    },
+    {
+      "filename": "areacodes/0657.wav",
+      "wav_sha256": "94ec85d7d85a40284e4b0de5b116191ea91f2304cab3dbe2ccb19c28f7f03729",
+      "script": "Los"
+    },
+    {
+      "filename": "areacodes/0660.wav",
+      "wav_sha256": "ca7d16e3f7c58beb40a04bc7f125861ed67c7eee7919102811fbcd2f4d600768",
+      "script": "Örnsköldsvik"
+    },
+    {
+      "filename": "areacodes/0661.wav",
+      "wav_sha256": "ac2a7b66ef0651f54c7b67d21158ea00ec7042dd78ca3d1fcf4ff0acecf668c6",
+      "script": "Bredbyn"
+    },
+    {
+      "filename": "areacodes/0662.wav",
+      "wav_sha256": "20cd5bf54efcfa92d351788991096ac9daa688fced7da1db814563fd5855b353",
+      "script": "Björna"
+    },
+    {
+      "filename": "areacodes/0663.wav",
+      "wav_sha256": "7552460181e2c78287f8e319cd0f4f495d361cb78fe523643d92396531008356",
+      "script": "Husum"
+    },
+    {
+      "filename": "areacodes/0670.wav",
+      "wav_sha256": "e801aee3ae20c27d4c034cf9cf014eaa0b3b6ca5423e23c5794216b742a4d127",
+      "script": "Strömsund"
+    },
+    {
+      "filename": "areacodes/0671.wav",
+      "wav_sha256": "24c15f307ff145ef4d805b9767fcb204a15e3905aa4c2c159566194eedad65f1",
+      "script": "Hoting"
+    },
+    {
+      "filename": "areacodes/0672.wav",
+      "wav_sha256": "791ca854ebada4e10a2c6c283f12af47af001c587114dbac6f5d64c22b0a0446",
+      "script": "Gäddede"
+    },
+    {
+      "filename": "areacodes/0680.wav",
+      "wav_sha256": "0e26981d91217022b11c8fab5f52d29c018a5fb94e4f9c27e49eb3dbebd3a03d",
+      "script": "Sveg"
+    },
+    {
+      "filename": "areacodes/0682.wav",
+      "wav_sha256": "c66879b1e2f8ad224385f69f55413d994349cb393f45f546aa2a011c8a1355bd",
+      "script": "Rätan"
+    },
+    {
+      "filename": "areacodes/0684.wav",
+      "wav_sha256": "28ae24c6f6af076ad6dd8f93013b0c6b4079980b7f46191e6b5ba04eab12ff10",
+      "script": "Hede-Funäsdalen"
+    },
+    {
+      "filename": "areacodes/0687.wav",
+      "wav_sha256": "7db1a20c9f1eee973c6c4472d1f086e8080a0e58f7417276982a935fdff2f1c2",
+      "script": "Svenstavik"
+    },
+    {
+      "filename": "areacodes/0690.wav",
+      "wav_sha256": "c41193a0892845fbad48727096d38eb81e348f214d1aeab9175255a201622a12",
+      "script": "Ånge"
+    },
+    {
+      "filename": "areacodes/0691.wav",
+      "wav_sha256": "cc8580fe27be794db47530175b47d7cd5cc8be914cbb33097a9026e2549d6e7b",
+      "script": "Torpshammar"
+    },
+    {
+      "filename": "areacodes/0692.wav",
+      "wav_sha256": "db914478bb8c900d3f395a42bb153993afed3b7607deb7a369c22edfaf09110b",
+      "script": "Liden"
+    },
+    {
+      "filename": "areacodes/0693.wav",
+      "wav_sha256": "00185f8d2003f460a7de8130e35928f02ae9ef68ff1b4e56eca6435851abe103",
+      "script": "Bräcke-Gällö"
+    },
+    {
+      "filename": "areacodes/0695.wav",
+      "wav_sha256": "2df62fdbc951e862101c59210a94fa7049752f1b533f5aa60673067dd3571b05",
+      "script": "Stugun"
+    },
+    {
+      "filename": "areacodes/0696.wav",
+      "wav_sha256": "f4aca7d7ab3a92dbb6480f3b3e26df26c1f8bf0ac7aaefde88e399a68fec54cf",
+      "script": "Hammarstrand"
+    },
+    {
+      "filename": "areacodes/08.wav",
+      "wav_sha256": "80a2eaa0f2d64ef6d1ee3343795c7cba732884ed8653c31960dc53e154700704",
+      "script": "Stockholm"
+    },
+    {
+      "filename": "areacodes/090.wav",
+      "wav_sha256": "dd0cbe986930bf817afdcd5522be28d77fec255a9d9b97707110a456f3140442",
+      "script": "Umeå"
+    },
+    {
+      "filename": "areacodes/0910.wav",
+      "wav_sha256": "7309918d36007627aaaa6adf7dc8ab0ef26bfb62b8e800c9bf61bfcc8ae72c89",
+      "script": "Skellefteå"
+    },
+    {
+      "filename": "areacodes/0911.wav",
+      "wav_sha256": "4921e7c15e691cb4e4ac2021340f41d5bb03c120420ae233026536c95eb38792",
+      "script": "Piteå"
+    },
+    {
+      "filename": "areacodes/0912.wav",
+      "wav_sha256": "e069c60171edbfa3b9f560330136917eb5f6b10be305bd019d8fb80946c62da2",
+      "script": "Byske"
+    },
+    {
+      "filename": "areacodes/0913.wav",
+      "wav_sha256": "ba79733c91f60a8dc6c7139fe445aee240c00a934f1424e0fd264dead7e6e8e3",
+      "script": "Lövånger"
+    },
+    {
+      "filename": "areacodes/0914.wav",
+      "wav_sha256": "30e1d11322962da2e55337c98fff90c1acd443c76296a24833f621c0499b29d2",
+      "script": "Burträsk"
+    },
+    {
+      "filename": "areacodes/0915.wav",
+      "wav_sha256": "8aedc8369e6591c18285e6b19de847103e7fa19132b4731473d2427b9b128076",
+      "script": "Bastuträsk"
+    },
+    {
+      "filename": "areacodes/0916.wav",
+      "wav_sha256": "6b60934bd8e4b798ea7d0abc141c08cde79735405dc9319277dc3c948d36eaa7",
+      "script": "Jörn"
+    },
+    {
+      "filename": "areacodes/0918.wav",
+      "wav_sha256": "ece4d4e25243e2335f4f1d604103e175904e5afe4081e591fb1f2d49b2fdc591",
+      "script": "Norsjö"
+    },
+    {
+      "filename": "areacodes/0920.wav",
+      "wav_sha256": "36c2a463c0d3a39e67dff98141400cc5aea3ba992cf1aa079d344bd70cd6dcf5",
+      "script": "Luleå"
+    },
+    {
+      "filename": "areacodes/0921.wav",
+      "wav_sha256": "f8bba2cfb773d7008a63576c4e1b7a68052d09c0e0e437d360a8b8cd9e1e67a8",
+      "script": "Boden"
+    },
+    {
+      "filename": "areacodes/0922.wav",
+      "wav_sha256": "ec3be0ab2d7509e68dfcb072de6fc504b4e16fe0db93a931778523ce0729e221",
+      "script": "Haparanda"
+    },
+    {
+      "filename": "areacodes/0923.wav",
+      "wav_sha256": "86b22ce2a269f6e6d2cf595b994d519c3e18629220672f45b57cad9fec83202d",
+      "script": "Kalix"
+    },
+    {
+      "filename": "areacodes/0924.wav",
+      "wav_sha256": "9bb305f0042b04efa7fca0a64fa0512dba0368342c300dcfb2e080147edea7d4",
+      "script": "Råneå"
+    },
+    {
+      "filename": "areacodes/0925.wav",
+      "wav_sha256": "67297bc27ad4c77bfaaafeba26e31398fd9001d5e0ad580865e4c5ce19d93267",
+      "script": "Lakaträsk"
+    },
+    {
+      "filename": "areacodes/0926.wav",
+      "wav_sha256": "e66266ae497c887f170e9967fadaea15f42a9492d8a72e38e1c85f1b7581d6d1",
+      "script": "Överkalix"
+    },
+    {
+      "filename": "areacodes/0927.wav",
+      "wav_sha256": "a0bc3a3420a5dc7e6a654d593cea9b9efc3458d00d34139a64a75b58c00ebcf1",
+      "script": "Övertorneå"
+    },
+    {
+      "filename": "areacodes/0928.wav",
+      "wav_sha256": "58c9733e8688a02482abd0cb8b7415fb4c2405df8e829c7699e3393ee982f249",
+      "script": "Harads"
+    },
+    {
+      "filename": "areacodes/0929.wav",
+      "wav_sha256": "3e032a1be6374ddc0e9720bc48f6dddede75575ca7b0c134537df93608c05d2e",
+      "script": "Älvsbyn"
+    },
+    {
+      "filename": "areacodes/0930.wav",
+      "wav_sha256": "28d7803fc6d0a137d5716dce78598c1d51a88f42bbe1535d8a4df1761048c99e",
+      "script": "Nordmaling"
+    },
+    {
+      "filename": "areacodes/0932.wav",
+      "wav_sha256": "3bd9cef82d56d5cb3743efac5aeed18d1101802b84880bcb2c0ecac2912f621c",
+      "script": "Bjurholm"
+    },
+    {
+      "filename": "areacodes/0933.wav",
+      "wav_sha256": "8cf7f14862cd924a83e16651ded2bc15f356e6cd28062ea07ff24823615250c8",
+      "script": "Vindeln"
+    },
+    {
+      "filename": "areacodes/0934.wav",
+      "wav_sha256": "f02473a8df290ddf018062abe948570dfe2e4b9ff09c319dac9a54d2db2a4596",
+      "script": "Robertsfors"
+    },
+    {
+      "filename": "areacodes/0935.wav",
+      "wav_sha256": "7f37dea7f3f0e9c33b366d2051749107230fdd9b93ccc1e63a94a336c93e6824",
+      "script": "Vännäs"
+    },
+    {
+      "filename": "areacodes/0940.wav",
+      "wav_sha256": "24ba36a4b5abb335059084f9f19139eb72881f45c7ff8e276bfacc4a4b9948f7",
+      "script": "Vilhelmina"
+    },
+    {
+      "filename": "areacodes/0941.wav",
+      "wav_sha256": "8b9101a6327b79912ff8aedb13b9da1a59aa7ba7b178ad9ed20a467a8d5289e8",
+      "script": "Åsele"
+    },
+    {
+      "filename": "areacodes/0942.wav",
+      "wav_sha256": "8eae5bc99f0831ca6a171e0c122ea9358339787757661cbcfd9a3fda1272d5e9",
+      "script": "Dorotea"
+    },
+    {
+      "filename": "areacodes/0943.wav",
+      "wav_sha256": "704c5fa2765b135e5dbcecf2e13afeac114dc4057d56c0c82bfcea0fb87874b7",
+      "script": "Fredrika"
+    },
+    {
+      "filename": "areacodes/0950.wav",
+      "wav_sha256": "7b0affa8226068e492714a965d42eca5a051a4fe752c523244e49df28913c1fa",
+      "script": "Lycksele"
+    },
+    {
+      "filename": "areacodes/0951.wav",
+      "wav_sha256": "3506cba88b2d90eb55485b757a146b5d5cb16120a662084068ae7c0c0ef09129",
+      "script": "Storuman"
+    },
+    {
+      "filename": "areacodes/0952.wav",
+      "wav_sha256": "05ec5ff0e240295c069770c577b4a8c3180d5491cf80477d8275322d12327246",
+      "script": "Sorsele"
+    },
+    {
+      "filename": "areacodes/0953.wav",
+      "wav_sha256": "050e5f1505a165e0a7bf0c4714b9666fef2f46049254aae1799fc3885ffc1986",
+      "script": "Malå"
+    },
+    {
+      "filename": "areacodes/0954.wav",
+      "wav_sha256": "c91a75c163e62d2f4baada70f17a0deb2fb20c7f9692b19de2276fa9c1e9e657",
+      "script": "Tärnaby"
+    },
+    {
+      "filename": "areacodes/0960.wav",
+      "wav_sha256": "4263bec8a68d5f07203ad1b2cb9b9b128fd4ac239aaaeed21378c3fd12a6b6e5",
+      "script": "Arvidsjaur"
+    },
+    {
+      "filename": "areacodes/0961.wav",
+      "wav_sha256": "1f80db2c088bb1ea9fcb289beb2215284ccb547ba1f5d8286f195386347c7de3",
+      "script": "Arjeplog"
+    },
+    {
+      "filename": "areacodes/0970.wav",
+      "wav_sha256": "ed1f2caed9099408ad61194b8b99137b9445d6fb028383941b8e082dce616341",
+      "script": "Gällivare"
+    },
+    {
+      "filename": "areacodes/0971.wav",
+      "wav_sha256": "c25387373638e255d862b66ea9328433c59e354ef2ab0bbb580a147e44372604",
+      "script": "Jokkmokk"
+    },
+    {
+      "filename": "areacodes/0973.wav",
+      "wav_sha256": "bc55f44d01660c4967bad448200ab0ab7113690991b4dad196c8d74aad6c404e",
+      "script": "Porjus"
+    },
+    {
+      "filename": "areacodes/0975.wav",
+      "wav_sha256": "5cb611c71af62f299989571c18c9f527d6bdf818f1e0298f2e6dbe2b22bb3b0d",
+      "script": "Hakkas"
+    },
+    {
+      "filename": "areacodes/0976.wav",
+      "wav_sha256": "48c29c04884d8e158feda22c0adfc7f7c4696d114f0a1e3b9de8dca052da371a",
+      "script": "Vuollerim"
+    },
+    {
+      "filename": "areacodes/0977.wav",
+      "wav_sha256": "78e2dd347b3fb10d240494005541c89e83ee45cd240993a54e6012e15d9cacd0",
+      "script": "Korpilombolo"
+    },
+    {
+      "filename": "areacodes/0978.wav",
+      "wav_sha256": "38498020c9277740dc3818ec2b2562b22c9963390e139451f900d0173afe54bd",
+      "script": "Pajala"
+    },
+    {
+      "filename": "areacodes/0980.wav",
+      "wav_sha256": "6540d1556eb11957900fa10d5d20e397246e5f3fdae24e497389d33ff116a994",
+      "script": "Kiruna"
+    },
+    {
+      "filename": "areacodes/0981.wav",
+      "wav_sha256": "ca498ded5ceef6bb8f68aff32b6ed1a6b93c3f53266aba548786a2f5297693b2",
+      "script": "Vittangi"
+    },
+    {
+      "filename": "areacodes/areacode.wav",
+      "wav_sha256": "655b507d19cd113323ab5f52654602c1e5a485acf6cd90511f3110320bf638ae",
+      "script": "Riktnumret"
+    },
+    {
+      "filename": "areacodes/unknown-areacode.wav",
+      "wav_sha256": "f7beda2e46de2a57d5490a0f9a83db600fb3fba8406f09fadec5e3539a53ddd9",
+      "script": "Okänt riktnummer"
+    },
+    {
+      "filename": "astcc-account-balance-is.wav",
+      "wav_sha256": "b186cf080774c39a56cf99d89067482ebbc0d50091f4be524db825a95d9de689",
+      "script": "Ditt kontosaldo är"
+    },
+    {
+      "filename": "astcc-card-number-invalid.wav",
+      "wav_sha256": "c87bb0a31ac0b9076d8cc8809da1928650fd0410b94a5152bebf4a56aba59846",
+      "script": "Kortnumret du matade in är felaktigt"
+    },
+    {
+      "filename": "astcc-digit-account-number.wav",
+      "wav_sha256": "3c01c71cdba3deb4bf7b1a52b7b6d781f96b3f937d83fc2be375380f3b901bf3",
+      "script": "Nummerkonto"
+    },
+    {
+      "filename": "astcc-followed-by-pound.wav",
+      "wav_sha256": "ed11e154bbdf3452359dafe3843c9d7b53f5c930fe851480ad2b8db9fdc0dc38",
+      "script": "avsluta med fyrkant"
+    },
+    {
+      "filename": "astcc-followed-by-the-hash-key.wav",
+      "wav_sha256": "2850c88c9c7cf2dc413a415c178d271d20b83ef49cdc09032225866f12d2b3cf",
+      "script": "avsluta med fyrkant"
+    },
+    {
+      "filename": "astcc-login12pound.wav",
+      "wav_sha256": "c82128a67ca69764737fad88bef2fdd080aaeffb72ac611d94c8908618da054b",
+      "script": "Tryck in ditt 12-siffriga kontonummer. Avsluta med fyrkant"
+    },
+    {
+      "filename": "astcc-please-enter-your.wav",
+      "wav_sha256": "fa93d1be5453155ef1984b4311e3a458d480415a2bfc0f05b484bb2eb266db32",
+      "script": "Vänligen knappa in din"
+    },
+    {
+      "filename": "asterisk-friend.wav",
+      "wav_sha256": "967a31eb2faa3fa3687712356a7de2e6c8bfcee3f6ff816dbbd0c8e03fc3c966",
+      "script": "Asterisk är din vän"
+    },
+    {
+      "filename": "at-any-time.wav",
+      "wav_sha256": "2d6b422746feb69bdc3070b181d473e3f36c041610785b88bb1aac2f6d49234c",
+      "script": "När som helst"
+    },
+    {
+      "filename": "at-customers-request.wav",
+      "wav_sha256": "f12c89f4eaf3fd013336919b88c50446f71c83a0fb77b3c1c37516f1c80fc329",
+      "script": "på kundens begäran"
+    },
+    {
+      "filename": "at-following-number.wav",
+      "wav_sha256": "453c23ba0c4bb6c34a892a833368611f44f195a4a0bff52a2971a24d42034d84",
+      "script": "på följande nummer"
+    },
+    {
+      "filename": "at-sign.wav",
+      "wav_sha256": "5c5792e7406c0ed443a787162c85be59eec393068cd3e3f3559cbcc0718bd4b2",
+      "script": "snabel-a"
+    },
+    {
+      "filename": "at.wav",
+      "wav_sha256": "275e2e94752ae7e7bf16a522eb073baa2d5bb8f1d35e58fb0e63860af9fed6cc",
+      "script": "Klockan"
+    },
+    {
+      "filename": "available-options.wav",
+      "wav_sha256": "f182504200aaf0dc09ebfc4224e6cae25be0c8c3566db10d4f6c6f73d1f4ef9f",
+      "script": "tillgängliga alternativ"
+    },
+    {
+      "filename": "available.wav",
+      "wav_sha256": "883ea2233f4525a72791411281b7652b454d8dba302af9dd9d52ffffadd81e49",
+      "script": "Tillgänglig"
+    },
+    {
+      "filename": "away-naughty-girl.wav",
+      "wav_sha256": "93f552ae064b6543cbf57552828aa01f8e6e058cd0b6d21ee1745b707340ca87",
+      "script": "Hon är för tillfället otillgänglig den lilla stygga flickan"
+    },
+    {
+      "filename": "backslash.wav",
+      "wav_sha256": "bc085a9484aeb7bfd34a57bdb2a5a52373dd63b9f98dbc65809ae8e1f7839bda",
+      "script": "bakvänt snedstreck"
+    },
+    {
+      "filename": "bad.wav",
+      "wav_sha256": "81442bb7d28e3a282ba8db822207792d8c65e142d41cfe80ded963623311fb75",
+      "script": "dålig"
+    },
+    {
+      "filename": "bar.wav",
+      "wav_sha256": "ff0060abe2978453b158739f2ba989a51d003e1cdc51f89adb5f824fb0e682ac",
+      "script": "Bar"
+    },
+    {
+      "filename": "barn.wav",
+      "wav_sha256": "9ab9c082e439e22de1e9c3e732d782cd88cc3de16e8c7ce0cbbd354323d49ebe",
+      "script": "Lada"
+    },
+    {
+      "filename": "barns.wav",
+      "wav_sha256": "63fac2aefe1e36a9fa766a6dcade06707992b21bbdf9e8f6557b828037bf27ac",
+      "script": "Lador"
+    },
+    {
+      "filename": "barometric.wav",
+      "wav_sha256": "ca18add3957a8b2ee7085455d721e9d7d8a563de6d46b5df5ff2e78569358a80",
+      "script": "Barometeriskt"
+    },
+    {
+      "filename": "bearing.wav",
+      "wav_sha256": "258d0093a56f462a0ff00f0ff45554d6fe9b034ee696233b0ad18d3ed0692689",
+      "script": "Kurs"
+    },
+    {
+      "filename": "because-paranoid.wav",
+      "wav_sha256": "5d095efd6784efd3e26d5a41754235e900cd72d01b773fc9414565b7ee09ca83",
+      "script": "för att vi är paranoida"
+    },
+    {
+      "filename": "before-the-number.wav",
+      "wav_sha256": "38f6e37f842e43574df2d667737759fcedeb2b03fae8e45f43457b68938fde8f",
+      "script": "före numret"
+    },
+    {
+      "filename": "believe-its-free.wav",
+      "wav_sha256": "82a998bff60d9139598cf517bae69cf2f190d4c19e3a853e3966f7329a1deff1",
+      "script": "Kan du fatta att detta telefonsystem är gratis?"
+    },
+    {
+      "filename": "billionth.wav",
+      "wav_sha256": "3f89e8d0465cc4eb502d8e9eb1733b0dfefd3848f76d09d8dc47e8efdc199b5f",
+      "script": "miljarde"
+    },
+    {
+      "filename": "bits.wav",
+      "wav_sha256": "8480204abfa24606f1c7f8f31b8df086797ad3009469330ba4498e03e75b66cf",
+      "script": "Bitar"
+    },
+    {
+      "filename": "bookstore.wav",
+      "wav_sha256": "398607115e91b0366b927eebd10bcc9cc58b79a954c9896252e3d0c12c1e3fe9",
+      "script": "Bokhandel"
+    },
+    {
+      "filename": "box.wav",
+      "wav_sha256": "1c845173e8924fcb57d0fdcb2bc28c55d38727c2afb1dd8374ccd885fafe2f97",
+      "script": "Låda"
+    },
+    {
+      "filename": "busy-hangovers.wav",
+      "wav_sha256": "978aff92214dc532227961452b19bb71975f7b39c7b861d16c41745398114c08",
+      "script": "Vi är alla upptagna med våra bakfyllor"
+    },
+    {
+      "filename": "busy-pls-hold.wav",
+      "wav_sha256": "a9223183cb7a461e4d2fc72534ed74d530460e5620e15cdfece55a741d140862",
+      "script": "Alla våra linjer är för tillfället upptagna. Var god vänta kvar"
+    },
+    {
+      "filename": "but.wav",
+      "wav_sha256": "8d37f2c535aae5711c4a1e595aec53103e41e71f9280351bdbb2fb15ed645a06",
+      "script": "Men"
+    },
+    {
+      "filename": "by.wav",
+      "wav_sha256": "73a7c94c90f0ef9b5de0d1a103c2a3ea8ff7a87f77a0d06697cb8143328a2354",
+      "script": "Av"
+    },
+    {
+      "filename": "bytes.wav",
+      "wav_sha256": "f5acab05fe632d7fe553eb927d2ff27e258d7ff70842144bcf4a29885af81dda",
+      "script": "byte"
+    },
+    {
+      "filename": "cafeteria.wav",
+      "wav_sha256": "7eb8f06f9c841e08227fdbd1be17cb862fa968257e47966520bd7883557e7f88",
+      "script": "Cafeteria"
+    },
+    {
+      "filename": "call-forward.wav",
+      "wav_sha256": "adcf290ec61301551c707c59fb8226eb48ac42235f2f8af8a85a3664a332e2d7",
+      "script": "vidarekoppla"
+    },
+    {
+      "filename": "call-fwd-cancelled.wav",
+      "wav_sha256": "71c51f06306b5cba6eb16cd087d48434eb3aa46457c1abd5f217c88b55e6f98d",
+      "script": "vidarekoppling avbruten"
+    },
+    {
+      "filename": "call.wav",
+      "wav_sha256": "ef0032ee013fd702e3f79bc89aca0c8cfb9bad4e4d82c0ba69519fff11518fde",
+      "script": "Samtal"
+    },
+    {
+      "filename": "calls.wav",
+      "wav_sha256": "b5e048c830f9b024d68e95480077ba8c367f5e19260efa0a663fb8a1c03d0cc9",
+      "script": "Samtal"
+    },
+    {
+      "filename": "callwaiting.wav",
+      "wav_sha256": "8b5d8dbbb0729aa1de808286f2968cf69bd885085380e2dc7857427d7fe88400",
+      "script": "Samtal väntar"
+    },
+    {
+      "filename": "can_talk.wav",
+      "wav_sha256": "cbf2a40444065746cf7c724fbb1b39cecbf7023556a77ee4df603715a177410e",
+      "script": "Du kan prata nu"
+    },
+    {
+      "filename": "cannot-complete-network-error.wav",
+      "wav_sha256": "d0e6bd52290688ef1d84b4ebf1952224682f3a7fb62da548fcfb61bab349345a",
+      "script": "Ditt samtal kan ej kopplas på grund av ett nätverksfel"
+    },
+    {
+      "filename": "cannot-complete-temp-error.wav",
+      "wav_sha256": "0692b3708224ef9dbe2e22036230df0db2dec66c3a8a7fe24254c073fcd236e6",
+      "script": "Ditt samtal kan inte kopplas på grund av ett temporärt problem"
+    },
+    {
+      "filename": "card-balance-is.wav",
+      "wav_sha256": "fe742947e9bcad6ec899d333939b8e2fae813f9ca0fd599209007b27d2e5d8a4",
+      "script": "kortsaldo är"
+    },
+    {
+      "filename": "card-is-invalid.wav",
+      "wav_sha256": "9e9132299a8032d1886b960aa770ddcf7c06926c1d9b7a86b9fc02e0347ae76e",
+      "script": "Kortet är ogiltigt"
+    },
+    {
+      "filename": "card-number.wav",
+      "wav_sha256": "df944b9e31cbb7a82dfb034fc9c539c26147499f1e4a5067c9297703f23613ed",
+      "script": "Kortnummer"
+    },
+    {
+      "filename": "celsius.wav",
+      "wav_sha256": "95ad8a9452e5d533e5935d3a7236b27f3464fd05b94f17cb96fa5192bbdb94c2",
+      "script": "Celsius"
+    },
+    {
+      "filename": "cent.wav",
+      "wav_sha256": "366312c1266dc17ce8ec077bc6aa1a5524bbf779fad50c2b477207e022ae426e",
+      "script": "Öre"
+    },
+    {
+      "filename": "central.wav",
+      "wav_sha256": "fc77a0073de6a5f4ab95273b94bd7f7644f6b9a34976ff11a871c79fc12715a8",
+      "script": "Central"
+    },
+    {
+      "filename": "cents-per-minute.wav",
+      "wav_sha256": "4852b90f6566d1c65f73d85b37856d83fed270a79ac42227ad9c25546e18b4bc",
+      "script": "Ören per minut"
+    },
+    {
+      "filename": "cents.wav",
+      "wav_sha256": "be94934f3c2d46f01fdb9d576c14c3b640b2e1f01f2d2a9c8684e5b54904f31d",
+      "script": "Ören"
+    },
+    {
+      "filename": "channel.wav",
+      "wav_sha256": "bac79bd5efcf7e9f4f70f6bfbdca69530b8e4f9f870e2b9903112f4a58f26b21",
+      "script": "kanal"
+    },
+    {
+      "filename": "chat-room.wav",
+      "wav_sha256": "e1c4fa1b7d0f87af91053b55c1244d364b29921afa48db905b16cc5814bbc7c4",
+      "script": "Chattrum"
+    },
+    {
+      "filename": "chemistry.wav",
+      "wav_sha256": "0dc778e4ca8993dc700222e275d3fc02166994c7cf2d3b7d51e333f12e15ccf4",
+      "script": "Kemi"
+    },
+    {
+      "filename": "clear.wav",
+      "wav_sha256": "7ff22259f2fcdf619554d794d6b7b88036f85d118180f84a0e7e47951833956f",
+      "script": "Klar"
+    },
+    {
+      "filename": "clli.wav",
+      "wav_sha256": "efb9522aadc346f7dc05e9f1ad720a7c2c355b866db8835409d481a9ba8b563c",
+      "script": "C-L-L-I"
+    },
+    {
+      "filename": "close-parenthesis.wav",
+      "wav_sha256": "a5a0c5dec6a340a3ee1caf384ac6734af56ff2577f67b2849c6c5d369204903e",
+      "script": "Slutparantes"
+    },
+    {
+      "filename": "clouds.wav",
+      "wav_sha256": "e64d88ed2820d2b3f30e2c3b0cc258efc7505ee1dba0d3c8c3788d5b6050e1a1",
+      "script": "Moln"
+    },
+    {
+      "filename": "cloudy.wav",
+      "wav_sha256": "a9d9db326b341da57fb13e5b5f8009c8e72b67b8db756fdc4780ed7ad36f0c32",
+      "script": "Molnigt"
+    },
+    {
+      "filename": "comma.wav",
+      "wav_sha256": "a982cf14f3d8e2057d7c1a21a1114217508e85304ccd45229a6709f54b2e2372",
+      "script": "Komma"
+    },
+    {
+      "filename": "computer-friend1.wav",
+      "wav_sha256": "893e4394049e26a6386a6da654b76edd2ec7513f4c690745366560a098c324be",
+      "script": "Datorn är din vän"
+    },
+    {
+      "filename": "conf-banned.wav",
+      "wav_sha256": "e573fada100105c1ac2177398254b99879fe0c484b7c0b3d229460a20d7773a9",
+      "script": "Du har blivit utkastad från denna konferens"
+    },
+    {
+      "filename": "conf-hasentered.wav",
+      "wav_sha256": "027406b9f7aedda7b1336fdeebe28aec6e68d17cdab6bdc96d991a3ad33b73d6",
+      "script": "Har kommit in i konferensen"
+    },
+    {
+      "filename": "conf-onlypersonleft.wav",
+      "wav_sha256": "c8cdc86110488a9b95ea3f15ccd7088c322b3a4857b8e65e732c1db3ef8a8e4c",
+      "script": "Du är den sista personen i denna konferens"
+    },
+    {
+      "filename": "conf-peopleinconf.wav",
+      "wav_sha256": "ea7397d94b024bd8a637753d0d5ffbb898847abec633f660a9a9bb71b4d28026",
+      "script": "Personer i denna konferens"
+    },
+    {
+      "filename": "conf-sysop.wav",
+      "wav_sha256": "3511494742922efcb782de4c0c39b5e47018ab9b408ae2f368c4ae826e7b045b",
+      "script": "Systemoperatören"
+    },
+    {
+      "filename": "conf-sysopreq.wav",
+      "wav_sha256": "1a1e3eaec8280db9f9fbed8d7cade3ec37479dd8de3b4d740b447e05889a0ddb",
+      "script": "Systemoperatören önskad"
+    },
+    {
+      "filename": "conf-sysopreqcancelled.wav",
+      "wav_sha256": "73c161ef54583bd7e3e4e048f04ed93d5410d03b9284d881e172a0af5bf20499",
+      "script": "Systemoperatörönskan avbruten"
+    },
+    {
+      "filename": "conf-youareinconfnum.wav",
+      "wav_sha256": "109723ba891c59acf5b4467619b48e3a25727f9d4ea3464db9fcaa2a306f63b9",
+      "script": "Du är i konferens nummer"
+    },
+    {
+      "filename": "conference-call.wav",
+      "wav_sha256": "b3fdc036544aef80b7c09bf51a332733deed0262c618fdbcd6561f6c840e573d",
+      "script": "Konferenssamtal"
+    },
+    {
+      "filename": "conference-reservations.wav",
+      "wav_sha256": "32eb10daffeaa790471ad77cf8058156d2548e1bb525316d8f21a1e1dfdf6fee",
+      "script": "Konferensbokning"
+    },
+    {
+      "filename": "conference.wav",
+      "wav_sha256": "d80644c7235964006eb2251f8e9646229cfcf14a1174de75cb57a8d49503cee3",
+      "script": "Konferens"
+    },
+    {
+      "filename": "connected.wav",
+      "wav_sha256": "9d8b4543c3a27efda0a31692805d5462584e2a6e7c27d19db216c6a5c47f8ad3",
+      "script": "Uppkopplad"
+    },
+    {
+      "filename": "connecting.wav",
+      "wav_sha256": "57596d1a1f545f0a679456f280cddce82940c8699a92d5155bd44377b203fe3f",
+      "script": "kopplar upp"
+    },
+    {
+      "filename": "connection-failed.wav",
+      "wav_sha256": "79b95b4f0cf61485bc2990e43edd25bdc9a41701ea444a1197035d6a80052353",
+      "script": "Uppkopplingen misslyckades"
+    },
+    {
+      "filename": "continue-in-english.wav",
+      "wav_sha256": "4fcaece3a98859a082a50f37fdbbfcbedaec0b58984f920bded84e1e879d3454",
+      "script": "för att fortsätta på svenska, tryck"
+    },
+    {
+      "filename": "count.wav",
+      "wav_sha256": "5ad9b540f33ced698bf155ea0550bf4669fdaf56d28d3efe6f408a2b098ba779",
+      "script": "Antal"
+    },
+    {
+      "filename": "crash.wav",
+      "wav_sha256": "1a26af060fae082d06650890f692af52dac24a20dff4a770b04baee5607ccf40",
+      "script": "Krasch"
+    },
+    {
+      "filename": "current-time-is.wav",
+      "wav_sha256": "05dca9120ff2a3d6cc4b854ef98152cf02808e8d29e8eb7adaafad55eb6f7b90",
+      "script": "Klockan är för tillfället"
+    },
+    {
+      "filename": "currently.wav",
+      "wav_sha256": "1e590bb80e9c8512403dd1e8c133051214d04166118bcde09b4ac67a26ff9d63",
+      "script": "För tillfället"
+    },
+    {
+      "filename": "cyclone.wav",
+      "wav_sha256": "c6e221cf84a4f01bd6631b282a67fe73300025be1bdf05629946cfaa35e62693",
+      "script": "Cyklon"
+    },
+    {
+      "filename": "date.wav",
+      "wav_sha256": "79a3af16e1417d5477e168a840d50085fca61bbc69beb5f53fa376d88c556a39",
+      "script": "Datum"
+    },
+    {
+      "filename": "day.wav",
+      "wav_sha256": "2b12c50464e680c466eacc2866f1f6b55f96efb7e8ab47e31689a008ddf17a38",
+      "script": "Dag"
+    },
+    {
+      "filename": "days.wav",
+      "wav_sha256": "12cb5f225709c4a8ec41f8859093acc5eb8d2e3c7ce0aef7ef10385a2513628f",
+      "script": "dagar"
+    },
+    {
+      "filename": "decode.wav",
+      "wav_sha256": "e02135fe521ef491405a8fa3eeae2e08dc40c4909126ac8a63e0d25b790ed8ce",
+      "script": "Avkoda"
+    },
+    {
+      "filename": "degrees.wav",
+      "wav_sha256": "cc35b11180c3b05ede2d4b61b21fe8e801e4f4eff8588836ee819c78841da535",
+      "script": "grader"
+    },
+    {
+      "filename": "den.wav",
+      "wav_sha256": "808cada2f4e6d021170593345040dffa3d3b496149050167082f6cd44c511450",
+      "script": "Den"
+    },
+    {
+      "filename": "department.wav",
+      "wav_sha256": "a345f6d6d06965dba4c8a85848aec2397d2d50f4dc391024ef139accf60d1e99",
+      "script": "avdelning"
+    },
+    {
+      "filename": "design.wav",
+      "wav_sha256": "73629d1cbcd886e593532c359d1c75f4b28157334d25d068176ad258894f4463",
+      "script": "Design"
+    },
+    {
+      "filename": "det.wav",
+      "wav_sha256": "bbbe1ef16055ee585279b2ed40e383a17d8f52bbc5d2c6df278d7ed8f7afe88e",
+      "script": "Det finns ingen som kan ta ditt samtal just nu"
+    },
+    {
+      "filename": "development.wav",
+      "wav_sha256": "aa1936b209b8dd2c9a7314fc42a6bb8e16fd986fd4a4d7a006c1d0d92c14c088",
+      "script": "Utveckling"
+    },
+    {
+      "filename": "dial-here-often.wav",
+      "wav_sha256": "41da936e2d64b0373bc13a98b2fbbe7d4367ef945db4e5114db4f852c0f419c3",
+      "script": "så brukar du ringa hit ofta"
+    },
+    {
+      "filename": "dictate/inithelp.wav",
+      "wav_sha256": "b403ce634f2d9151e73bb060848a0af51122c5dae5d18211be28a6db2343d207",
+      "script": "1. För att gå till uppspelningsläge"
+    },
+    {
+      "filename": "digit.wav",
+      "wav_sha256": "7926a818b4528d9ef9a4b716721b7e376ae6a8f69011db44a3df084125e6c6bb",
+      "script": "siffra"
+    },
+    {
+      "filename": "digits.wav",
+      "wav_sha256": "8ee55ef11951f6c56819a28c4d442e1158fcb616cf1978e0f3c91102a1b9f3b6",
+      "script": "siffror"
+    },
+    {
+      "filename": "digits/en.wav",
+      "wav_sha256": "df1a177a21ad83fd0ed6244adbac11fb07616d9e5a183f72184a95da5d2b2412",
+      "script": "En"
+    },
+    {
+      "filename": "digits/ett.wav",
+      "wav_sha256": "0c9ee36814037e30512bf94c195fd8f8dceb5a263b744d9047df553931177318",
+      "script": "Ett"
+    },
+    {
+      "filename": "discon-or-out-of-service.wav",
+      "wav_sha256": "f4e5c57f965795e67d53030b03d2ddda23f1e8b2d8a410b4db4c72f2cf65fdbc",
+      "script": "Det nummer du önskar nå är inte i bruk"
+    },
+    {
+      "filename": "disk.wav",
+      "wav_sha256": "20df9accb2718b48d3feaf253b0552ff15ee18d4484c2c99f0810434c0054d41",
+      "script": "Disk"
+    },
+    {
+      "filename": "distribution.wav",
+      "wav_sha256": "cc5ba75be82e72ea22f94780f5cadaacc3f8b7b81c60862997b4660de6ece332",
+      "script": "Distribution"
+    },
+    {
+      "filename": "divided-by.wav",
+      "wav_sha256": "efd4da99d99944d7362ab028030408b0ed747de4709b3a12d9317ef054d61d89",
+      "script": "Delat med"
+    },
+    {
+      "filename": "dns.wav",
+      "wav_sha256": "0714f05bf6f0d3938a9751fb31566b0879c84a86471cdd20bab4d1877084a52b",
+      "script": "DNS"
+    },
+    {
+      "filename": "doing-enum-lookup.wav",
+      "wav_sha256": "e18f7d9e2752f602dc9e51ba07571675e64429e42838901b703957dc232089cb",
+      "script": "Gör ett uppslag mot enum"
+    },
+    {
+      "filename": "dollar.wav",
+      "wav_sha256": "446581a6b009f39a32b6a493bb80132bb7b302afd3bf49022e6d18f9cf1b5a06",
+      "script": "dollar"
+    },
+    {
+      "filename": "dollars.wav",
+      "wav_sha256": "45b5124b896199f18a5f66ae92bb0a760a2c7d1dd97cb9834c08ab40254e0553",
+      "script": "dollar"
+    },
+    {
+      "filename": "dont-know-who-sent.wav",
+      "wav_sha256": "03bde799a374b22f1c414ebd157d929d02bbe0a6089682ed258e56d972748edc",
+      "script": "Jag vet inte vem som sänt detta medelande"
+    },
+    {
+      "filename": "dot.wav",
+      "wav_sha256": "3283325b122ff4913d3fdba994ae8e52ceb6e31e56d9d083fcb83425ff6a326a",
+      "script": "Punkt"
+    },
+    {
+      "filename": "down.wav",
+      "wav_sha256": "f45070f3a1dc45e58f4a41d16a36e07ce416f0781ea45229a9b79a29e37f0556",
+      "script": "Ner"
+    },
+    {
+      "filename": "duplex.wav",
+      "wav_sha256": "99192f504f55f4e7d2ad87f814ad5771596483746d1599456e1b08f7925763f6",
+      "script": "Duplex"
+    },
+    {
+      "filename": "duplication.wav",
+      "wav_sha256": "aceea92cf66957ecb18fbf671961ca841207b608fbaded3057b226129e1aa05e",
+      "script": "Duplicering"
+    },
+    {
+      "filename": "early.wav",
+      "wav_sha256": "9ae66156755d331a3e7dbab9ab4448d73c0ca99ea3096371665a518b39f93ec7",
+      "script": "Tidigt"
+    },
+    {
+      "filename": "east.wav",
+      "wav_sha256": "6cb72e2f044ce4dc19213bd850d7d38140d5cdc5a53f3b7d88c5eae57d263bbb",
+      "script": "Öst"
+    },
+    {
+      "filename": "echo-test.wav",
+      "wav_sha256": "da1f71d53d6431e167c3ce77cef118e2f451db8602b3ae9a943e561d01c2ab15",
+      "script": "Du kommer nu få höra din röst i ett ekotest"
+    },
+    {
+      "filename": "eighteenth.wav",
+      "wav_sha256": "33708d6c657599929ae46a5ef5d8fefbd63285ccce5c0cf6092591f5e415587e",
+      "script": "Artonde"
+    },
+    {
+      "filename": "eighth.wav",
+      "wav_sha256": "d5fcd422831befd095c9198b630a1476cad2a4fb9d27ce6f674dc71b8d7cd6eb",
+      "script": "Åttonde"
+    },
+    {
+      "filename": "eightieth.wav",
+      "wav_sha256": "d34c6811cee5bff016972f3980280e49e9e26e77557e0ef2c484bd7eee601e15",
+      "script": "Åttionde"
+    },
+    {
+      "filename": "eleventh.wav",
+      "wav_sha256": "d080286f7f6c67ea526a530b6554a8d7632f2d11be61af80f5c6469cb7fceecf",
+      "script": "Elfte"
+    },
+    {
+      "filename": "email.wav",
+      "wav_sha256": "fe6e8efe2e18292fa456d95be9a16a46a70dedabfb152914186a060b5ef45730",
+      "script": "E-post"
+    },
+    {
+      "filename": "encode.wav",
+      "wav_sha256": "3b0eb59240d73aa7a3d632dfbd6e1e7554fc0a0a29151734c8e1cfd0ebee47e2",
+      "script": "Enkoda"
+    },
+    {
+      "filename": "ent-target-attendant.wav",
+      "wav_sha256": "24f1f06d7e65029f56b9ed1b61004c2c8ae2248c5191cdebce17ca87fcb53d67",
+      "script": "Var vänligt tryck in numret till anknytningen du vill flytta samtal till"
+    },
+    {
+      "filename": "enter-a-time.wav",
+      "wav_sha256": "af8933b4fc315419465301fb816e8c18be5e0bf63f46614150004bbab9333b44",
+      "script": "knappa in tid för din telefonväckning, som exempel 0755 för klockan fem i åtta"
+    },
+    {
+      "filename": "enter-password.wav",
+      "wav_sha256": "ca9867bc97b3f811be558f75dfa11c7445d74c38bf85a23dc329f9f5ba11c170",
+      "script": "Tryck in ditt lösenord avsluta med fyrikant"
+    },
+    {
+      "filename": "entering-conf-number.wav",
+      "wav_sha256": "8c5b4b864c30c283354d2206af7c7f3f94e11ba89e2952f58e6770851b542cc9",
+      "script": "Du är på väg in i konferens nummer"
+    },
+    {
+      "filename": "enum-lookup-failed.wav",
+      "wav_sha256": "241b35cf1574b42c1125e5365fbdcc2ab3477da8eff4e733f234f32a4910041a",
+      "script": "enum-uppslaget misslyckades"
+    },
+    {
+      "filename": "enum-lookup-successful.wav",
+      "wav_sha256": "90c145412f970b6a735a56ee38cf0478213c49c61e3707829c210c9c3ff941e4",
+      "script": "Enum-uppslaget lyckades"
+    },
+    {
+      "filename": "error-number.wav",
+      "wav_sha256": "7e7c01aa668d2a17042a078cc89f8023d79f2d96e6c2fea0a4fc03ea469dfcac",
+      "script": "Felkod"
+    },
+    {
+      "filename": "est-hold-time-is.wav",
+      "wav_sha256": "7458d7856c707db142a70e74d8c1ddf88f28b1cbf9d02e243919ebbac90d7ea6",
+      "script": "Den beräknade väntetiden är"
+    },
+    {
+      "filename": "euro.wav",
+      "wav_sha256": "0c4b3abc3f04515c4a50f5493073d03b4a95452faf1904156302f16877245ad2",
+      "script": "Evro"
+    },
+    {
+      "filename": "european.wav",
+      "wav_sha256": "34490c2c6a414f83b4170e8f9dc779e1c01a2561fa6a2eaaa8fe17558a833be0",
+      "script": "Europeisk"
+    },
+    {
+      "filename": "euros.wav",
+      "wav_sha256": "778e0547e2b7a8935b90536dfa59a19499a95278006e9f4f01480cfdbb62ee49",
+      "script": "Evro"
+    },
+    {
+      "filename": "evening.wav",
+      "wav_sha256": "a4beea11a3024bbb6c904970a64e9b89dce06c1a7bd24bcdad9eb46c7fcbe516",
+      "script": "Kväll"
+    },
+    {
+      "filename": "explanation.wav",
+      "wav_sha256": "0727f8871019b2974ba3575f68dbd8e74da5a857cea5258698e074725530c895",
+      "script": "förklaring"
+    },
+    {
+      "filename": "extensions.wav",
+      "wav_sha256": "81f89d76bad3ac879aa26633f0f2ecd08749457ec2d5c2504a8466ea8056eb33",
+      "script": "Anknytningar"
+    },
+    {
+      "filename": "fahrenheit.wav",
+      "wav_sha256": "84d11229d93b93302f0de4703d141466939eb6b7464e82020b428a855434655f",
+      "script": "Fahrenheit"
+    },
+    {
+      "filename": "fast.wav",
+      "wav_sha256": "9dba87a1e62a7ac8272c70d5487537a677df9c348816dee6a160459c9517eb35",
+      "script": "Snabb"
+    },
+    {
+      "filename": "female.wav",
+      "wav_sha256": "2be2c2b3d0add42794e0e23281d0a916177c9bc00523cfd5db060f06ddf0e3e6",
+      "script": "Kvinnlig"
+    },
+    {
+      "filename": "fifth.wav",
+      "wav_sha256": "900c057fd4c66d9dfc970e652ff2ad56ad6960fa4de28e254d13b56c057e14df",
+      "script": "Femte"
+    },
+    {
+      "filename": "first.wav",
+      "wav_sha256": "bdd592620ab6ad9f0c3a34ee4e3717c31faf2f3bfb67314fffee38167065f6a5",
+      "script": "Första"
+    },
+    {
+      "filename": "fog.wav",
+      "wav_sha256": "3a2f2fba5a66c0fc6589ef4559256170c6a227b228b4f7e3d25c7e66606a157b",
+      "script": "Dimma"
+    },
+    {
+      "filename": "foggy.wav",
+      "wav_sha256": "dd1824d1901f10115c1abcc49e00fe91037ffbcb7c25ea98005c478c953ffeeb",
+      "script": "Dimmigt"
+    },
+    {
+      "filename": "followed-by.wav",
+      "wav_sha256": "93757db42d346c8fce09aa0aca472a36518942d8530a1f9e7f692b8bbd21015a",
+      "script": "Följt av"
+    },
+    {
+      "filename": "for-a-daily-wakeup-call.wav",
+      "wav_sha256": "b1fb7fe923036e889119c005999cfdc78affc8e38585766f7a5c77491d758e39",
+      "script": "För telefonväckning"
+    },
+    {
+      "filename": "for-a-list-of.wav",
+      "wav_sha256": "01ec9632448bf169cd3e454a4257fc2d93947c63186147ecf49e6675dbcbe3d1",
+      "script": "För en lista med"
+    },
+    {
+      "filename": "for-no-press.wav",
+      "wav_sha256": "73b8870c7e6ac949dba91418d89dfe6e8589b6ff70e5af8d38754a336ef59c8d",
+      "script": "För nej, tryck"
+    },
+    {
+      "filename": "for-service.wav",
+      "wav_sha256": "06d7074e9cb4443fe8d7e7a495b65c5a8863254f2765a3ac2f705e0216111be8",
+      "script": "För service"
+    },
+    {
+      "filename": "for-the-first.wav",
+      "wav_sha256": "56e8c38f1a318c12c73fab4903d10a731000029d2f598f46a4a95bc84fd902d1",
+      "script": "För den första"
+    },
+    {
+      "filename": "for-the-weather.wav",
+      "wav_sha256": "92d490119a054f048e6138362e7ac271747c59c85cfec3e55892ff7290b80846",
+      "script": "För vädret"
+    },
+    {
+      "filename": "for-wakeup-call.wav",
+      "wav_sha256": "768ed4c81fc99da9bfaadcdda5dc212fb9938e841cd093229de080d749de8bbe",
+      "script": "För telefonväckning"
+    },
+    {
+      "filename": "for-yes-press.wav",
+      "wav_sha256": "fbf64e7a0fb59e5a8c4e4d90a06776180094ca625925af33bbccc5800f0cf7ec",
+      "script": "För ja, tryck"
+    },
+    {
+      "filename": "fourth.wav",
+      "wav_sha256": "63f6b4d94f6922f9418c8dba3b753a1cffc0d3230238a1f220b90e56ccad5dd9",
+      "script": "Fjärde"
+    },
+    {
+      "filename": "frequency.wav",
+      "wav_sha256": "c7a2327570f9afdc984cad46c70f22a81572ccf32c0ea2ebe612e4cffff247de",
+      "script": "Frekvens"
+    },
+    {
+      "filename": "from.wav",
+      "wav_sha256": "35b295fb73add886bf44cfd36b36e888a5732989bc54d96633293fc2a899e9c6",
+      "script": "Från"
+    },
+    {
+      "filename": "ftp.wav",
+      "wav_sha256": "139f36acaae7cb5fb3f814c8d0efe5c86459538039ac9c9ba772df427df74a57",
+      "script": "FTP"
+    },
+    {
+      "filename": "gigabits.wav",
+      "wav_sha256": "12f5dcb57483dcd29a09feb1bf540edc31af1b5b4eb7d6d4fe36e09031fcb361",
+      "script": "Gigabit"
+    },
+    {
+      "filename": "gigabytes.wav",
+      "wav_sha256": "85dfbfab8d4a3ead21982639da5099af44a5cb4e30d84b2a7669a5b19e7551be",
+      "script": "Gigabyte"
+    },
+    {
+      "filename": "go-away.wav",
+      "wav_sha256": "72dd0d5be5be50cdd07905166ffc412cb5b11b6527828b948042b33349a04325",
+      "script": "Aah, försvinn"
+    },
+    {
+      "filename": "good.wav",
+      "wav_sha256": "40c8b0ebb525192256e341d8efe3addd33a2e00eaf3fb7c565278e0b8f7f0cf0",
+      "script": "Bra"
+    },
+    {
+      "filename": "greater-than.wav",
+      "wav_sha256": "0ccdb1bcd93f13c73cc6c6875e903513de9efddc7d871fe84e98cdc28f278601",
+      "script": "Större än"
+    },
+    {
+      "filename": "groovy.wav",
+      "wav_sha256": "18415252c2bf195dead5563ece9f351d9d15a713c0d540bf4445d73ae288998b",
+      "script": "Schysst"
+    },
+    {
+      "filename": "h323.wav",
+      "wav_sha256": "1808dac39e103ca1649f77d1c884902c6cc8e7488e8306193268ddd7b35411ee",
+      "script": "H 3-2-3"
+    },
+    {
+      "filename": "ha/ac.wav",
+      "wav_sha256": "049b92dd542d68d7c2c51a23074af6c2d1bc7fcf6caf8a4eae53f34e5f1dd51d",
+      "script": "AC"
+    },
+    {
+      "filename": "ha/air-conditioner.wav",
+      "wav_sha256": "cb359d8e614d86e7f9c853581d600f38394b03f80d317009cae3aec521b62746",
+      "script": "Air Conditioner"
+    },
+    {
+      "filename": "ha/alarm.wav",
+      "wav_sha256": "255e7ee5f40c23924d04fc0755c98a6a325f7c881443c6e1b154c9efd8a41584",
+      "script": "Alarm"
+    },
+    {
+      "filename": "ha/back.wav",
+      "wav_sha256": "7a4b67b07092343a033743def3029019794fbbcd9bda13b7cecc71e5aa740392",
+      "script": "Tillbaka"
+    },
+    {
+      "filename": "ha/bathroom.wav",
+      "wav_sha256": "caa22ee4a6914e3e3d5431313a194a96d9c6223dab7f144faa12e9b88cb9658c",
+      "script": "Badrum"
+    },
+    {
+      "filename": "ha/bedroom.wav",
+      "wav_sha256": "214a81977bafe54b7616c4a3c62275ea44b1657745cfa059debff461fd27beeb",
+      "script": "Sovrum"
+    },
+    {
+      "filename": "ha/bright.wav",
+      "wav_sha256": "dd2ebcb9d18dfc0c36d78d505dbc71d35c6e018e4226638a815d8496ec3f4f19",
+      "script": "Ljus"
+    },
+    {
+      "filename": "ha/callerid.wav",
+      "wav_sha256": "216c506556b2aa628d7e20b74b6205182251997569f812f1a41be150fa261a8d",
+      "script": "nummerpresentation"
+    },
+    {
+      "filename": "ha/carport.wav",
+      "wav_sha256": "8572a9a9dca516b185fd71d8b915c5414f8ca221118b0459f71df02453220364",
+      "script": "Garageport"
+    },
+    {
+      "filename": "ha/closet.wav",
+      "wav_sha256": "1163802280ad70174d81f4906a525dc791b0765e0d39d8834df4fa289886e2f7",
+      "script": "Garderob"
+    },
+    {
+      "filename": "ha/coffee-pot.wav",
+      "wav_sha256": "ac4c7e819d4dc12518be7c4ebe329b0c44dc50f2d7708a801f5014afa04118c2",
+      "script": "Kaffepanna"
+    },
+    {
+      "filename": "ha/cooling.wav",
+      "wav_sha256": "ed5dbcb30bedb06e78806787e0f084bdc80306a5049dd1128ebf0cba5b87a27f",
+      "script": "Kylare"
+    },
+    {
+      "filename": "ha/dc.wav",
+      "wav_sha256": "1dec567ef8e677c4a627523b17b174b6aefaabcac5407bb746b0cd9458727691",
+      "script": "DC"
+    },
+    {
+      "filename": "ha/decibel.wav",
+      "wav_sha256": "b06b1bf69841dfdce7d098fd2e08b0ec17082d3607dfe530c643d569b671ab01",
+      "script": "Decibel"
+    },
+    {
+      "filename": "ha/degree.wav",
+      "wav_sha256": "c5f8f228f6da12e03e876045f262e2d33ef62c9ef00525449bb1bfc5f43c1007",
+      "script": "grad"
+    },
+    {
+      "filename": "ha/degrees.wav",
+      "wav_sha256": "8b1636335cc1581dd210df0d6ce1b285730f5f515d78dbdc9590cd7761168dbd",
+      "script": "grader"
+    },
+    {
+      "filename": "ha/dining-room.wav",
+      "wav_sha256": "a08529daf709bdb9f514bdb6a50b437122ff7fd9b72b6606e17d888697e5472f",
+      "script": "Matsal"
+    },
+    {
+      "filename": "ha/door.wav",
+      "wav_sha256": "297bd712f7064db2e637f0319a0a0220b55b605fdca7f4402aa6979767ec70c4",
+      "script": "Dörr"
+    },
+    {
+      "filename": "ha/doors.wav",
+      "wav_sha256": "cd77a74e3b00fcd67958f2e9822b71f64b75ce8795b681268dbebe41a958f06c",
+      "script": "Dörrar"
+    },
+    {
+      "filename": "ha/down.wav",
+      "wav_sha256": "4a0897c851c1ce94e40ce46a37c099096d98555bfe9a41b3e8201842cfa1f833",
+      "script": "Ner"
+    },
+    {
+      "filename": "ha/driveway.wav",
+      "wav_sha256": "9b169a671366a534f8322c3a7022aa31a4b88853f071d92be92887ddbef6e9de",
+      "script": "Garageuppfart"
+    },
+    {
+      "filename": "ha/fan.wav",
+      "wav_sha256": "9711e83702150a30c7e08b1c627655e92f75e4055c2c23d5278e3c70334a3c07",
+      "script": "Fläkt"
+    },
+    {
+      "filename": "ha/farad.wav",
+      "wav_sha256": "8ef257d169911dccf8a7473032de9230234cf5fb68be80878b4f70d77185c031",
+      "script": "Farad"
+    },
+    {
+      "filename": "ha/farads.wav",
+      "wav_sha256": "3bcce3fab15c4646487fca151f64afe5800dc012663dc298c415fb142ca48bbc",
+      "script": "Farad"
+    },
+    {
+      "filename": "ha/first-floor.wav",
+      "wav_sha256": "26180a2cc87af55d49d13e0e09b7deb98384b4601eb1f01d0e568fcc8e00fc20",
+      "script": "Första våning"
+    },
+    {
+      "filename": "ha/floor.wav",
+      "wav_sha256": "2bf8ee787dd659feed290a735bc86ca6d1db616664af7d3777c128be1526178b",
+      "script": "Våning"
+    },
+    {
+      "filename": "ha/floors.wav",
+      "wav_sha256": "166bd15cd4cd88ca61fd8d35293b9497c50bba73824a05936eb2e2af41b581d4",
+      "script": "Våningar"
+    },
+    {
+      "filename": "ha/for-extended-status-report.wav",
+      "wav_sha256": "d5a4263d543652b8c0161f78ee377bc99a8e853f97f3741ea1171407178e2c65",
+      "script": "för en genomgående statusrapport"
+    },
+    {
+      "filename": "ha/for-quick-status-report.wav",
+      "wav_sha256": "ead363f6bf860e72dfede5cceff44c42a5c102d38e7fd9b98a1904e9a8e71dd8",
+      "script": "för en snabb statusrapport"
+    },
+    {
+      "filename": "ha/for-wx-report.wav",
+      "wav_sha256": "54ee701d228ee809be98890d4b95ffef173c8ab3dacee71225a5eedaf0abdb7f",
+      "script": "för en väderrapport"
+    },
+    {
+      "filename": "ha/fountain.wav",
+      "wav_sha256": "d2bb901a45fcc0d97b393f68f8d44de94cad6d93e44f807abeca119a6aaf0f90",
+      "script": "Fontän"
+    },
+    {
+      "filename": "ha/front.wav",
+      "wav_sha256": "17b84a49da495128c9b5ec9b8abf3f9eda3b107b5c07b912c7bdbec6881fe463",
+      "script": "Framsida"
+    },
+    {
+      "filename": "ha/game-room.wav",
+      "wav_sha256": "95ed4aa4eaab1c4432dd554b83cb8a37b8636105ebcddc554db366fd0b04ac32",
+      "script": "Spelrum"
+    },
+    {
+      "filename": "ha/garage.wav",
+      "wav_sha256": "8b574d55866d3dd4ac657b42b8c2a6ed82cd24c8a5359bc47f4dca51fb1d65ff",
+      "script": "Garage"
+    },
+    {
+      "filename": "ha/guest-room.wav",
+      "wav_sha256": "4ebdab09313736e5ff224c27a0351061e1e9119bb7075e6c56861893dee642ea",
+      "script": "gästrum"
+    },
+    {
+      "filename": "ha/hall.wav",
+      "wav_sha256": "1f34ac38ab89c0c99c84e1ecd07a7ef8b679822d33c7b43a806791976b2681ac",
+      "script": "Hall"
+    },
+    {
+      "filename": "ha/has-been-left.wav",
+      "wav_sha256": "e0c6053535b5384f966fd71775f7ae07becf1d89a551618283989674e8258d24",
+      "script": "Har lämnat"
+    },
+    {
+      "filename": "ha/heat-pump.wav",
+      "wav_sha256": "2e2dc23a729858a712ab2fd04aafe04cad688a5b1f6f29fd4ae6c5f5128e46f8",
+      "script": "Värmepump"
+    },
+    {
+      "filename": "ha/heat.wav",
+      "wav_sha256": "b7bc4814fb74eb89d72ed80bac2f37d6588b38e670bf64d6e64e5ed09f3487a5",
+      "script": "Värme"
+    },
+    {
+      "filename": "ha/house.wav",
+      "wav_sha256": "c53d7690ab5043fbdb98dc63ee36471297b1b7585553a66f4c6ad8fd268fbcb4",
+      "script": "Hus"
+    },
+    {
+      "filename": "ha/intruder.wav",
+      "wav_sha256": "d4b25959edc8a7a7bacf3d26122baae5f1642b039b857dec4e80af9c0b65de61",
+      "script": "Inkräktaren"
+    },
+    {
+      "filename": "ha/is.wav",
+      "wav_sha256": "90931a3bff3e1cc2502ed9fc06bcbba61ec5d0dd1c097f1a3acd64e3152a6867",
+      "script": "Är"
+    },
+    {
+      "filename": "ha/kelvin.wav",
+      "wav_sha256": "d3b049b1c6ea4cb673e9b07a2ec19b3cf75afdb493ff6d46f9681e0ffeb735a0",
+      "script": "kelvin"
+    },
+    {
+      "filename": "ha/kitchen.wav",
+      "wav_sha256": "f7047034b0dce31bab7e3b4dbbf85e6196f932d21dbf0528f98ed44e7e0e3ad2",
+      "script": "Kök"
+    },
+    {
+      "filename": "ha/lamp.wav",
+      "wav_sha256": "e0c1fc815a451b692bc84414b878269938448ace1e5f6941c34873d35d427a66",
+      "script": "Lampa"
+    },
+    {
+      "filename": "ha/lamps.wav",
+      "wav_sha256": "ab8e1fd122dee96a9dceb1f6a363df17677e7beb44097164d150eaa3c3adb3c0",
+      "script": "Lampor"
+    },
+    {
+      "filename": "ha/landscape.wav",
+      "wav_sha256": "695f5984555997de9a30b26d1304cfcc67bbdfd99cfa6806d8dfa7f431a12488",
+      "script": "Landskap"
+    },
+    {
+      "filename": "ha/laundry.wav",
+      "wav_sha256": "a49e2d90abeff195524111cb3731545e16708c51e8e3fcf6178bd7072b535ebd",
+      "script": "Tvätt"
+    },
+    {
+      "filename": "ha/light.wav",
+      "wav_sha256": "5cce851e586250c2600a7f600c1a1893226eb7ca02f4b6c2d5b9c8246225ee83",
+      "script": "Ljus"
+    },
+    {
+      "filename": "ha/lights.wav",
+      "wav_sha256": "7d918b49510ce223ee92281c88bec6e24f88bb89776531a9b418b6588c1f0e0e",
+      "script": "Ljus"
+    },
+    {
+      "filename": "ha/living-room.wav",
+      "wav_sha256": "083d87bfdcb311ff42a071a1427a8c18e82482a2b3149cb641d53974a709f183",
+      "script": "vardagsrum"
+    },
+    {
+      "filename": "ha/locked.wav",
+      "wav_sha256": "6222cdbba82decb8bff52fa89412813dc5e6fe34e6f0587baab0762b3b342c79",
+      "script": "Låst"
+    },
+    {
+      "filename": "ha/locking.wav",
+      "wav_sha256": "8660f17f1cbb6ea9555567ae93ed5a1296c5a2c87de07144376b858dcc933095",
+      "script": "Låser"
+    },
+    {
+      "filename": "ha/mailbox.wav",
+      "wav_sha256": "81d07331bba3bcb0bda3685f7e991cc8bbeb414ce0625fb9a256c794928ee3af",
+      "script": "Postlåda"
+    },
+    {
+      "filename": "ha/off.wav",
+      "wav_sha256": "685223962c754a8010e8525daad7e765518065094979622b9d471e9a8a1ba55f",
+      "script": "avstängd"
+    },
+    {
+      "filename": "ha/office.wav",
+      "wav_sha256": "4c2a64d2f0bf318949a422688c27a0d28068bbc5049f246a7de597bb597af3c4",
+      "script": "kontor"
+    },
+    {
+      "filename": "ha/ohm.wav",
+      "wav_sha256": "aea6d892a19a45a6e675f4149132340393d21264303d85ea261b91c99cdc6cdf",
+      "script": "Ohm"
+    },
+    {
+      "filename": "ha/on.wav",
+      "wav_sha256": "78b315c820bee148b555b86077c71e46b194aaafdc14b8166c93a8302cd4471f",
+      "script": "Påslagen"
+    },
+    {
+      "filename": "ha/open.wav",
+      "wav_sha256": "2c9c4f432f04a244455785265fc5060863d19ea192c1d6ff4dbbc29057750f6b",
+      "script": "Öppen"
+    },
+    {
+      "filename": "ha/phone.wav",
+      "wav_sha256": "0c54636393fb6407ae6695c424dca6f570d412c2628b2402595e592b53599567",
+      "script": "Telefon"
+    },
+    {
+      "filename": "ha/play-room.wav",
+      "wav_sha256": "71553debc6ca47dfed2bc702490f56704fbae4915ca3389788de02b1bb7b2ecd",
+      "script": "Lekrum"
+    },
+    {
+      "filename": "ha/pool.wav",
+      "wav_sha256": "4df9a3021d971162aa7daf775b0f1db7229eadb32ef091309ce7aec33f30e0f7",
+      "script": "Pool"
+    },
+    {
+      "filename": "ha/porch.wav",
+      "wav_sha256": "7807147c5de30c7fc58a26bea1fd24d80d45363d11168d0f0da7807dda2a5577",
+      "script": "Veranda"
+    },
+    {
+      "filename": "ha/power-failure.wav",
+      "wav_sha256": "0f57d6f1de32218dfde315b482b82cc396a7c3219dea308838ef341b1ce655cc",
+      "script": "Strömavbrott"
+    },
+    {
+      "filename": "ha/pressure.wav",
+      "wav_sha256": "b4c9aeafaca1a4af5a6f554f816bb88f594e9ae1c4271f1a9913a5efd021d8cc",
+      "script": "Tryck"
+    },
+    {
+      "filename": "ha/psi.wav",
+      "wav_sha256": "d25d1434c59c1aecc868e190c7c647da72790be668465da8d2e07b900d7f1282",
+      "script": "PSI"
+    },
+    {
+      "filename": "ha/quiet-mode.wav",
+      "wav_sha256": "8acab7c954797c2a242a8051bf71b886d3740de4c349e080eb8b4d0bea92018a",
+      "script": "Tyst läge"
+    },
+    {
+      "filename": "ha/reset.wav",
+      "wav_sha256": "990a29a4f4a47fc9250cf95a052f3d62935fd6637238eec54f1d48828b5cc0e4",
+      "script": "Omstart"
+    },
+    {
+      "filename": "ha/roof.wav",
+      "wav_sha256": "74b5edfe265a2b42098c8a02bbd789b1a388e93a5ed5e5940e6158cb8ae87524",
+      "script": "Tak"
+    },
+    {
+      "filename": "ha/room.wav",
+      "wav_sha256": "44c15a10f83e2d1787f24945f58eb08f283d0e3e43eb8358e32148727f3620ce",
+      "script": "Rum"
+    },
+    {
+      "filename": "ha/rooms.wav",
+      "wav_sha256": "187aeabf5b4b13e184c5c7064a9b01fefcd2b413e0c24953e782868e4c4c3fdb",
+      "script": "Rum"
+    },
+    {
+      "filename": "ha/second-floor.wav",
+      "wav_sha256": "267c64c602d07a5d62454bfc7f96fdf79c8efd2f568102ddaf908a9e3bea2669",
+      "script": "Andra våning"
+    },
+    {
+      "filename": "ha/secure.wav",
+      "wav_sha256": "71dc149f2f491e435c684d4a43de1701b6a4914de8a5eb6c19ddb04bf5c7bf60",
+      "script": "Säker"
+    },
+    {
+      "filename": "ha/security-system.wav",
+      "wav_sha256": "3661dca9b2c1091a0149a2207f05862e2f7d140df4aab0d7015f46c0f8d4d7c6",
+      "script": "Säkerhetssystem"
+    },
+    {
+      "filename": "ha/set.wav",
+      "wav_sha256": "250728456f1525b5c41ab4251047af4206390f9cec2a92b6437b2e9c6df3fe5d",
+      "script": "Ställ in"
+    },
+    {
+      "filename": "ha/side.wav",
+      "wav_sha256": "c5424235c84cc1e7e4fbf97bd8fa5a7022a4480a4b6a7ea46b127faa28e75f36",
+      "script": "Sida"
+    },
+    {
+      "filename": "ha/sprinklers.wav",
+      "wav_sha256": "17bd912710ac24779a9a0d0c052c302cfafaef562772eb43bcf1928ee5d16f08",
+      "script": "Sprinklar"
+    },
+    {
+      "filename": "ha/still.wav",
+      "wav_sha256": "3163173ae8efc374a6d0429e66aabef60f17d777d599e4c2ada9e8c5f04b6d73",
+      "script": "fortfarande"
+    },
+    {
+      "filename": "ha/stove.wav",
+      "wav_sha256": "6fb3c19acb5ce2aa5cf13a9c8a068a868fc16f69ec8a4606b66ee71c37f25e7d",
+      "script": "Ugn"
+    },
+    {
+      "filename": "ha/system.wav",
+      "wav_sha256": "b694dc74ba5c9d7964dbdaa3af897ed72d7a800343be0b3823b76e250f74cdb7",
+      "script": "System"
+    },
+    {
+      "filename": "ha/systems.wav",
+      "wav_sha256": "6d6543a55f310abdd0f9867e2da033d5f2d506e643f0c16c74c2c9d4c15848c9",
+      "script": "System"
+    },
+    {
+      "filename": "ha/thermostat.wav",
+      "wav_sha256": "05bfe696e45570d3f5fd6b818fefb60de10e19ed39c988d75b7a6b5279eb94af",
+      "script": "Termostat"
+    },
+    {
+      "filename": "ha/to-control-environ-sys.wav",
+      "wav_sha256": "2dcb52e9a712475e9ce893be63534e0dd96c24cffc5c15fdc3ed0d9f6f189e4a",
+      "script": "för att kontrollera miljösystemet"
+    },
+    {
+      "filename": "ha/to-control-lights-appl.wav",
+      "wav_sha256": "d14b84f043d03412ebe2427ddab8458614dea214bcd011a539e750c7918089b2",
+      "script": "för att kontrollera lampor och andra enheter"
+    },
+    {
+      "filename": "ha/tower.wav",
+      "wav_sha256": "a9c620d8012232c7d2435ecbb0404adcd8f0bc35c2b84235d7c802812d964c71",
+      "script": "Torn"
+    },
+    {
+      "filename": "ha/unlocked.wav",
+      "wav_sha256": "28e6f7e3f63cd845d19d318146b7dd6ab57943df5680a802eb8757b45196210f",
+      "script": "upplåst"
+    },
+    {
+      "filename": "ha/unlocking.wav",
+      "wav_sha256": "274f6db41a7f8bf0b3d5cf790c6fbfc34d4b86193ebb227d36de0ca662efc333",
+      "script": "Låser upp"
+    },
+    {
+      "filename": "ha/up.wav",
+      "wav_sha256": "c6636a7c3e3d55e9690dcf96648ace34575bdfd00a518c275740a88dbcc24f44",
+      "script": "Upp"
+    },
+    {
+      "filename": "ha/volt.wav",
+      "wav_sha256": "1795d529e6fee507b3e2b5e31a4076ad33d4a1ce961cd4b7ba2c2ca76285bfe4",
+      "script": "Volt"
+    },
+    {
+      "filename": "ha/volts.wav",
+      "wav_sha256": "2ef7a3012d2455cad917f0f5c2e7789affb2fb7c8bd4099309fd0c75cb2f0763",
+      "script": "Volt"
+    },
+    {
+      "filename": "ha/washing-machine.wav",
+      "wav_sha256": "3424171a39965b8b5887eddd7254b530812f5cf0fb1ab313c510744b6890754a",
+      "script": "tvättmaskin"
+    },
+    {
+      "filename": "ha/watt.wav",
+      "wav_sha256": "ef10c044729d09a662490217e0169a02c03d582b24dca238c668ee4d1ee6bdc3",
+      "script": "watt"
+    },
+    {
+      "filename": "ha/watts.wav",
+      "wav_sha256": "b6581a4c314c42e46d01cd8e4ed14f10c2c80bd228b91d8d6eddbe21fd77e253",
+      "script": "watt"
+    },
+    {
+      "filename": "ha/well-pump.wav",
+      "wav_sha256": "d1081f427863f91b837bd02acde51eb4bb5ee97f0228ed647a0ab8604ad3fa1c",
+      "script": "Brunnspump"
+    },
+    {
+      "filename": "ha/window.wav",
+      "wav_sha256": "8a3b38cdb0a5f63dd091ae46aef9157326ee1dd08d6dbe8ba83c8f00bb21971c",
+      "script": "Fönster"
+    },
+    {
+      "filename": "ha/windows.wav",
+      "wav_sha256": "2a9d0f3979f212196e0c4e1db3f59a34287e9f898af2aa3b8415cd492fa860db",
+      "script": "Fönster"
+    },
+    {
+      "filename": "ha/xmas-lights.wav",
+      "wav_sha256": "78f7915178043ea4220230adce58d742fab703e153f8ba5a343e5279c57cb6c3",
+      "script": "Julbelysning"
+    },
+    {
+      "filename": "ha/xmas-tree.wav",
+      "wav_sha256": "713692709597d246508a59ba805c8e3a698d2c984699ecdd764d754274705b91",
+      "script": "julgran"
+    },
+    {
+      "filename": "ha/yard.wav",
+      "wav_sha256": "f658b87522a7561dd0e3a84cf753172e166fd35e41ba124e094865abf2720caf",
+      "script": "gård"
+    },
+    {
+      "filename": "half.wav",
+      "wav_sha256": "be2e4cf6949eff36516db3f1bfd4436c1835e1e962ae0c3b354c06c854c83183",
+      "script": "Halv"
+    },
+    {
+      "filename": "hang-on-a-second-angry.wav",
+      "wav_sha256": "e3433291ed8717f0645d591d1345bc969dc742839be29ebb404ad048b108b70d",
+      "script": "Jag sa ett ögonblick"
+    },
+    {
+      "filename": "hang-on-a-second.wav",
+      "wav_sha256": "e275837dd4311fecd492d94e383ce879171a1d08d7bba39f276237f351fb0012",
+      "script": "Ett ögonblick"
+    },
+    {
+      "filename": "has-arrived-at.wav",
+      "wav_sha256": "e5e4234e7d17cecd08eaa47328d4b1a618f125c8e5003fc0f02bb14460e98e05",
+      "script": "Har kommit fram till"
+    },
+    {
+      "filename": "has-been-cleared.wav",
+      "wav_sha256": "68701bc191935cfed03b270e92c999caa0b83afb838cf457a188e6cdcb0b76f5",
+      "script": "Har nu rensats"
+    },
+    {
+      "filename": "has-been-set-to.wav",
+      "wav_sha256": "3b797900f8f313530159b2a2130ae9586ca973b38ba3c7abfdb725a69f4b6ed2",
+      "script": "har nu ställts in till"
+    },
+    {
+      "filename": "has-been.wav",
+      "wav_sha256": "51ccf4d1bc4de8d71dd992be7ea952b540af12748260f67bab22525ea9fa8d28",
+      "script": "har blivit"
+    },
+    {
+      "filename": "has-expired.wav",
+      "wav_sha256": "5e846cb4362ba10c8af99b93d22cb4736930d0ce5eafc877197ae74036864876",
+      "script": "har utgått"
+    },
+    {
+      "filename": "has-not-been-seen-for.wav",
+      "wav_sha256": "2a8f790dbe9a6f07957484b6ecbcc62b5e435cd08541554332f414a8d3496b64",
+      "script": "har inte sett till på"
+    },
+    {
+      "filename": "has.wav",
+      "wav_sha256": "46e9cc882988b0268cbb3923b20400e12f52141927c105d49f8ab3ddc5083108",
+      "script": "Har"
+    },
+    {
+      "filename": "hash.wav",
+      "wav_sha256": "8190a31de990fde172d49958293e56d78ee96ba5550eff287ec98bddb4779094",
+      "script": "Fyrkant"
+    },
+    {
+      "filename": "helpdesk.wav",
+      "wav_sha256": "8c884ba584b2379773c9ba7b474cbd5ffa18c67e85561ad71c2e6e4bbcbe6aa3",
+      "script": "Helpdesk"
+    },
+    {
+      "filename": "high.wav",
+      "wav_sha256": "7c13a49f1a63930ba0c01b8e50bc4fb529a153e905cc75fd88f10ef9de6e3291",
+      "script": "Hög"
+    },
+    {
+      "filename": "home.wav",
+      "wav_sha256": "f6fcb6e261eaffd41b0a5be0a8cc4bb49237f0e36de12181d5cfdae128425fd5",
+      "script": "Hem"
+    },
+    {
+      "filename": "http.wav",
+      "wav_sha256": "01703d9304b62fbc5c8d78553ef1c144c8f50ff8f5ab40d09845da362e25ec35",
+      "script": "H-T-T-P"
+    },
+    {
+      "filename": "hz.wav",
+      "wav_sha256": "0cd5e10021780e24c4b9c24d8269c9f7248b9b179d6547d4a038d373df329b3a",
+      "script": "Hertz"
+    },
+    {
+      "filename": "i-dont-understand.wav",
+      "wav_sha256": "c108df456e4444125a49fcf43f92806a2f90ff3fb43e8dc06611cdcb24f1a88b",
+      "script": "Jag förstår inte"
+    },
+    {
+      "filename": "i-dont-understand2.wav",
+      "wav_sha256": "52aaef4cb049d982f61cef1f4632f234ace0d4b408353ebd48555a7d08d0c295",
+      "script": "Jag  förstår inte"
+    },
+    {
+      "filename": "i-dont-understand3.wav",
+      "wav_sha256": "d173f3f45213803dfc65de51e14183eed2b2138694298ba16c60cc6cfff23edd",
+      "script": "Jag förstår  inte"
+    },
+    {
+      "filename": "i-dont-understand4.wav",
+      "wav_sha256": "a91ce07a0f13e1a6c940f3aefd6dd456ecb776593304fab7fe7dfda14fae1e9c",
+      "script": "Jag förstår inte"
+    },
+    {
+      "filename": "i-dont-understand5.wav",
+      "wav_sha256": "2f179ddd9ee23fe6f04159192bae473115a2d6bafe6e2e253ce21b15bb06d0a9",
+      "script": "Mm, jag förstår inte"
+    },
+    {
+      "filename": "iax.wav",
+      "wav_sha256": "3914cd7d27b645a5b3b18bacd85849501c991d6d8c0e5d20f4fb83c896fd6f12",
+      "script": "I A X"
+    },
+    {
+      "filename": "iax2.wav",
+      "wav_sha256": "f28a3a00dfeec2e9df5be0aabfad10ae0fee7e57fbbfc314d46cba24176a3b31",
+      "script": "I A X 2"
+    },
+    {
+      "filename": "icmp.wav",
+      "wav_sha256": "ebd6137bf3b7516261f373d4d57291a163f425c21e704d8d30866c0cc4587b0f",
+      "script": "ICMP"
+    },
+    {
+      "filename": "if-this-is-correct-press.wav",
+      "wav_sha256": "12bf6fa4fd0315d06b838c5d689a13b1a9194c6c231a6090c238e756a0cac2aa",
+      "script": "Om detta är rätt, tryck"
+    },
+    {
+      "filename": "if-this-is-correct.wav",
+      "wav_sha256": "6237928f34fbc17adf408d39ea6fdebf1286c29a51402ae38b14737a9d0d0481",
+      "script": "om detta är rätt"
+    },
+    {
+      "filename": "if-this-is-not-correct.wav",
+      "wav_sha256": "86c6feffdbacb9d0fbbb9bab447093b7be4856bde6943df4eb0858eaca3ff2d4",
+      "script": "om detta är fel"
+    },
+    {
+      "filename": "if-you-need-help.wav",
+      "wav_sha256": "821798c95f11d074365a995e71a427b49371b603ba9b312606ccaedfd3370dec",
+      "script": "Om du behöver hjälp"
+    },
+    {
+      "filename": "imap.wav",
+      "wav_sha256": "8a7d3fa74ec2295d00ac286a359c90d54256cbc047ffe9b3cde522ef899b4dc7",
+      "script": "IMAP"
+    },
+    {
+      "filename": "in-the-line.wav",
+      "wav_sha256": "3fa537d220ec88913641e4560a277fae1e3592dc0c28c17a7d7ed27ad0d3ce25",
+      "script": "I kön"
+    },
+    {
+      "filename": "in-the-queue.wav",
+      "wav_sha256": "0d03bba0ab98e54e5e753f5bcad79087b50bb777ca3cc238c1e432303617988a",
+      "script": "I kön"
+    },
+    {
+      "filename": "in-your-city.wav",
+      "wav_sha256": "ddd53390bddfe4e4d65f23926611dab0029d749719cc084b9c50af3c9e74bda6",
+      "script": "i din stad"
+    },
+    {
+      "filename": "in-your-zip-code.wav",
+      "wav_sha256": "c9628fd060058aa721213072c945529cba28048e4d6d2bc9ec332a0de8c3eba5",
+      "script": "i ditt område"
+    },
+    {
+      "filename": "invalid-date.wav",
+      "wav_sha256": "7bbd6100c966b4cc657cd06e08b6f1a1bd183457608a30b44a144751256bfb9d",
+      "script": "Ogiltigt datum"
+    },
+    {
+      "filename": "is-curntly-busy.wav",
+      "wav_sha256": "e8c26e2b1c0761bc49c52ffcd02638a98d5185b0125b604736630cf5ea6be62d",
+      "script": "Är för tillfället upptagna"
+    },
+    {
+      "filename": "is-curntly-unavail.wav",
+      "wav_sha256": "7cf58df3e55148a89457a02269b3b30b79ac3cd0592686d7e34167adbcdfa1e6",
+      "script": "är för tillfället ej tillgängliga"
+    },
+    {
+      "filename": "is-currently.wav",
+      "wav_sha256": "044fb72b807ac2bae4933b2355e03cf19943b66c3f62a0fb95a3c7f61a3859e3",
+      "script": "Är för tillfället"
+    },
+    {
+      "filename": "is-not-in-the.wav",
+      "wav_sha256": "7a50633d002c6179fe256764d95e184e13e71e6793963ac149215aaf58c14ed1",
+      "script": "är inte på"
+    },
+    {
+      "filename": "is-not-set.wav",
+      "wav_sha256": "e70e7562df9c5fd1cfcc63aa325165bc7443d5505caf04540199f1e937161889",
+      "script": "Är inte inställt"
+    },
+    {
+      "filename": "kilobits.wav",
+      "wav_sha256": "aeaa9b83538853824e336c3c111195b746e1174476d79906b39be91d996f0518",
+      "script": "Kilobit"
+    },
+    {
+      "filename": "kilobytes.wav",
+      "wav_sha256": "e5aee4c3c6e6a6eb8996d4ea1888edb029f9a82fa4b86567e15f6bcb741b681d",
+      "script": "Kilobyte"
+    },
+    {
+      "filename": "kilohertz.wav",
+      "wav_sha256": "34d1ff6a251add5d5ba5f02a8f9f3f23ac010aac24e39476f196b4f4ae611552",
+      "script": "Kilohertz"
+    },
+    {
+      "filename": "kilometers-per-hour.wav",
+      "wav_sha256": "040b4a786b062490767adc98bbc7219bc9bb55975b00f5ef52720befcb9adaca",
+      "script": "Kilometer i timmen"
+    },
+    {
+      "filename": "knots.wav",
+      "wav_sha256": "34659f5a44793474598d9223766381903ee4dc1dc21574cc23d858c2c571dae3",
+      "script": "Knop"
+    },
+    {
+      "filename": "krona.wav",
+      "wav_sha256": "99b4e74f94bf088db66f3f2834edd6dbdb86e813661b9bf3384dbf6f3a4e2fb7",
+      "script": "krona"
+    },
+    {
+      "filename": "kronor.wav",
+      "wav_sha256": "35090a71e11ce9a954e933ef084acc36d742b0408a4aea6fd125edfb16549fe7",
+      "script": "kronor"
+    },
+    {
+      "filename": "language.wav",
+      "wav_sha256": "d0d2cd6a6b7bb8b36b6c1e3c415dd68995574425ed255f0e5cac1b55e0ae51fc",
+      "script": "Språk"
+    },
+    {
+      "filename": "late.wav",
+      "wav_sha256": "3d95f557685a4f5c2d7bd73d8205581860e7d7ef2dd0291039cb97265edafe21",
+      "script": "Sen"
+    },
+    {
+      "filename": "later.wav",
+      "wav_sha256": "3acfa147cb64322117a11ccf16953bcf87513a98d851f063ca562279709c6f1a",
+      "script": "Senare"
+    },
+    {
+      "filename": "less-than.wav",
+      "wav_sha256": "e57410523826eae745a92319502389f61b4371d1d4286bbdbe029faced848e6d",
+      "script": "Mindre än"
+    },
+    {
+      "filename": "letters/aring.wav",
+      "wav_sha256": "e9a19f17fe85b99b33ddef35cae1a2835c0cdb7f33296268f658953acea51ceb",
+      "script": "Å"
+    },
+    {
+      "filename": "letters/auml.wav",
+      "wav_sha256": "220f534268ba136b9d58a8afbdfdd85eed477b2bfa1196bea049d89a5baddef7",
+      "script": "Ä"
+    },
+    {
+      "filename": "letters/ouml.wav",
+      "wav_sha256": "bd4b4ce55801eae157396479eb1d97e616a4b95d60c27421c1d010da347fc585",
+      "script": "Ö"
+    },
+    {
+      "filename": "library.wav",
+      "wav_sha256": "683c737889a683f3829db5f78482843ee5badef2c508211293984088e78e9f15",
+      "script": "Bibliotek"
+    },
+    {
+      "filename": "linux.wav",
+      "wav_sha256": "691f6af39f3cfef689ea8f6ceae043113c3d3c507c9eee65cc0208ae649379aa",
+      "script": "Linux"
+    },
+    {
+      "filename": "list.wav",
+      "wav_sha256": "3f1277668b2e5266d8f32cd62c69fc0e4627b22e7fbc38ed7ac7b673c11c6fde",
+      "script": "Lyssna"
+    },
+    {
+      "filename": "loligo/call-fwd-cancelled.wav",
+      "wav_sha256": "024e89b9c0fd0c8c807a03fd6598686c85c1b46f1bf21486c02052e7a93e4f7a",
+      "script": "vidarekoppling avbruten"
+    },
+    {
+      "filename": "loligo/call-fwd-unconditional.wav",
+      "wav_sha256": "7d36ae0be43ff92b21d9bb063d86e65ed87644d194b04c5fca7c8ea2242ad7b9",
+      "script": "konstant vidarekoppling"
+    },
+    {
+      "filename": "loligo/extension.wav",
+      "wav_sha256": "54113a5c72e43b85a930b88802f94427c96e91bbf515a143bf586e380dc3e44a",
+      "script": "anknytning"
+    },
+    {
+      "filename": "loligo/for.wav",
+      "wav_sha256": "ae0f9f87f517f257c6f58e79cb73ab64bb1b6d5dd7f9360a5b56f77f19908e37",
+      "script": "För"
+    },
+    {
+      "filename": "loligo/from-unknown-caller.wav",
+      "wav_sha256": "bcac3565cce5fdd462b26e5877db11e33eeb6962513a9c114d901d64d69575ef",
+      "script": "Från ett okänt nummer"
+    },
+    {
+      "filename": "loligo/is-set-to.wav",
+      "wav_sha256": "07e4986e6ba6f86e7d662d06938ab66a50d04ec9cdb7a17e5f88562f5d0440b6",
+      "script": "är inställd till"
+    },
+    {
+      "filename": "loligo/to-call-this-number.wav",
+      "wav_sha256": "655423a447cb3ced7f25f16d782a7f3fe5bb3c75f148dae00392a5f264a346c1",
+      "script": "För att ringa till detta nummer"
+    },
+    {
+      "filename": "low.wav",
+      "wav_sha256": "c8a6c4bd79a6d2dd577c911a4164844453d22a7ec04999abecd8bfe35cc5ae4c",
+      "script": "Låg"
+    },
+    {
+      "filename": "main-menu.wav",
+      "wav_sha256": "92ee2655b9d76bc506ce9e6e55f4be14f8cb5175df8c7b5539fb0b9609be01e8",
+      "script": "Huvudmeny"
+    },
+    {
+      "filename": "male.wav",
+      "wav_sha256": "5ecdd4d7d766acc4d284a531a3af3df475007b47b4894780b66726df6b9c77cf",
+      "script": "Manlig"
+    },
+    {
+      "filename": "megabits.wav",
+      "wav_sha256": "71ee8ce92ab5cc4fd91bbcd423dc41ee34d8826b10aef71bd82ade25878ac69a",
+      "script": "Megabit"
+    },
+    {
+      "filename": "megabytes.wav",
+      "wav_sha256": "64f8c8dd23b038fec08bbb0b767c49af3516381aa58b75f412e6b0b87a8b1a13",
+      "script": "Megabyte"
+    },
+    {
+      "filename": "menu.wav",
+      "wav_sha256": "86da7cba147b19de6f7611c11bc3af0a88cb6ae053c024da465efe68f3d38724",
+      "script": "Meny"
+    },
+    {
+      "filename": "message-from.wav",
+      "wav_sha256": "61f6c88f507ad4dddf45420a4c07f506b7e826fa6b44d578af34d0719124353c",
+      "script": "Meddelande från"
+    },
+    {
+      "filename": "mgcp.wav",
+      "wav_sha256": "5e36660e1da4378baeb10764fb7a7328ca2f9c0ead9292169c856310944397ae",
+      "script": "MGCP"
+    },
+    {
+      "filename": "midnight.wav",
+      "wav_sha256": "1bfc76667564a894d702432cf76e141e8fa811b1cfbccb5a658643c8b671d397",
+      "script": "Midnatt"
+    },
+    {
+      "filename": "minus.wav",
+      "wav_sha256": "977171af8f89e126cd846c81b40417dff2848b78334675a6a9d9c676bc320ef9",
+      "script": "Minus"
+    },
+    {
+      "filename": "monitored.wav",
+      "wav_sha256": "4e8aac21c1392e881b1106a8baf47744878e2d62bcd15f466792510c3645325a",
+      "script": "Monitoreras"
+    },
+    {
+      "filename": "month.wav",
+      "wav_sha256": "230dd60e89ace560c1f656ce3f1653c6791f4d9afb1d3637d0e090479c24f689",
+      "script": "Månad"
+    },
+    {
+      "filename": "months.wav",
+      "wav_sha256": "e119ddf7cba56ef0f1d201db0db756bb610a34e64919ab76932ad2ba008d4a3e",
+      "script": "Månader"
+    },
+    {
+      "filename": "mostly.wav",
+      "wav_sha256": "57db63a6833d26f44e0198962662bca19c32ad7e3c02c4b6494b6e5717350af1",
+      "script": "Mestadels"
+    },
+    {
+      "filename": "ms.wav",
+      "wav_sha256": "55f7bc1e2c2dab07da20cd9082fdd271a5df6d762873ce3782a528bab96540a8",
+      "script": "Millisekunder"
+    },
+    {
+      "filename": "nautical-miles.wav",
+      "wav_sha256": "e7d1c4e613d1427a2ab99c758a0c157f06461cf91dbc2b889cffae0d3b3aac85",
+      "script": "Nautisk mil"
+    },
+    {
+      "filename": "near.wav",
+      "wav_sha256": "0df18236ff6d158217d0f63817c8b69a9736429d198c8e50b9fe608d386b1495",
+      "script": "Nära"
+    },
+    {
+      "filename": "negative.wav",
+      "wav_sha256": "f968b7ac7ba9cb85689ab1c6380af6e2abd9b84a4c775389db16125991010867",
+      "script": "Negativ"
+    },
+    {
+      "filename": "ninth.wav",
+      "wav_sha256": "cde6b86521d6f0c8d632a1339c0d284ee03e99592d985eadfda26b64d3eed061",
+      "script": "Nionde"
+    },
+    {
+      "filename": "node.wav",
+      "wav_sha256": "38bb75f6f0bbaf5bd5531a20f64016d9d54f30632af78e266ecfdd4ebab8cf43",
+      "script": "Nod"
+    },
+    {
+      "filename": "north.wav",
+      "wav_sha256": "575f264a899d52300195e8778a3c80c92db0b705da50c126dac0746fe68ae5cc",
+      "script": "Nord"
+    },
+    {
+      "filename": "northerly.wav",
+      "wav_sha256": "1a46f7edc12193d7cada4995511076f6a658184622bf60f56840421d64db0935",
+      "script": "nordlig"
+    },
+    {
+      "filename": "not-auth-pstn.wav",
+      "wav_sha256": "b9dd3d50147fe7df46277ba79b227dd352c6739bf4a3dd3c96a27218850381ad",
+      "script": "Du är inte godkänd att ringa ut mot vanliga telefonsystemet"
+    },
+    {
+      "filename": "not-rqsted-wakeup.wav",
+      "wav_sha256": "37b069800fdbfe34c9cf114133f45a0138671768a2d28016a9631e6ed070bfa3",
+      "script": "Du har inte bokat någon telefonväckning"
+    },
+    {
+      "filename": "not-yet-connected.wav",
+      "wav_sha256": "eb9188f162fe8aeff55a030c82b0b7ef9f889b396bf5b367c5e24fc63e55b88a",
+      "script": "är ännu inte uppkopplade"
+    },
+    {
+      "filename": "nothing-recorded.wav",
+      "wav_sha256": "21792aaf45a3273a1762780a196f70f73d2315e0b6bf5c663fe4607cdf337dbc",
+      "script": "Inget har spelats in"
+    },
+    {
+      "filename": "now.wav",
+      "wav_sha256": "146e13bb30469faae529ba90050ee1a7101f3de0221267a69af1ca9e4f51aa1c",
+      "script": "Nu"
+    },
+    {
+      "filename": "office.wav",
+      "wav_sha256": "8883517b290223c702244dfe758d5d67a4f718e273968bd4c451b9d9873bf6f3",
+      "script": "Kontor"
+    },
+    {
+      "filename": "on-busy.wav",
+      "wav_sha256": "34cc9ad2f742632ce320b86b5c411e839c6357f83a122ed6183781d0cd18ddd3",
+      "script": "Vid upptaget"
+    },
+    {
+      "filename": "on.wav",
+      "wav_sha256": "386ae9e42c8b729dae5b943ad2589e3db84187d55599d3ab57cd4361e7b9cb6c",
+      "script": "På"
+    },
+    {
+      "filename": "or-press.wav",
+      "wav_sha256": "90df0c9e46608064337befda90473b0aa3e8cda084885a891aecf74577579c3a",
+      "script": "Eller tryck"
+    },
+    {
+      "filename": "or.wav",
+      "wav_sha256": "9a3555b305bc655522d33bfa204b04a55e51e2f62e7a32aa49db2502694207bd",
+      "script": "Eller"
+    },
+    {
+      "filename": "otherwise-press.wav",
+      "wav_sha256": "a9bccb3adaabf54edb097b5d4d296b9569478116d1700f3ea64f4f7eb231f138",
+      "script": "Om inte, tryck"
+    },
+    {
+      "filename": "otherwise.wav",
+      "wav_sha256": "a7cf1d4eeeea7faace744b0bed160ac9c05facc7181f8fdb8706a01107a7b413",
+      "script": "Annars"
+    },
+    {
+      "filename": "our-business-hours-are.wav",
+      "wav_sha256": "113cfb5e6e16a25c917db3e8dc7b0570016144e9173362004f6901d62201276a",
+      "script": "Våra kontorstider är"
+    },
+    {
+      "filename": "packet.wav",
+      "wav_sha256": "4e90bb1e8f153ec9ed3626d0ec1f07ea85f776167ab6d9821f1d02f4dfaadb10",
+      "script": "Paket"
+    },
+    {
+      "filename": "panic.wav",
+      "wav_sha256": "aa1fa869d76b0675944a2a03dc7ac015bb9b114dba2c75922a0164e5eb93c821",
+      "script": "Panik"
+    },
+    {
+      "filename": "partially.wav",
+      "wav_sha256": "b5b786610c1483aefed173f335ac57d85195b0c3df00e82051d16b53f1c752af",
+      "script": "Delvis"
+    },
+    {
+      "filename": "partly.wav",
+      "wav_sha256": "3519d61069ddc9ff94afa9bd0b5a30a2c9996002aaecb956708948c85ea029a9",
+      "script": "Delvis"
+    },
+    {
+      "filename": "pascal.wav",
+      "wav_sha256": "946ecbb34243934a63204eede4c8fc1ccf223f871559c82caa708e47ad4b7b79",
+      "script": "Pascal"
+    },
+    {
+      "filename": "phonetic/alpha.wav",
+      "wav_sha256": "77422c0634b09f6fe39f3678fb25951df71c0b38b5a522c7a94066db1f9e7962",
+      "script": "Adam"
+    },
+    {
+      "filename": "phonetic/bravo.wav",
+      "wav_sha256": "5786b9ccc42a4bf19041c39d65d21b20a8e7400d5380cdc539205c37d2201fe9",
+      "script": "Bertil"
+    },
+    {
+      "filename": "phonetic/charlie.wav",
+      "wav_sha256": "523e4fafbec1091922ef5fbf01c5739ad9bcf9448e2faa03910f7b501ec6c0e3",
+      "script": "Ceasar"
+    },
+    {
+      "filename": "phonetic/delta.wav",
+      "wav_sha256": "21f68630f70274de87a741cec0ea7e3d0b7120a30182d842664f4abc54288360",
+      "script": "David"
+    },
+    {
+      "filename": "phonetic/echo.wav",
+      "wav_sha256": "1c33932ea1d9882afa921faf93b56f21cda8597a867b8a19818e678eabf98124",
+      "script": "Erik"
+    },
+    {
+      "filename": "phonetic/foxtrot.wav",
+      "wav_sha256": "b720efdc24b803b1fb7e499c5eccb94dbe3a4337d08539aadd97444a646d149a",
+      "script": "Filip"
+    },
+    {
+      "filename": "phonetic/golf.wav",
+      "wav_sha256": "8ba1f46790df59dd192fd80136fd423e1c1fbe0bb3e04a3610759a4eaa00353a",
+      "script": "Gustav"
+    },
+    {
+      "filename": "phonetic/hotel.wav",
+      "wav_sha256": "eed23c59be126ad33ed4d97623251c01a32a2d7e3d235accbc36053406759853",
+      "script": "Helge"
+    },
+    {
+      "filename": "phonetic/india.wav",
+      "wav_sha256": "db88319b691852a2e302f74dc37fc290709e7104f96b949afcd8ba484f09288e",
+      "script": "Ivar"
+    },
+    {
+      "filename": "phonetic/juliet.wav",
+      "wav_sha256": "50f544830c92e23ed06c5dd47fa8e29be0f0c2d8a4ab7a513b328ec89cf01e28",
+      "script": "Johan"
+    },
+    {
+      "filename": "phonetic/kilo.wav",
+      "wav_sha256": "c3f50261200be1c0c332d2a05e8825b0e41ca7292a4145cb06845709d73aa65b",
+      "script": "Kalle"
+    },
+    {
+      "filename": "phonetic/lima.wav",
+      "wav_sha256": "28e301f8a8a1a1906bbb54f2473c5e8f185ca88e31c3b09b63d825b3a51358b2",
+      "script": "Ludvig"
+    },
+    {
+      "filename": "phonetic/mike.wav",
+      "wav_sha256": "1b2247e06652ca147e327a13d3a44bb1da162b380f5f6a347073016ae11d9a89",
+      "script": "Martin"
+    },
+    {
+      "filename": "phonetic/niner.wav",
+      "wav_sha256": "eca110f4be6cb814de50f2e088dfeec84846670974ca3fdfad028da50f95ac01",
+      "script": "Nio"
+    },
+    {
+      "filename": "phonetic/november.wav",
+      "wav_sha256": "24c7f070f35f63c4adacd3e927c6db0167d7584878210b1bffc39c4844069249",
+      "script": "Niklas"
+    },
+    {
+      "filename": "phonetic/oscar.wav",
+      "wav_sha256": "931768efc604a089a3745aeceacf2be155dfb03cba4b78ffd6a1775dc914cb82",
+      "script": "Olof"
+    },
+    {
+      "filename": "phonetic/papa.wav",
+      "wav_sha256": "0cb492f747f073757cc5989ac0c872d7b429a84a6eecb954369fdce1e8d5f69f",
+      "script": "Petter"
+    },
+    {
+      "filename": "phonetic/quebec.wav",
+      "wav_sha256": "4898ef50b4fbd9d2e23a9cc2d199e50da11143313dd9aea51c4d6e77e2efcce1",
+      "script": "Quintus"
+    },
+    {
+      "filename": "phonetic/romeo.wav",
+      "wav_sha256": "81cb33a3466d4054654046c554eea4e69deebc29f95cd2c2fd0b63660a7268b1",
+      "script": "Rudolf"
+    },
+    {
+      "filename": "phonetic/sierra.wav",
+      "wav_sha256": "4e6a05ef87b9d20692f384693a3de686ca90494d7d5c7988be9dd5842305f283",
+      "script": "Sigurd"
+    },
+    {
+      "filename": "phonetic/tango.wav",
+      "wav_sha256": "2bc4937a09d3697cc7dd1a3a4368555bd2585d77dcf2ac90b33c382546e04387",
+      "script": "Tore"
+    },
+    {
+      "filename": "phonetic/uniform.wav",
+      "wav_sha256": "38ed10e5c2b99b16c147e41aa23ae963bbba60c321d09676956aeb290046cf8f",
+      "script": "Urban"
+    },
+    {
+      "filename": "phonetic/victor.wav",
+      "wav_sha256": "2d3bed58316ddc75a1befa34da69176ceefb9e8d8fcc0f2992bafb78a073d241",
+      "script": "Viktor"
+    },
+    {
+      "filename": "phonetic/whiskey.wav",
+      "wav_sha256": "a20f395f0e1e1aed21fd7f843e82cacf662152567ac7d2ac0b52655e6b000bae",
+      "script": "Wilhelm"
+    },
+    {
+      "filename": "phonetic/xray.wav",
+      "wav_sha256": "1e5ab0d91690d6968bc48e25b57d21262950940dd80386cdcccf210f396b9403",
+      "script": "Xerksess"
+    },
+    {
+      "filename": "phonetic/yankee.wav",
+      "wav_sha256": "f7dc9d7484e761810b976695f9af7a0a283a429b76a0af4d45964cdc3895c37e",
+      "script": "Yngve"
+    },
+    {
+      "filename": "phonetic/zulu.wav",
+      "wav_sha256": "bf7521b86b5637f96b596e658b0e9a986c11902c3eb57f78c3c17267444867b7",
+      "script": "Zäta"
+    },
+    {
+      "filename": "pipe.wav",
+      "wav_sha256": "21cfde7bd8fcc325e33c7755e5aa48d0e34c647c6f2f19fd92c366ba09632554",
+      "script": "Vertikalt streck"
+    },
+    {
+      "filename": "please-contact-tech-supt.wav",
+      "wav_sha256": "6d3e062be65d91357ea59641f22daa9dac66c707007a5a854a26c4eb03ad7513",
+      "script": "Var vänlig kontakta teknisk support"
+    },
+    {
+      "filename": "please-enter-the.wav",
+      "wav_sha256": "dd265866b58eaac54ee605ae72c78da3e56f49dcf3f2c8204e77b07c6eb68400",
+      "script": "Tryck in"
+    },
+    {
+      "filename": "please-enter-your.wav",
+      "wav_sha256": "8a92568c21c46245a3ce1e68405e8548eef516d4eb6895fd0a2b0f98cb0f0d33",
+      "script": "Var god, tryck in din"
+    },
+    {
+      "filename": "please-try-again-later.wav",
+      "wav_sha256": "c70007f610034ceed1a1c3f1c02a606ee4bc7bf419b1f7d8366cf53b491ba142",
+      "script": "Var vänlig och försök senare"
+    },
+    {
+      "filename": "please-try.wav",
+      "wav_sha256": "7283c907cff52cfe6d85fd21ada4e8ab3b1de15461894518f0fea4a0486a57b4",
+      "script": "Var god prova"
+    },
+    {
+      "filename": "pls-enter-conf-password.wav",
+      "wav_sha256": "6d6745c0698792ab3ebe532b4243daaaad340e6ce3cc6cb876f549cabdedc9ea",
+      "script": "Tryck in lösenordet till konferensen"
+    },
+    {
+      "filename": "pls-enter-vm-password.wav",
+      "wav_sha256": "5f3724433177bfe727362ee365f094e3f1bbfb4d40156c03f2ffc41b5f6103a7",
+      "script": "Tryck in lösenordet till din röstbrevlåda"
+    },
+    {
+      "filename": "pls-entr-num-uwish2-call.wav",
+      "wav_sha256": "c80617788088af258170a656c8febda4a17dddc886cd18c13a3cca20cb942af7",
+      "script": "Var god, tryck in numret du vill ringa till"
+    },
+    {
+      "filename": "pls-hold-silent30.wav",
+      "wav_sha256": "ed0bc2675ad081c542ed103a926100120d7949a647aaad78d8b725320a0f0dae",
+      "script": "Var god vänta"
+    },
+    {
+      "filename": "pls-rcrd-name-at-tone.wav",
+      "wav_sha256": "49795ad8b76034093ff024a8d58c989fbc273d72fee3a1277ecb6f92d9155af7",
+      "script": "Säg ditt namn efter signalen"
+    },
+    {
+      "filename": "pls-try-again.wav",
+      "wav_sha256": "a431c77f90f15f3627fc3bffc85138b3c6c29ebd3c68a95ba327c337f36417b8",
+      "script": "Var god försök igen"
+    },
+    {
+      "filename": "pls-wait-connect-call.wav",
+      "wav_sha256": "38642466bb118cc06c836a334c41fbb59bbcf0df71cb797165a3f0536d8a1e61",
+      "script": "Var god vänta, kopplar ditt samtal"
+    },
+    {
+      "filename": "pop.wav",
+      "wav_sha256": "38545e3381b0665cc7a921985c11ce48c83983b0af3395360a3ab9aeeab54988",
+      "script": "Popp"
+    },
+    {
+      "filename": "port.wav",
+      "wav_sha256": "a430e8f0ac24bb4e556c2158ff1218b2c2dc0f2d0f8bd5245d2bf88e1e016e25",
+      "script": "Port"
+    },
+    {
+      "filename": "portnumber.wav",
+      "wav_sha256": "cbd4a81f7d5a2b4a3fa4909550f31446855ab243e4d25211d1979006d64aee05",
+      "script": "portnummer"
+    },
+    {
+      "filename": "pound.wav",
+      "wav_sha256": "afad8cec41f1ebd2382e83526a75830143b08d0919a03549ea16dc16da9535a5",
+      "script": "Fyrkant"
+    },
+    {
+      "filename": "press-0.wav",
+      "wav_sha256": "c5fd5184f61c3bc670af0cc90e239bebee37dc0097bda75fd6acb178595e2a77",
+      "script": "Tryck noll"
+    },
+    {
+      "filename": "press-1.wav",
+      "wav_sha256": "6608ae582e9ebc49fecd8339dd2978fe2f9560c8246330f026eabaae5385d1ee",
+      "script": "Tryck 1"
+    },
+    {
+      "filename": "press-2.wav",
+      "wav_sha256": "71e2cf666d513d6831830a72c6b26ce6898dfa432b84c242c2eddf60a3626c1d",
+      "script": "Tryck 2"
+    },
+    {
+      "filename": "press-3.wav",
+      "wav_sha256": "a6f90d705335c0a2d2c81698c9e0f80074af8e3fbc10a86ae073fc5009973efe",
+      "script": "Tryck 3"
+    },
+    {
+      "filename": "press-4.wav",
+      "wav_sha256": "505e2d8f893ea8108d706c89c7a2980bcf7204ec465e1487e87b5f4df46ede56",
+      "script": "Tryck fyra"
+    },
+    {
+      "filename": "press-5.wav",
+      "wav_sha256": "92df8a2dc9d8add3e5f980416ced0451e6cafdf6bf042eb5e606279c9160f158",
+      "script": "Tryck fem"
+    },
+    {
+      "filename": "press-6.wav",
+      "wav_sha256": "baeb0feb1691e6c74682ee0135ec82d8bdf8128bc9f5ea78b06c87e6dc46e035",
+      "script": "Tryck 6"
+    },
+    {
+      "filename": "press-7.wav",
+      "wav_sha256": "156153d5b1636781286c70f4c2d7feb336e28932931c2ce6b8075114f00e0f52",
+      "script": "Tryck 7"
+    },
+    {
+      "filename": "press-8.wav",
+      "wav_sha256": "e470742fcf5c86c301421860790745f1da91c8f0f8b8b68c7b0ca93ffc541765",
+      "script": "Tryck 8"
+    },
+    {
+      "filename": "press-9.wav",
+      "wav_sha256": "e1c3ab6ab081484538f92920bcad43f65b96468757cbeeb09d0836e4cd6d3361",
+      "script": "Tryck 9"
+    },
+    {
+      "filename": "press-button-again.wav",
+      "wav_sha256": "31125c41f49d315310eb9bf3558d870e55b534da6b0f42322a2894a825ea982e",
+      "script": "Tryck den knappen igen"
+    },
+    {
+      "filename": "press-enter.wav",
+      "wav_sha256": "39d0cf26254712b70d1fa53fe4c6053d95e8ceab1d043236e7eca36f41eea026",
+      "script": "Tryck på \"Enter\""
+    },
+    {
+      "filename": "press-escape.wav",
+      "wav_sha256": "0b7d2869c209006431e360e7564d1f2dfd7a9e9b7a8ab82ee21936fda0e3f46f",
+      "script": "Tryck på \"Escape\""
+    },
+    {
+      "filename": "press-hash.wav",
+      "wav_sha256": "44ee534d606a9f280626d965680b45caee62563a8b18e49806c220f13c641ee1",
+      "script": "Tryck fyrkant"
+    },
+    {
+      "filename": "press-pound.wav",
+      "wav_sha256": "b0cfed77a1f126c54702015eb0bcddf5d3412c1453d6a08518ccced77ba58535",
+      "script": "Tryck på fyrkant"
+    },
+    {
+      "filename": "press-return.wav",
+      "wav_sha256": "ce383aaeaf179c92e00ee09e19acc8983e337514dac120e38b4874c9cdbc96bc",
+      "script": "Tryck på \"Return\""
+    },
+    {
+      "filename": "press-star.wav",
+      "wav_sha256": "f3d1edf17bb2b2ca989d6576d68c11e2e972f30787052c85aad47e6cc5ea6d8b",
+      "script": "Tryck på stjärna"
+    },
+    {
+      "filename": "press-the-space-bar.wav",
+      "wav_sha256": "b4a2d19633b680fee68770fa698c4b58862e20373f9c129cebf892744fb7f83b",
+      "script": "Tryck på \"Mellanslag\""
+    },
+    {
+      "filename": "press-tilde.wav",
+      "wav_sha256": "d1e02c40242adef50fbe5b35122f79a75ecc7d488af14c4857d0d2d8363b7fb5",
+      "script": "Tryck på tilde"
+    },
+    {
+      "filename": "press.wav",
+      "wav_sha256": "93e1711fea4f1f3327b30fc45af7a5a8e663236234b1cb3649aacb21e1b46550",
+      "script": "Tryck"
+    },
+    {
+      "filename": "pressure.wav",
+      "wav_sha256": "c98600653cabfdfe8777e8c65159a9da836199dfa3e181819ee34829a6763fb6",
+      "script": "Tryck"
+    },
+    {
+      "filename": "privacy-blacklisted.wav",
+      "wav_sha256": "294a7b04bdc129dbc84360d2b6236c4d64afe7cfdff7b50552a73d29dd5d3d8a",
+      "script": "Svartlistad"
+    },
+    {
+      "filename": "privacy-blocked.wav",
+      "wav_sha256": "be02abcb67cecfed5c5f258b37449457f4940b38d4421e69d80cf23f60bf67d9",
+      "script": "Blockerad"
+    },
+    {
+      "filename": "privacy-if-error.wav",
+      "wav_sha256": "cf774be9c949f99d7088ad5ee8496a182c32d484f91f6a8ca77fad376515ee16",
+      "script": "om du tycker detta är fel"
+    },
+    {
+      "filename": "privacy-not.wav",
+      "wav_sha256": "671aeb3e2bfc5fe59bbf57461269795143131bfd45eb16adb7a6b2c1beafc78f",
+      "script": "Inte"
+    },
+    {
+      "filename": "privacy-please-dial.wav",
+      "wav_sha256": "c4bdede2bea9ac13dfcef24c2df6b9ec3dfcc269a57a22a9efe9661793853ebd",
+      "script": "Var god ring"
+    },
+    {
+      "filename": "privacy-please-stay-on-line-to-be-connected.wav",
+      "wav_sha256": "446235847c842b0f624b3edbfddf2fa96121a5f1bde9c9f50453852a5749a3e7",
+      "script": "Var god vänta kvar så kopplar vi"
+    },
+    {
+      "filename": "privacy-stop-calling-not-welcome.wav",
+      "wav_sha256": "0badcfe29d7b11bac6670ab2c58df699f2a66fcd071ca4266dd9210713943550",
+      "script": "Snälla sluta ring, du är inte välkommen här"
+    },
+    {
+      "filename": "privacy-stop-calling-not-welcome2.wav",
+      "wav_sha256": "70eba51afe2c2a10b6c8e567759cf618beadda606273132b2cdb644a7210b4d9",
+      "script": "Var god sluta ringa hit, du är inte välkommen här"
+    },
+    {
+      "filename": "privacy-this-number-is.wav",
+      "wav_sha256": "cd7b783ccbb55ad4b44f7340c95d1cfb9b318d9afddbb8198916dc4986c74feb",
+      "script": "Detta nummer är"
+    },
+    {
+      "filename": "privacy-to-hear-our-contact-details.wav",
+      "wav_sha256": "ac400ea96d7d87830fd478b54333f197ad91eea0a42b7ea1bc38f7b044976b55",
+      "script": "för att höra våra kontaktuppgifter"
+    },
+    {
+      "filename": "privacy-whitelisted.wav",
+      "wav_sha256": "ef73572158c09d1a54721c235f2d727f68587341bd4ee9c1cc8f629845f3349f",
+      "script": "Vitlistad"
+    },
+    {
+      "filename": "privacy-you-are-blacklisted.wav",
+      "wav_sha256": "c9744a4d0231a33d99ee44dad674d69b03d3d9db31d30adc163d79784361fffd",
+      "script": "Du är svartlistad på detta system"
+    },
+    {
+      "filename": "privacy-you-are-calling-from.wav",
+      "wav_sha256": "7c4ad3c9eae72b59439afc63b74fb5b9c6671d89cbb997c0580de2fef78c7fc3",
+      "script": "Du ringer ifrån"
+    },
+    {
+      "filename": "privacy-your-callerid-is.wav",
+      "wav_sha256": "c33ff94724a490d7ef6ba8be2d65823b3dfcc49e38426e511b753b1fcd239eda",
+      "script": "Ditt nummer är"
+    },
+    {
+      "filename": "product.wav",
+      "wav_sha256": "82c5e3787833fbab2a80c1a415686483386276cc0aacaaa8f35d489a9d921c51",
+      "script": "Produkt"
+    },
+    {
+      "filename": "production.wav",
+      "wav_sha256": "0661bb21bfdf3d43d1f775fcac81fae8059943c392d51a575e4a31d3e6bb8ca3",
+      "script": "Produktion"
+    },
+    {
+      "filename": "projects.wav",
+      "wav_sha256": "bb8a95abe521d076d7356a81229d13d854c0d849d138db234b9a4039a2cac52e",
+      "script": "Projekt"
+    },
+    {
+      "filename": "protocol.wav",
+      "wav_sha256": "01f4641bfb7acd6d28b958a36dd5d5696f8d8ef95a96aa3663ff13694070bab3",
+      "script": "Protokoll"
+    },
+    {
+      "filename": "quality-assurance.wav",
+      "wav_sha256": "bb6e56acef82f4fdcfb5ca86ce09861cf452d9b2cf85bf1d02d1a367937865ed",
+      "script": "Kvalitetssäkring"
+    },
+    {
+      "filename": "quality-control.wav",
+      "wav_sha256": "a43e08a977c3bb7858a2507bcf76efa9867bde4dbda12488f50a695d1ce21ecf",
+      "script": "Kvalitetskontroll"
+    },
+    {
+      "filename": "queue-calls-waiting.wav",
+      "wav_sha256": "1d56de7a6f5f06217963e3773ec23775fb2c7b91dad6d3dbbc539ad80c6d9e9c",
+      "script": "I kön"
+    },
+    {
+      "filename": "quickly.wav",
+      "wav_sha256": "af38d5a8de0f4c4a21de7a8b8c6f47de7de7a2680cbc93f8bce4f179b4027c4e",
+      "script": "Snabbt"
+    },
+    {
+      "filename": "rain.wav",
+      "wav_sha256": "a33c78b1751f810e7984f819942178d14a35509849a6a099cabcc9deab9328e5",
+      "script": "Regn"
+    },
+    {
+      "filename": "rainfall.wav",
+      "wav_sha256": "ca61ef3da5a15b4262978c3662ca30ca4afe80c398aff3ebe3ea9db19fa4af2c",
+      "script": "Regnväder"
+    },
+    {
+      "filename": "rainy.wav",
+      "wav_sha256": "00d12b58702060902f931089b24f29ac4e9b6ccefa8eb1b4895f36b770b699df",
+      "script": "Regnigt"
+    },
+    {
+      "filename": "received.wav",
+      "wav_sha256": "f93d5f58c5c7ceeb07e977de3d9eb7909a234cdddcdfa2105750d58b0880f841",
+      "script": "Mottaget"
+    },
+    {
+      "filename": "reception.wav",
+      "wav_sha256": "794cf64ac654fa573e0189801fb1b4d2b018ee148f9db57654c568fa8dd584eb",
+      "script": "Reception"
+    },
+    {
+      "filename": "recorded.wav",
+      "wav_sha256": "ba31918ba6adc07d4bc4775cfdb31cbf95bbcca25781bd8c18ed236ea3228d93",
+      "script": "Spelas in"
+    },
+    {
+      "filename": "repair.wav",
+      "wav_sha256": "99dc8dcaab16ece7fc45ef3e5774a553aad3c9892127dd13803f068c9cf39c5c",
+      "script": "laga"
+    },
+    {
+      "filename": "security.wav",
+      "wav_sha256": "93712275c7f60db0b9e0050e033a054932deedac6980ceb5aabcd3a892c2f5c4",
+      "script": "Säkerhet"
+    },
+    {
+      "filename": "server.wav",
+      "wav_sha256": "7517f6f94db86985ab64c3e211273dc0ae6fa187dd1e1151206b87e8b15306dd",
+      "script": "Server"
+    },
+    {
+      "filename": "service.wav",
+      "wav_sha256": "43f6ff28dab49b30229d0f27a6c2919b7ce89024ee819428777e490113767ca4",
+      "script": "Service"
+    },
+    {
+      "filename": "seventh.wav",
+      "wav_sha256": "56c71992c08a0f0ae54ab59b0239472f4e8ed77e6ce3c772061da46ef0f5b4cc",
+      "script": "Sjunde"
+    },
+    {
+      "filename": "severe.wav",
+      "wav_sha256": "5e772fe22090cc664493ec73db12b80a8ddc47cc780aa70ef35ce54bc32160c9",
+      "script": "Allvarlig"
+    },
+    {
+      "filename": "shall-i-try-again.wav",
+      "wav_sha256": "321e967ac34e54be14b4fab6384bfd8b2df1624b00c5aa4aa9f19449942e1314",
+      "script": "Vill du att jag ska försöka igen?"
+    },
+    {
+      "filename": "sip.wav",
+      "wav_sha256": "1554456c9cd6bce75ed9cdfff63a67c8297f10a5eff098f5ee3bb25d6b1ed3f7",
+      "script": "SIP"
+    },
+    {
+      "filename": "sixth.wav",
+      "wav_sha256": "57ab0299089bd9d320ba9625513350a7220ec610f0cc27b3ec97e6a0a7b8e0a5",
+      "script": "Sjätte"
+    },
+    {
+      "filename": "skinny.wav",
+      "wav_sha256": "96d3e3ec790baca0ad7646c7de4dc1d92d7816d2da88ebe7d67c7b18701ded8c",
+      "script": "Skinny"
+    },
+    {
+      "filename": "slow.wav",
+      "wav_sha256": "4120d0ca5c7ffa26c67e74c74d7561236ae7ed7c1096c0fd251fb3500d552789",
+      "script": "Långsam"
+    },
+    {
+      "filename": "slowly.wav",
+      "wav_sha256": "e07f5c07f7b71a51749237b89262df63b8f68172fbb94049595753f53334f1fb",
+      "script": "Långsamt"
+    },
+    {
+      "filename": "snow.wav",
+      "wav_sha256": "564d324be1ca55c3fc0ee0f654f9d152ea9b3140ecb262afed955da9de67a8d7",
+      "script": "Snö"
+    },
+    {
+      "filename": "snowing.wav",
+      "wav_sha256": "116ee26001fff6879be886384eb46932947341762b68a77d8241109a1f00e23c",
+      "script": "Snöigt"
+    },
+    {
+      "filename": "snowy.wav",
+      "wav_sha256": "c202e5d4405839aea0097a4a2082de7d2966fc72cadb19b827efa1b3c69144f0",
+      "script": "Snöigt"
+    },
+    {
+      "filename": "software.wav",
+      "wav_sha256": "d4697faf7e62e3c2a92812adc54c54e3cc5aa3982946274a2fc6e619be4714d3",
+      "script": "Mjukvara"
+    },
+    {
+      "filename": "sorry2.wav",
+      "wav_sha256": "8166d4040d4d2af06047a4630aee043bd17f4170a8a91e4858d98090d575a543",
+      "script": "Ursäkta, men vi kan tyvärr inte svara för tillfället"
+    },
+    {
+      "filename": "spam.wav",
+      "wav_sha256": "cbf9da723f96ae1f61df7dd3b37dc75bffebc6165eb440fe623834222fcf0236",
+      "script": "Spam"
+    },
+    {
+      "filename": "speed.wav",
+      "wav_sha256": "816b4ed52df71805be34c36f3ef735ca03e6ba72ba25a5fa7550ecbbe7b912ae",
+      "script": "Hastighet"
+    },
+    {
+      "filename": "ssh.wav",
+      "wav_sha256": "f97750fbe89df9d70c424e3dd2f2424d96fddeaa8494949a7501fdd7bfa33249",
+      "script": "Secure shell"
+    },
+    {
+      "filename": "standard.wav",
+      "wav_sha256": "18c7383f6d164815b3b628a99895d6d9f51313d4ac4901dd4ad14d27142976f7",
+      "script": "Standard"
+    },
+    {
+      "filename": "star-for-menu-again.wav",
+      "wav_sha256": "fa5ee7f5fa2f6a78db812cc2ec2cbe28becc14e606036596db3ba2cffcf28c59",
+      "script": "Tryck stjärna för att höra denna meny igen"
+    },
+    {
+      "filename": "star.wav",
+      "wav_sha256": "3940a83c92b9d8e8778f57045755dedbafed515fd02c374a9505348334ae121f",
+      "script": "Stjärna"
+    },
+    {
+      "filename": "starting-with-either.wav",
+      "wav_sha256": "86aaf13cf664bf7d461fde3750b3a5dacd84af5647d9247f6fc6de1690d4a6ae",
+      "script": "Det börjar med antingen"
+    },
+    {
+      "filename": "status.wav",
+      "wav_sha256": "64eb96aa4a160102e4d99cd9e9ac00dfa2e5de97e20957aff2bb560813a62fbd",
+      "script": "Status"
+    },
+    {
+      "filename": "storm.wav",
+      "wav_sha256": "8cd7188cec98e7e88878f66d8f49327e6f33e849f1db95e570077a762688bbe0",
+      "script": "Storm"
+    },
+    {
+      "filename": "sun.wav",
+      "wav_sha256": "58291f924b22b9ec9d1ef507bc6dc6e01ebe83fabe12f30e77d690c8e44adb61",
+      "script": "Sol"
+    },
+    {
+      "filename": "sunny.wav",
+      "wav_sha256": "6d753f07290c6d6b4f65f46c1308c5b0c6f42ebfb863bee3eaa43a7c45e04130",
+      "script": "Soligt"
+    },
+    {
+      "filename": "support.wav",
+      "wav_sha256": "d78fd4fabbe5714b189a03f33cc8b9303ed15dbebdc7e6354064db44baf99cf8",
+      "script": "Support"
+    },
+    {
+      "filename": "system-crashed.wav",
+      "wav_sha256": "909f0c6d481f798295f4da0e17e4ab5ff22048e7e3eb49c4e88ae2941e094ecb",
+      "script": "Systemet har kraschat"
+    },
+    {
+      "filename": "system-status-msg.wav",
+      "wav_sha256": "c486fd923492a8586ef03ab856208eb8e4c72f15c25d79a69055d3f1b0bb36c6",
+      "script": "Var vänlig lyssnar noga på följande systemmeddelande"
+    },
+    {
+      "filename": "system.wav",
+      "wav_sha256": "55fc5b815ee553fbec8d2774d7a540704b283b0e870099d360d0823c3d2484bb",
+      "script": "System"
+    },
+    {
+      "filename": "systems.wav",
+      "wav_sha256": "6cc862cdc339faae41b7661a7fecee203408c0a1dffe2dbb321543cfa29e9d75",
+      "script": "System"
+    },
+    {
+      "filename": "tcp.wav",
+      "wav_sha256": "beb16faffb08cce7f2c314f62d9ee539e01313dc9d9ff447f8df5415b3a146c3",
+      "script": "TCP"
+    },
+    {
+      "filename": "telnet.wav",
+      "wav_sha256": "3c0e1796722712713fe1cd2e9c28a9547930a8818241f9c98a6f9de54bd932be",
+      "script": "Telnet"
+    },
+    {
+      "filename": "tenth.wav",
+      "wav_sha256": "324aea9f7dfe24ebdd059ce4b1222893a161bce0880996812fff83e3ba8c637d",
+      "script": "Tionde"
+    },
+    {
+      "filename": "terabits.wav",
+      "wav_sha256": "6e2248a367eade87524c72172d4a2b109c42efb772e50894b32f4d838738d40f",
+      "script": "Terabit"
+    },
+    {
+      "filename": "terabytes.wav",
+      "wav_sha256": "e4b126b74d2c51f52d06ea538de2e8431d79cc92c3fdc0c330f947d5f4b0996e",
+      "script": "Terabyte"
+    },
+    {
+      "filename": "thank-you-calling.wav",
+      "wav_sha256": "04741008e1ab0e4f6d29571b11c68b33e69e754eaad93904b629d4262f539598",
+      "script": "Tack för ditt samtal"
+    },
+    {
+      "filename": "thank-you-cooperation.wav",
+      "wav_sha256": "f7caeb47697399b75978c0d9f6d76e7af6d554dc9559bc849e0dcface9ed988e",
+      "script": "Tack för ditt tålamod"
+    },
+    {
+      "filename": "thank-you-for-calling.wav",
+      "wav_sha256": "423224ab143cd70ee1d739b109fdc221c516ef5f31f9fdf9ce112f327d9ea804",
+      "script": "Tack för ditt samtal"
+    },
+    {
+      "filename": "thanks-for-calling-today.wav",
+      "wav_sha256": "cf8e78725113d541cb6af60236f80b40b6ff8010f05685ac0869e17a0b6adda7",
+      "script": "Tack för att du ringer oss idag"
+    },
+    {
+      "filename": "thanks-for-using.wav",
+      "wav_sha256": "1c906b83131bc48a8246f209bb943b226c49249bff7c776766c25f1bd189b96e",
+      "script": "Tack för att du använder"
+    },
+    {
+      "filename": "that-is-not-rec-phn-num.wav",
+      "wav_sha256": "3ec76e311ee19b087fce315fab83546e68d0229f09f0a02a0fc6dcf8f9bd6eef",
+      "script": "Det är inte ett känt telefonnummer"
+    },
+    {
+      "filename": "that-number.wav",
+      "wav_sha256": "7249ce84a1dab1beb349b6ec1d316d39c3fd539726176b3a768129680d1de538",
+      "script": "Det numret"
+    },
+    {
+      "filename": "that-tickles.wav",
+      "wav_sha256": "4f1e8808f12d8085a46c977ac5c55ebfe5295cf317004471df586d54bb18ae71",
+      "script": "Det kittlas"
+    },
+    {
+      "filename": "the-mailbox.wav",
+      "wav_sha256": "acdc4927800cee4a9c68b032182c05079920e90de761ba6da0cdb124936b4992",
+      "script": "Röstbrevlådan"
+    },
+    {
+      "filename": "the-monkeys-twice.wav",
+      "wav_sha256": "570fda2f3ea9f115d51c5cc0147661cc32eed9309e78662a68862ea2d3ef20a4",
+      "script": "Aporna! Apornaa"
+    },
+    {
+      "filename": "the-new-number-is.wav",
+      "wav_sha256": "e376b1afb1a578f39c34f569482acbdf7790a27e74d6b1a4f039be7da2f422b6",
+      "script": "Det nya numret är"
+    },
+    {
+      "filename": "the-next.wav",
+      "wav_sha256": "064d947bc6b03f966d60670e490542e4cab084c1c1d9f7572f5dc31e2a9b9d0b",
+      "script": "Nästa"
+    },
+    {
+      "filename": "voicemail-CVS-fix/vm-options.wav",
+      "wav_sha256": "0b1286a14e2413de4c1e9b79fe674c08cb2e829b3159474348d98215b8ff564c",
+      "script": "Tryck 1 för att spela in ditt meddelande för när du är tillgänglig. Tryck 2 för att spela in ditt meddelande för när du är upptagen. Tryck 3 för att spela in ditt namn. Tryck 4 för att spela in ditt temporära hälsningsmeddelande. Tryck 5 för att byta lösenord. Eller tryck stjärna för att återgå till huvudmenyn"
+    },
+    {
+      "filename": "voicemail-CVS-fix/vm-rec-temp.wav",
+      "wav_sha256": "de21db392d63b2caca52aafc143338c966a972e45aec42d3ff3fb96af5a07570",
+      "script": "Säg ditt temporär meddelande efter signalen. Avsluta med 4-kant"
+    },
+    {
+      "filename": "voicemail-CVS-fix/vm-tempgreeting.wav",
+      "wav_sha256": "95eae7922b9013834957409d5974c6739933684df3a2c6520086361a2b7ef020",
+      "script": "Tryck 1 för att spela in dit temporära hälsningsmeddelande"
+    },
+    {
+      "filename": "voicemail-CVS-fix/vm-tempgreeting2.wav",
+      "wav_sha256": "dc08b349164808083f137db8eb220503757e146772c54207628a4fb5ccc8a979",
+      "script": "Tryck 1 för att spela in det temporära hälsningsmeddelandet eller tryck 2 för att ta bort det nuvarande meddelandet"
+    },
+    {
+      "filename": "voicemail-CVS-fix/vm-tempremoved.wav",
+      "wav_sha256": "f249f193aee08dc06de3587eee72e2fa443991dfc9301a422dd566bd2c24eb20",
+      "script": "Ditt temporära hälsningsmeddelande är nu borttaget"
+    },
+    {
+      "filename": "wx/around.wav",
+      "wav_sha256": "1aad7b0affa49b1d817be51e6135d6a86107fede31a9fa7069533b4def6bb458",
+      "script": "Ungefär"
+    },
+    {
+      "filename": "wx/barometer.wav",
+      "wav_sha256": "85b9ec60b4d8c68fd15619da56f2a742f69f5d21bf24bd841d05997b2a540865",
+      "script": "Barometer"
+    },
+    {
+      "filename": "wx/ceiling.wav",
+      "wav_sha256": "73d247b169fc91ebcd3f9d06573604b3ac81434a575f92362b0c18b32f39d8ea",
+      "script": "Tak"
+    },
+    {
+      "filename": "wx/dew-point.wav",
+      "wav_sha256": "1ac364ca6d3d740c1241936c74724a425c5e129f0f0788688a6a5745422324ad",
+      "script": "Daggpunkt"
+    },
+    {
+      "filename": "wx/falling.wav",
+      "wav_sha256": "0fc6c7a591d65cdce3caad357242f5d6c676f920c53a620545e787ffa7deb058",
+      "script": "Minskar"
+    },
+    {
+      "filename": "wx/feet.wav",
+      "wav_sha256": "42bd5f1171ef23de7cb0673fa63cdb68f3031d44e5f8d3cdf01ec525294f25aa",
+      "script": "Fot"
+    },
+    {
+      "filename": "wx/foot.wav",
+      "wav_sha256": "6ad39e901ef73a78610344522d1b6692e5f98ff763c856b595213794c6e18087",
+      "script": "Fot"
+    },
+    {
+      "filename": "wx/gust.wav",
+      "wav_sha256": "09be78cc85e15b0a501f9b98459e87e40a67a2ef4f162159592914d8cc373350",
+      "script": "Vindby"
+    },
+    {
+      "filename": "wx/gusting-to.wav",
+      "wav_sha256": "a7bf85175cda954b223d437aa6e241970d2750d69fdf87e9c819859d40c8c8ab",
+      "script": "Vidbyar upp till"
+    },
+    {
+      "filename": "wx/gusts.wav",
+      "wav_sha256": "a0efc72812ee0829e988d9f113dd6942bf8b11f85a35edcdd995b3fd0cb9bff4",
+      "script": "Vindbyar"
+    },
+    {
+      "filename": "wx/gusty.wav",
+      "wav_sha256": "a7d1e14b1e5ae3f46e1ed1918458ae173bc713b7a91736a5ee056e7e79f758bb",
+      "script": "Blåsigt"
+    },
+    {
+      "filename": "wx/heat-index.wav",
+      "wav_sha256": "a44996e98e3daf7d837764fc7e20cebd555e7300ade96bb7e7e6ba68628929d2",
+      "script": "värmeindex"
+    },
+    {
+      "filename": "wx/humidity.wav",
+      "wav_sha256": "44be7da122e3b985856602f2f32d62d8134fe246b71d1875aaa78f222084e916",
+      "script": "Luftfuktighet"
+    },
+    {
+      "filename": "wx/inch.wav",
+      "wav_sha256": "825a5dd03020a4aabec97a1972d9fd2b48d0b4a8dc8cb25e0bc2cafa0378cfc7",
+      "script": "Tum"
+    },
+    {
+      "filename": "wx/inches.wav",
+      "wav_sha256": "a37f29cf1dc1d1377b00d88e53abadb4e80c62ee16ec3ad6dcf0cdb752de843f",
+      "script": "Tum"
+    },
+    {
+      "filename": "wx/kilometer.wav",
+      "wav_sha256": "544f3ab5b9873f642e003f655a334e7c3d06df7e6c61f77692839c65d9f3cc58",
+      "script": "Kilometer"
+    },
+    {
+      "filename": "wx/large.wav",
+      "wav_sha256": "b12b41189ed80537a66579bf111f016caf2ad6246239c0bebca51602a48cccfb",
+      "script": "Stor"
+    },
+    {
+      "filename": "wx/meter.wav",
+      "wav_sha256": "9c92fdb2b68b1f99295fa28c0e86b24cad7ee4fe01c7d2f6397174966a976710",
+      "script": "Meter"
+    },
+    {
+      "filename": "wx/mist.wav",
+      "wav_sha256": "0c43e505990a09be90e5754814047bbc40a55e519ac2e834cbf6336a2bb72a25",
+      "script": "Dimma"
+    },
+    {
+      "filename": "wx/northeast.wav",
+      "wav_sha256": "f5c4510e37e4af7cffd55f49fa58c9e3196fe6504a78ad21c27327b7a43a8284",
+      "script": "Nordöst"
+    },
+    {
+      "filename": "wx/northwest.wav",
+      "wav_sha256": "02781f718bd7702c8253763f1bdd1b3d4ef0c568b3dc2b6f696b8e74fddb3b20",
+      "script": "Nordväst"
+    },
+    {
+      "filename": "wx/percent.wav",
+      "wav_sha256": "66f6c7288e4a6a812d7be7c037813227ac8ee02dbfb982459a23e66b1c990c89",
+      "script": "Procent"
+    },
+    {
+      "filename": "wx/point.wav",
+      "wav_sha256": "00cb9c5072fb054b7d0ed7508dc3add3af71a61d2a051f0a9326f04d94fdd50d",
+      "script": "Komma"
+    },
+    {
+      "filename": "wx/rising.wav",
+      "wav_sha256": "c26ba99473c9b20e41adc2a02d7591d576210cb955ca9189d618c25dfabdd6ac",
+      "script": "Ökar"
+    },
+    {
+      "filename": "wx/southeast.wav",
+      "wav_sha256": "d18087479152b7e83daa49409080aabae3cd8b87878c47380c0807d3392a94c1",
+      "script": "Sydöst"
+    },
+    {
+      "filename": "wx/southwest.wav",
+      "wav_sha256": "4ba20bec91d7b468f708b1d482613017f97d0dabb802cee6a4a6d58ec8071e8e",
+      "script": "Sydväst"
+    },
+    {
+      "filename": "wx/steady.wav",
+      "wav_sha256": "c729151135bcce8240f6d261e9f51baef30551ca63cf666028709d16390ece39",
+      "script": "Jämn"
+    },
+    {
+      "filename": "wx/temperature.wav",
+      "wav_sha256": "a9e63b3b94edf870dbfaf7e49a965865f36bdcf9ec604d714fb8f0f3b8ca3b7e",
+      "script": "Temperatur"
+    },
+    {
+      "filename": "wx/wind-chill.wav",
+      "wav_sha256": "9b6b9c63915dbbe587a5069c4a39ff08f692d711776c803f0155ed206f099079",
+      "script": "Vindens kyleffekt"
+    },
+    {
+      "filename": "wx/winds.wav",
+      "wav_sha256": "132e82d5ff33b2a5c7db15dc088ad0f57cf94c3217df350a077ec97f1474df43",
+      "script": "Vindar"
+    }
+  ]
+}
